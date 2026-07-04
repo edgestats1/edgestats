@@ -1,0 +1,4060 @@
+{
+  "version": "wc2026-official-48-static-v1",
+  "builtAt": "2026-06-08T08:58:15.714Z",
+  "source": "official-48-team-build",
+  "categories": [
+    {
+      "id": "top-goalscorers",
+      "title": "Top Goalscorers",
+      "unit": "goals",
+      "players": [
+        {
+          "id": 184,
+          "name": "H. Kane",
+          "photo": "https://media.api-sports.io/football/players/184.png",
+          "team": "England",
+          "club": "Bayern München",
+          "value": 36,
+          "rawValue": 36,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Bayern München",
+            "clubId": 157
+          }
+        },
+        {
+          "id": 154,
+          "name": "L. Messi",
+          "photo": "https://media.api-sports.io/football/players/154.png",
+          "team": "Argentina",
+          "club": "Inter Miami",
+          "value": 35,
+          "rawValue": 35,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Inter Miami",
+            "clubId": 9568
+          }
+        },
+        {
+          "id": 35532,
+          "name": "J. Quiñones",
+          "photo": "https://media.api-sports.io/football/players/35532.png",
+          "team": "Mexico",
+          "club": "Al-Qadisiyah FC",
+          "value": 33,
+          "rawValue": 33,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Qadisiyah FC",
+            "clubId": 2933
+          }
+        },
+        {
+          "id": 19974,
+          "name": "I. Toney",
+          "photo": "https://media.api-sports.io/football/players/19974.png",
+          "team": "England",
+          "club": "Al-Ahli Jeddah",
+          "value": 31,
+          "rawValue": 31,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Ahli Jeddah",
+            "clubId": 2929
+          }
+        }
+      ],
+      "playersTop10": [
+        {
+          "id": 184,
+          "name": "H. Kane",
+          "photo": "https://media.api-sports.io/football/players/184.png",
+          "team": "England",
+          "club": "Bayern München",
+          "value": 36,
+          "rawValue": 36,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Bayern München",
+            "clubId": 157
+          }
+        },
+        {
+          "id": 154,
+          "name": "L. Messi",
+          "photo": "https://media.api-sports.io/football/players/154.png",
+          "team": "Argentina",
+          "club": "Inter Miami",
+          "value": 35,
+          "rawValue": 35,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Inter Miami",
+            "clubId": 9568
+          }
+        },
+        {
+          "id": 35532,
+          "name": "J. Quiñones",
+          "photo": "https://media.api-sports.io/football/players/35532.png",
+          "team": "Mexico",
+          "club": "Al-Qadisiyah FC",
+          "value": 33,
+          "rawValue": 33,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Qadisiyah FC",
+            "clubId": 2933
+          }
+        },
+        {
+          "id": 19974,
+          "name": "I. Toney",
+          "photo": "https://media.api-sports.io/football/players/19974.png",
+          "team": "England",
+          "club": "Al-Ahli Jeddah",
+          "value": 31,
+          "rawValue": 31,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Ahli Jeddah",
+            "clubId": 2929
+          }
+        },
+        {
+          "id": 874,
+          "name": "Cristiano Ronaldo",
+          "photo": "https://media.api-sports.io/football/players/874.png",
+          "team": "Portugal",
+          "club": "Al-Nassr",
+          "value": 28,
+          "rawValue": 28,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Nassr",
+            "clubId": 2939
+          }
+        },
+        {
+          "id": 47237,
+          "name": "L. Suárez",
+          "photo": "https://media.api-sports.io/football/players/47237.png",
+          "team": "Colombia",
+          "club": "Sporting CP",
+          "value": 28,
+          "rawValue": 28,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Primeira Liga",
+            "leagueId": 94,
+            "club": "Sporting CP",
+            "clubId": 228
+          }
+        },
+        {
+          "id": 1100,
+          "name": "E. Haaland",
+          "photo": "https://media.api-sports.io/football/players/1100.png",
+          "team": "Norway",
+          "club": "Manchester City",
+          "value": 27,
+          "rawValue": 27,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Manchester City",
+            "clubId": 50
+          }
+        },
+        {
+          "id": 72155,
+          "name": "A. Ueda",
+          "photo": "https://media.api-sports.io/football/players/72155.png",
+          "team": "Japan",
+          "club": "Feyenoord",
+          "value": 25,
+          "rawValue": 25,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Eredivisie",
+            "leagueId": 88,
+            "club": "Feyenoord",
+            "clubId": 209
+          }
+        },
+        {
+          "id": 278,
+          "name": "Kylian Mbappé",
+          "photo": "https://media.api-sports.io/football/players/278.png",
+          "team": "France",
+          "club": "Real Madrid",
+          "value": 25,
+          "rawValue": 25,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "La Liga",
+            "leagueId": 140,
+            "club": "Real Madrid",
+            "clubId": 541
+          }
+        },
+        {
+          "id": 291713,
+          "name": "A. González",
+          "photo": "https://media.api-sports.io/football/players/291713.png",
+          "team": "Mexico",
+          "club": "Guadalajara Chivas",
+          "value": 24,
+          "rawValue": 24,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Liga MX",
+            "leagueId": 262,
+            "club": "Guadalajara Chivas",
+            "clubId": 2278
+          }
+        }
+      ]
+    },
+    {
+      "id": "top-assists",
+      "title": "Top Assist Providers",
+      "unit": "assists",
+      "players": [
+        {
+          "id": 154,
+          "name": "L. Messi",
+          "photo": "https://media.api-sports.io/football/players/154.png",
+          "team": "Argentina",
+          "club": "Inter Miami",
+          "value": 23,
+          "rawValue": 23,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Inter Miami",
+            "clubId": 9568
+          }
+        },
+        {
+          "id": 1485,
+          "name": "Bruno Fernandes",
+          "photo": "https://media.api-sports.io/football/players/1485.png",
+          "team": "Portugal",
+          "club": "Manchester United",
+          "value": 21,
+          "rawValue": 21,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Manchester United",
+            "clubId": 33
+          }
+        },
+        {
+          "id": 19617,
+          "name": "M. Olise",
+          "photo": "https://media.api-sports.io/football/players/19617.png",
+          "team": "France",
+          "club": "Bayern München",
+          "value": 19,
+          "rawValue": 19,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Bayern München",
+            "clubId": 157
+          }
+        },
+        {
+          "id": 24845,
+          "name": "J. Ryerson",
+          "photo": "https://media.api-sports.io/football/players/24845.png",
+          "team": "Norway",
+          "club": "Borussia Dortmund",
+          "value": 15,
+          "rawValue": 15,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Borussia Dortmund",
+            "clubId": 165
+          }
+        }
+      ],
+      "playersTop10": [
+        {
+          "id": 154,
+          "name": "L. Messi",
+          "photo": "https://media.api-sports.io/football/players/154.png",
+          "team": "Argentina",
+          "club": "Inter Miami",
+          "value": 23,
+          "rawValue": 23,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Inter Miami",
+            "clubId": 9568
+          }
+        },
+        {
+          "id": 1485,
+          "name": "Bruno Fernandes",
+          "photo": "https://media.api-sports.io/football/players/1485.png",
+          "team": "Portugal",
+          "club": "Manchester United",
+          "value": 21,
+          "rawValue": 21,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Manchester United",
+            "clubId": 33
+          }
+        },
+        {
+          "id": 19617,
+          "name": "M. Olise",
+          "photo": "https://media.api-sports.io/football/players/19617.png",
+          "team": "France",
+          "club": "Bayern München",
+          "value": 19,
+          "rawValue": 19,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Bayern München",
+            "clubId": 157
+          }
+        },
+        {
+          "id": 24845,
+          "name": "J. Ryerson",
+          "photo": "https://media.api-sports.io/football/players/24845.png",
+          "team": "Norway",
+          "club": "Borussia Dortmund",
+          "value": 15,
+          "rawValue": 15,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Borussia Dortmund",
+            "clubId": 165
+          }
+        },
+        {
+          "id": 2612,
+          "name": "G. de Arrascaeta",
+          "photo": "https://media.api-sports.io/football/players/2612.png",
+          "team": "Uruguay",
+          "club": "Flamengo",
+          "value": 14,
+          "rawValue": 14,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Serie A",
+            "leagueId": 71,
+            "club": "Flamengo",
+            "clubId": 127
+          }
+        },
+        {
+          "id": 2489,
+          "name": "L. Díaz",
+          "photo": "https://media.api-sports.io/football/players/2489.png",
+          "team": "Colombia",
+          "club": "Bayern München",
+          "value": 14,
+          "rawValue": 14,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Bayern München",
+            "clubId": 157
+          }
+        },
+        {
+          "id": 583,
+          "name": "João Félix",
+          "photo": "https://media.api-sports.io/football/players/583.png",
+          "team": "Portugal",
+          "club": "Al-Nassr",
+          "value": 13,
+          "rawValue": 13,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Nassr",
+            "clubId": 2939
+          }
+        },
+        {
+          "id": 156477,
+          "name": "R. Cherki",
+          "photo": "https://media.api-sports.io/football/players/156477.png",
+          "team": "France",
+          "club": "Manchester City",
+          "value": 12,
+          "rawValue": 12,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Manchester City",
+            "clubId": 50
+          }
+        },
+        {
+          "id": 39064,
+          "name": "P. Berg",
+          "photo": "https://media.api-sports.io/football/players/39064.png",
+          "team": "Norway",
+          "club": "Bodo/Glimt",
+          "value": 12,
+          "rawValue": 12,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Eliteserien",
+            "leagueId": 103,
+            "club": "Bodo/Glimt",
+            "clubId": 327
+          }
+        },
+        {
+          "id": 207,
+          "name": "I. Perišić",
+          "photo": "https://media.api-sports.io/football/players/207.png",
+          "team": "Croatia",
+          "club": "PSV Eindhoven",
+          "value": 12,
+          "rawValue": 12,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Eredivisie",
+            "leagueId": 88,
+            "club": "PSV Eindhoven",
+            "clubId": 197
+          }
+        }
+      ]
+    },
+    {
+      "id": "most-fouled",
+      "title": "Most Fouled Players",
+      "unit": "fouls",
+      "players": [
+        {
+          "id": 24810,
+          "name": "J. Córdoba",
+          "photo": "https://media.api-sports.io/football/players/24810.png",
+          "team": "Colombia",
+          "club": "FC Krasnodar",
+          "value": 97,
+          "rawValue": 97,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 235,
+            "club": "FC Krasnodar",
+            "clubId": 621
+          }
+        },
+        {
+          "id": 762,
+          "name": "Vinícius Júnior",
+          "photo": "https://media.api-sports.io/football/players/762.png",
+          "team": "Brazil",
+          "club": "Real Madrid",
+          "value": 81,
+          "rawValue": 81,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "La Liga",
+            "leagueId": 140,
+            "club": "Real Madrid",
+            "clubId": 541
+          }
+        },
+        {
+          "id": 37461,
+          "name": "K. Felida",
+          "photo": "https://media.api-sports.io/football/players/37461.png",
+          "team": "Curaçao",
+          "club": "Den Bosch",
+          "value": 81,
+          "rawValue": 81,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Eerste Divisie",
+            "leagueId": 89,
+            "club": "Den Bosch",
+            "clubId": 421
+          }
+        },
+        {
+          "id": 138908,
+          "name": "E. Anderson",
+          "photo": "https://media.api-sports.io/football/players/138908.png",
+          "team": "England",
+          "club": "Nottingham Forest",
+          "value": 80,
+          "rawValue": 80,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Nottingham Forest",
+            "clubId": 65
+          }
+        }
+      ],
+      "playersTop10": [
+        {
+          "id": 24810,
+          "name": "J. Córdoba",
+          "photo": "https://media.api-sports.io/football/players/24810.png",
+          "team": "Colombia",
+          "club": "FC Krasnodar",
+          "value": 97,
+          "rawValue": 97,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 235,
+            "club": "FC Krasnodar",
+            "clubId": 621
+          }
+        },
+        {
+          "id": 762,
+          "name": "Vinícius Júnior",
+          "photo": "https://media.api-sports.io/football/players/762.png",
+          "team": "Brazil",
+          "club": "Real Madrid",
+          "value": 81,
+          "rawValue": 81,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "La Liga",
+            "leagueId": 140,
+            "club": "Real Madrid",
+            "clubId": 541
+          }
+        },
+        {
+          "id": 37461,
+          "name": "K. Felida",
+          "photo": "https://media.api-sports.io/football/players/37461.png",
+          "team": "Curaçao",
+          "club": "Den Bosch",
+          "value": 81,
+          "rawValue": 81,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Eerste Divisie",
+            "leagueId": 89,
+            "club": "Den Bosch",
+            "clubId": 421
+          }
+        },
+        {
+          "id": 138908,
+          "name": "E. Anderson",
+          "photo": "https://media.api-sports.io/football/players/138908.png",
+          "team": "England",
+          "club": "Nottingham Forest",
+          "value": 80,
+          "rawValue": 80,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Nottingham Forest",
+            "clubId": 65
+          }
+        },
+        {
+          "id": 162194,
+          "name": "L. Červ",
+          "photo": "https://media.api-sports.io/football/players/162194.png",
+          "team": "Czechia",
+          "club": "Plzen",
+          "value": 78,
+          "rawValue": 78,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Czech Liga",
+            "leagueId": 345,
+            "club": "Plzen",
+            "clubId": 567
+          }
+        },
+        {
+          "id": 406244,
+          "name": "J. Manzambi",
+          "photo": "https://media.api-sports.io/football/players/406244.png",
+          "team": "Switzerland",
+          "club": "SC Freiburg",
+          "value": 78,
+          "rawValue": 78,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "SC Freiburg",
+            "clubId": 160
+          }
+        },
+        {
+          "id": 6832,
+          "name": "C. Devlin",
+          "photo": "https://media.api-sports.io/football/players/6832.png",
+          "team": "Australia",
+          "club": "Heart Of Midlothian",
+          "value": 76,
+          "rawValue": 76,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premiership",
+            "leagueId": 179,
+            "club": "Heart Of Midlothian",
+            "clubId": 254
+          }
+        },
+        {
+          "id": 10135,
+          "name": "Bruno Guimarães",
+          "photo": "https://media.api-sports.io/football/players/10135.png",
+          "team": "Brazil",
+          "club": "Newcastle",
+          "value": 75,
+          "rawValue": 75,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Newcastle",
+            "clubId": 34
+          }
+        },
+        {
+          "id": 583,
+          "name": "João Félix",
+          "photo": "https://media.api-sports.io/football/players/583.png",
+          "team": "Portugal",
+          "club": "Al-Nassr",
+          "value": 75,
+          "rawValue": 75,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Nassr",
+            "clubId": 2939
+          }
+        },
+        {
+          "id": 303467,
+          "name": "A. Fatawu",
+          "photo": "https://media.api-sports.io/football/players/303467.png",
+          "team": "Ghana",
+          "club": "Leicester",
+          "value": 75,
+          "rawValue": 75,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Championship",
+            "leagueId": 40,
+            "club": "Leicester",
+            "clubId": 46
+          }
+        }
+      ]
+    },
+    {
+      "id": "discipline-risks",
+      "title": "Discipline Risks",
+      "unit": "risk points",
+      "players": [
+        {
+          "id": 6236,
+          "name": "A. Cubas",
+          "photo": "https://media.api-sports.io/football/players/6236.png",
+          "team": "Paraguay",
+          "club": "Vancouver Whitecaps",
+          "value": 86,
+          "rawValue": 86,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Vancouver Whitecaps",
+            "clubId": 1603
+          }
+        },
+        {
+          "id": 324034,
+          "name": "G. Puerta",
+          "photo": "https://media.api-sports.io/football/players/324034.png",
+          "team": "Colombia",
+          "club": "Racing Santander",
+          "value": 85,
+          "rawValue": 85,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Segunda División",
+            "leagueId": 141,
+            "club": "Racing Santander",
+            "clubId": 4665
+          }
+        },
+        {
+          "id": 1084,
+          "name": "M. Pongračić",
+          "photo": "https://media.api-sports.io/football/players/1084.png",
+          "team": "Croatia",
+          "club": "Fiorentina",
+          "value": 81,
+          "rawValue": 81,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Serie A",
+            "leagueId": 135,
+            "club": "Fiorentina",
+            "clubId": 502
+          }
+        },
+        {
+          "id": 196156,
+          "name": "Thiago",
+          "photo": "https://media.api-sports.io/football/players/196156.png",
+          "team": "Brazil",
+          "club": "Brentford",
+          "value": 80,
+          "rawValue": 80,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Brentford",
+            "clubId": 55
+          }
+        }
+      ],
+      "playersTop10": [
+        {
+          "id": 6236,
+          "name": "A. Cubas",
+          "photo": "https://media.api-sports.io/football/players/6236.png",
+          "team": "Paraguay",
+          "club": "Vancouver Whitecaps",
+          "value": 86,
+          "rawValue": 86,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Vancouver Whitecaps",
+            "clubId": 1603
+          }
+        },
+        {
+          "id": 324034,
+          "name": "G. Puerta",
+          "photo": "https://media.api-sports.io/football/players/324034.png",
+          "team": "Colombia",
+          "club": "Racing Santander",
+          "value": 85,
+          "rawValue": 85,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Segunda División",
+            "leagueId": 141,
+            "club": "Racing Santander",
+            "clubId": 4665
+          }
+        },
+        {
+          "id": 1084,
+          "name": "M. Pongračić",
+          "photo": "https://media.api-sports.io/football/players/1084.png",
+          "team": "Croatia",
+          "club": "Fiorentina",
+          "value": 81,
+          "rawValue": 81,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Serie A",
+            "leagueId": 135,
+            "club": "Fiorentina",
+            "clubId": 502
+          }
+        },
+        {
+          "id": 196156,
+          "name": "Thiago",
+          "photo": "https://media.api-sports.io/football/players/196156.png",
+          "team": "Brazil",
+          "club": "Brentford",
+          "value": 80,
+          "rawValue": 80,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Brentford",
+            "clubId": 55
+          }
+        },
+        {
+          "id": 190485,
+          "name": "Samú Costa",
+          "photo": "https://media.api-sports.io/football/players/190485.png",
+          "team": "Portugal",
+          "club": "Mallorca",
+          "value": 75,
+          "rawValue": 75,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "La Liga",
+            "leagueId": 140,
+            "club": "Mallorca",
+            "clubId": 798
+          }
+        },
+        {
+          "id": 715,
+          "name": "C. Baumgartner",
+          "photo": "https://media.api-sports.io/football/players/715.png",
+          "team": "Austria",
+          "club": "RB Leipzig",
+          "value": 73,
+          "rawValue": 73,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "RB Leipzig",
+            "clubId": 173
+          }
+        },
+        {
+          "id": 2120,
+          "name": "N. Raskin",
+          "photo": "https://media.api-sports.io/football/players/2120.png",
+          "team": "Belgium",
+          "club": "Rangers",
+          "value": 72,
+          "rawValue": 72,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premiership",
+            "leagueId": 179,
+            "club": "Rangers",
+            "clubId": 257
+          }
+        },
+        {
+          "id": 24810,
+          "name": "J. Córdoba",
+          "photo": "https://media.api-sports.io/football/players/24810.png",
+          "team": "Colombia",
+          "club": "FC Krasnodar",
+          "value": 72,
+          "rawValue": 72,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 235,
+            "club": "FC Krasnodar",
+            "clubId": 621
+          }
+        },
+        {
+          "id": 337426,
+          "name": "A. Boakye",
+          "photo": "https://media.api-sports.io/football/players/337426.png",
+          "team": "Ghana",
+          "club": "Saint Etienne",
+          "value": 69,
+          "rawValue": 69,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Ligue 2",
+            "leagueId": 62,
+            "club": "Saint Etienne",
+            "clubId": 1063
+          }
+        },
+        {
+          "id": 2881,
+          "name": "J. Gallardo",
+          "photo": "https://media.api-sports.io/football/players/2881.png",
+          "team": "Mexico",
+          "club": "Toluca",
+          "value": 67,
+          "rawValue": 67,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Liga MX",
+            "leagueId": 262,
+            "club": "Toluca",
+            "clubId": 2281
+          }
+        }
+      ]
+    },
+    {
+      "id": "chance-creators",
+      "title": "Chance Creators",
+      "unit": "chances",
+      "players": [
+        {
+          "id": 1485,
+          "name": "Bruno Fernandes",
+          "photo": "https://media.api-sports.io/football/players/1485.png",
+          "team": "Portugal",
+          "club": "Manchester United",
+          "value": 137,
+          "rawValue": 137,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Manchester United",
+            "clubId": 33
+          }
+        },
+        {
+          "id": 154,
+          "name": "L. Messi",
+          "photo": "https://media.api-sports.io/football/players/154.png",
+          "team": "Argentina",
+          "club": "Inter Miami",
+          "value": 103,
+          "rawValue": 103,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Inter Miami",
+            "clubId": 9568
+          }
+        },
+        {
+          "id": 25158,
+          "name": "D. Raum",
+          "photo": "https://media.api-sports.io/football/players/25158.png",
+          "team": "Germany",
+          "club": "RB Leipzig",
+          "value": 98,
+          "rawValue": 98,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "RB Leipzig",
+            "clubId": 173
+          }
+        },
+        {
+          "id": 583,
+          "name": "João Félix",
+          "photo": "https://media.api-sports.io/football/players/583.png",
+          "team": "Portugal",
+          "club": "Al-Nassr",
+          "value": 97,
+          "rawValue": 97,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Nassr",
+            "clubId": 2939
+          }
+        }
+      ],
+      "playersTop10": [
+        {
+          "id": 1485,
+          "name": "Bruno Fernandes",
+          "photo": "https://media.api-sports.io/football/players/1485.png",
+          "team": "Portugal",
+          "club": "Manchester United",
+          "value": 137,
+          "rawValue": 137,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Manchester United",
+            "clubId": 33
+          }
+        },
+        {
+          "id": 154,
+          "name": "L. Messi",
+          "photo": "https://media.api-sports.io/football/players/154.png",
+          "team": "Argentina",
+          "club": "Inter Miami",
+          "value": 103,
+          "rawValue": 103,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Inter Miami",
+            "clubId": 9568
+          }
+        },
+        {
+          "id": 25158,
+          "name": "D. Raum",
+          "photo": "https://media.api-sports.io/football/players/25158.png",
+          "team": "Germany",
+          "club": "RB Leipzig",
+          "value": 98,
+          "rawValue": 98,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "RB Leipzig",
+            "clubId": 173
+          }
+        },
+        {
+          "id": 583,
+          "name": "João Félix",
+          "photo": "https://media.api-sports.io/football/players/583.png",
+          "team": "Portugal",
+          "club": "Al-Nassr",
+          "value": 97,
+          "rawValue": 97,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Nassr",
+            "clubId": 2939
+          }
+        },
+        {
+          "id": 414149,
+          "name": "R. Mofokeng",
+          "photo": "https://media.api-sports.io/football/players/414149.png",
+          "team": "South Africa",
+          "club": "Orlando Pirates",
+          "value": 92,
+          "rawValue": 92,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier Soccer League",
+            "leagueId": 288,
+            "club": "Orlando Pirates",
+            "clubId": 2700
+          }
+        },
+        {
+          "id": 37155,
+          "name": "O. Kökçü",
+          "photo": "https://media.api-sports.io/football/players/37155.png",
+          "team": "Türkiye",
+          "club": "Beşiktaş",
+          "value": 91,
+          "rawValue": 91,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Süper Lig",
+            "leagueId": 203,
+            "club": "Beşiktaş",
+            "clubId": 549
+          }
+        },
+        {
+          "id": 7562,
+          "name": "R. Schmid",
+          "photo": "https://media.api-sports.io/football/players/7562.png",
+          "team": "Austria",
+          "club": "Werder Bremen",
+          "value": 89,
+          "rawValue": 89,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Werder Bremen",
+            "clubId": 162
+          }
+        },
+        {
+          "id": 201713,
+          "name": "S. Berhalter",
+          "photo": "https://media.api-sports.io/football/players/201713.png",
+          "team": "United States",
+          "club": "Vancouver Whitecaps",
+          "value": 87,
+          "rawValue": 87,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Vancouver Whitecaps",
+            "clubId": 1603
+          }
+        },
+        {
+          "id": 306380,
+          "name": "Musab Al Juwayr",
+          "photo": "https://media.api-sports.io/football/players/306380.png",
+          "team": "Saudi Arabia",
+          "club": "Al-Qadisiyah FC",
+          "value": 86,
+          "rawValue": 86,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Qadisiyah FC",
+            "clubId": 2933
+          }
+        },
+        {
+          "id": 41112,
+          "name": "Trincão",
+          "photo": "https://media.api-sports.io/football/players/41112.png",
+          "team": "Portugal",
+          "club": "Sporting CP",
+          "value": 85,
+          "rawValue": 85,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Primeira Liga",
+            "leagueId": 94,
+            "club": "Sporting CP",
+            "clubId": 228
+          }
+        }
+      ]
+    }
+  ],
+  "debug": {
+    "rankingSource": "data/homepage-rankings.json",
+    "teamSource": "official-wc2026-48",
+    "officialTeamCount": 48,
+    "totalTeamsProcessed": 48,
+    "totalTeamsInPool": 48,
+    "totalSquadsProcessed": 48,
+    "fixtureCount": 72,
+    "groups": [
+      {
+        "group": "A",
+        "teams": [
+          "Mexico",
+          "South Africa",
+          "South Korea",
+          "Czechia"
+        ]
+      },
+      {
+        "group": "B",
+        "teams": [
+          "Canada",
+          "Bosnia and Herzegovina",
+          "Qatar",
+          "Switzerland"
+        ]
+      },
+      {
+        "group": "C",
+        "teams": [
+          "Brazil",
+          "Morocco",
+          "Haiti",
+          "Scotland"
+        ]
+      },
+      {
+        "group": "D",
+        "teams": [
+          "United States",
+          "Paraguay",
+          "Australia",
+          "Türkiye"
+        ]
+      },
+      {
+        "group": "E",
+        "teams": [
+          "Germany",
+          "Curaçao",
+          "Ivory Coast",
+          "Ecuador"
+        ]
+      },
+      {
+        "group": "F",
+        "teams": [
+          "Netherlands",
+          "Japan",
+          "Sweden",
+          "Tunisia"
+        ]
+      },
+      {
+        "group": "G",
+        "teams": [
+          "Belgium",
+          "Egypt",
+          "Iran",
+          "New Zealand"
+        ]
+      },
+      {
+        "group": "H",
+        "teams": [
+          "Spain",
+          "Cape Verde",
+          "Saudi Arabia",
+          "Uruguay"
+        ]
+      },
+      {
+        "group": "I",
+        "teams": [
+          "France",
+          "Senegal",
+          "Iraq",
+          "Norway"
+        ]
+      },
+      {
+        "group": "J",
+        "teams": [
+          "Argentina",
+          "Algeria",
+          "Austria",
+          "Jordan"
+        ]
+      },
+      {
+        "group": "K",
+        "teams": [
+          "Portugal",
+          "DR Congo",
+          "Uzbekistan",
+          "Colombia"
+        ]
+      },
+      {
+        "group": "L",
+        "teams": [
+          "England",
+          "Croatia",
+          "Ghana",
+          "Panama"
+        ]
+      }
+    ],
+    "teamsFound": [
+      "Mexico",
+      "South Africa",
+      "South Korea",
+      "Czechia",
+      "Canada",
+      "Bosnia and Herzegovina",
+      "Qatar",
+      "Switzerland",
+      "Brazil",
+      "Morocco",
+      "Haiti",
+      "Scotland",
+      "United States",
+      "Paraguay",
+      "Australia",
+      "Türkiye",
+      "Germany",
+      "Curaçao",
+      "Ivory Coast",
+      "Ecuador",
+      "Netherlands",
+      "Japan",
+      "Sweden",
+      "Tunisia",
+      "Belgium",
+      "Egypt",
+      "Iran",
+      "New Zealand",
+      "Spain",
+      "Cape Verde",
+      "Saudi Arabia",
+      "Uruguay",
+      "France",
+      "Senegal",
+      "Iraq",
+      "Norway",
+      "Argentina",
+      "Algeria",
+      "Austria",
+      "Jordan",
+      "Portugal",
+      "DR Congo",
+      "Uzbekistan",
+      "Colombia",
+      "England",
+      "Croatia",
+      "Ghana",
+      "Panama"
+    ],
+    "teamsMissing": [],
+    "squadsProcessed": [
+      "Mexico",
+      "South Africa",
+      "South Korea",
+      "Czechia",
+      "Canada",
+      "Bosnia and Herzegovina",
+      "Qatar",
+      "Switzerland",
+      "Brazil",
+      "Morocco",
+      "Haiti",
+      "Scotland",
+      "United States",
+      "Paraguay",
+      "Australia",
+      "Türkiye",
+      "Germany",
+      "Curaçao",
+      "Ivory Coast",
+      "Ecuador",
+      "Netherlands",
+      "Japan",
+      "Sweden",
+      "Tunisia",
+      "Belgium",
+      "Egypt",
+      "Iran",
+      "New Zealand",
+      "Spain",
+      "Cape Verde",
+      "Uruguay",
+      "Saudi Arabia",
+      "France",
+      "Senegal",
+      "Iraq",
+      "Norway",
+      "Algeria",
+      "Argentina",
+      "Austria",
+      "Jordan",
+      "Portugal",
+      "DR Congo",
+      "Colombia",
+      "Uzbekistan",
+      "Croatia",
+      "England",
+      "Ghana",
+      "Panama"
+    ],
+    "squadsFailed": [],
+    "countriesIncluded": [
+      "Algeria",
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Bosnia and Herzegovina",
+      "Brazil",
+      "Canada",
+      "Cape Verde",
+      "Colombia",
+      "Croatia",
+      "Curaçao",
+      "Czechia",
+      "DR Congo",
+      "Ecuador",
+      "Egypt",
+      "England",
+      "France",
+      "Germany",
+      "Ghana",
+      "Haiti",
+      "Iran",
+      "Iraq",
+      "Ivory Coast",
+      "Japan",
+      "Jordan",
+      "Mexico",
+      "Morocco",
+      "Netherlands",
+      "New Zealand",
+      "Norway",
+      "Panama",
+      "Paraguay",
+      "Portugal",
+      "Qatar",
+      "Saudi Arabia",
+      "Scotland",
+      "Senegal",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Tunisia",
+      "Türkiye",
+      "United States",
+      "Uruguay",
+      "Uzbekistan"
+    ],
+    "englandIncluded": true,
+    "keyNations": {
+      "england": true,
+      "france": true,
+      "brazil": true,
+      "argentina": true,
+      "portugal": true,
+      "spain": true
+    },
+    "totalPlayersProcessed": 1248,
+    "totalPlayersFound": 1248,
+    "totalPlayersEnriched": 1219,
+    "totalPlayersEnrichFailed": 29,
+    "totalPlayersWithVerifiedClubStats": 1219,
+    "categoriesGenerated": 5,
+    "top10PerCategory": {
+      "top-goalscorers": [
+        {
+          "name": "H. Kane",
+          "country": "England",
+          "club": "Bayern München",
+          "value": 36,
+          "rawValue": 36,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Bayern München",
+            "clubId": 157
+          }
+        },
+        {
+          "name": "L. Messi",
+          "country": "Argentina",
+          "club": "Inter Miami",
+          "value": 35,
+          "rawValue": 35,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Inter Miami",
+            "clubId": 9568
+          }
+        },
+        {
+          "name": "J. Quiñones",
+          "country": "Mexico",
+          "club": "Al-Qadisiyah FC",
+          "value": 33,
+          "rawValue": 33,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Qadisiyah FC",
+            "clubId": 2933
+          }
+        },
+        {
+          "name": "I. Toney",
+          "country": "England",
+          "club": "Al-Ahli Jeddah",
+          "value": 31,
+          "rawValue": 31,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Ahli Jeddah",
+            "clubId": 2929
+          }
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "country": "Portugal",
+          "club": "Al-Nassr",
+          "value": 28,
+          "rawValue": 28,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Nassr",
+            "clubId": 2939
+          }
+        },
+        {
+          "name": "L. Suárez",
+          "country": "Colombia",
+          "club": "Sporting CP",
+          "value": 28,
+          "rawValue": 28,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Primeira Liga",
+            "leagueId": 94,
+            "club": "Sporting CP",
+            "clubId": 228
+          }
+        },
+        {
+          "name": "E. Haaland",
+          "country": "Norway",
+          "club": "Manchester City",
+          "value": 27,
+          "rawValue": 27,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Manchester City",
+            "clubId": 50
+          }
+        },
+        {
+          "name": "A. Ueda",
+          "country": "Japan",
+          "club": "Feyenoord",
+          "value": 25,
+          "rawValue": 25,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Eredivisie",
+            "leagueId": 88,
+            "club": "Feyenoord",
+            "clubId": 209
+          }
+        },
+        {
+          "name": "Kylian Mbappé",
+          "country": "France",
+          "club": "Real Madrid",
+          "value": 25,
+          "rawValue": 25,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "La Liga",
+            "leagueId": 140,
+            "club": "Real Madrid",
+            "clubId": 541
+          }
+        },
+        {
+          "name": "A. González",
+          "country": "Mexico",
+          "club": "Guadalajara Chivas",
+          "value": 24,
+          "rawValue": 24,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Liga MX",
+            "leagueId": 262,
+            "club": "Guadalajara Chivas",
+            "clubId": 2278
+          }
+        }
+      ],
+      "top-assists": [
+        {
+          "name": "L. Messi",
+          "country": "Argentina",
+          "club": "Inter Miami",
+          "value": 23,
+          "rawValue": 23,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Inter Miami",
+            "clubId": 9568
+          }
+        },
+        {
+          "name": "Bruno Fernandes",
+          "country": "Portugal",
+          "club": "Manchester United",
+          "value": 21,
+          "rawValue": 21,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Manchester United",
+            "clubId": 33
+          }
+        },
+        {
+          "name": "M. Olise",
+          "country": "France",
+          "club": "Bayern München",
+          "value": 19,
+          "rawValue": 19,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Bayern München",
+            "clubId": 157
+          }
+        },
+        {
+          "name": "J. Ryerson",
+          "country": "Norway",
+          "club": "Borussia Dortmund",
+          "value": 15,
+          "rawValue": 15,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Borussia Dortmund",
+            "clubId": 165
+          }
+        },
+        {
+          "name": "G. de Arrascaeta",
+          "country": "Uruguay",
+          "club": "Flamengo",
+          "value": 14,
+          "rawValue": 14,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Serie A",
+            "leagueId": 71,
+            "club": "Flamengo",
+            "clubId": 127
+          }
+        },
+        {
+          "name": "L. Díaz",
+          "country": "Colombia",
+          "club": "Bayern München",
+          "value": 14,
+          "rawValue": 14,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Bayern München",
+            "clubId": 157
+          }
+        },
+        {
+          "name": "João Félix",
+          "country": "Portugal",
+          "club": "Al-Nassr",
+          "value": 13,
+          "rawValue": 13,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Nassr",
+            "clubId": 2939
+          }
+        },
+        {
+          "name": "R. Cherki",
+          "country": "France",
+          "club": "Manchester City",
+          "value": 12,
+          "rawValue": 12,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Manchester City",
+            "clubId": 50
+          }
+        },
+        {
+          "name": "P. Berg",
+          "country": "Norway",
+          "club": "Bodo/Glimt",
+          "value": 12,
+          "rawValue": 12,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Eliteserien",
+            "leagueId": 103,
+            "club": "Bodo/Glimt",
+            "clubId": 327
+          }
+        },
+        {
+          "name": "I. Perišić",
+          "country": "Croatia",
+          "club": "PSV Eindhoven",
+          "value": 12,
+          "rawValue": 12,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Eredivisie",
+            "leagueId": 88,
+            "club": "PSV Eindhoven",
+            "clubId": 197
+          }
+        }
+      ],
+      "most-fouled": [
+        {
+          "name": "J. Córdoba",
+          "country": "Colombia",
+          "club": "FC Krasnodar",
+          "value": 97,
+          "rawValue": 97,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 235,
+            "club": "FC Krasnodar",
+            "clubId": 621
+          }
+        },
+        {
+          "name": "Vinícius Júnior",
+          "country": "Brazil",
+          "club": "Real Madrid",
+          "value": 81,
+          "rawValue": 81,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "La Liga",
+            "leagueId": 140,
+            "club": "Real Madrid",
+            "clubId": 541
+          }
+        },
+        {
+          "name": "K. Felida",
+          "country": "Curaçao",
+          "club": "Den Bosch",
+          "value": 81,
+          "rawValue": 81,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Eerste Divisie",
+            "leagueId": 89,
+            "club": "Den Bosch",
+            "clubId": 421
+          }
+        },
+        {
+          "name": "E. Anderson",
+          "country": "England",
+          "club": "Nottingham Forest",
+          "value": 80,
+          "rawValue": 80,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Nottingham Forest",
+            "clubId": 65
+          }
+        },
+        {
+          "name": "L. Červ",
+          "country": "Czechia",
+          "club": "Plzen",
+          "value": 78,
+          "rawValue": 78,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Czech Liga",
+            "leagueId": 345,
+            "club": "Plzen",
+            "clubId": 567
+          }
+        },
+        {
+          "name": "J. Manzambi",
+          "country": "Switzerland",
+          "club": "SC Freiburg",
+          "value": 78,
+          "rawValue": 78,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "SC Freiburg",
+            "clubId": 160
+          }
+        },
+        {
+          "name": "C. Devlin",
+          "country": "Australia",
+          "club": "Heart Of Midlothian",
+          "value": 76,
+          "rawValue": 76,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premiership",
+            "leagueId": 179,
+            "club": "Heart Of Midlothian",
+            "clubId": 254
+          }
+        },
+        {
+          "name": "Bruno Guimarães",
+          "country": "Brazil",
+          "club": "Newcastle",
+          "value": 75,
+          "rawValue": 75,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Newcastle",
+            "clubId": 34
+          }
+        },
+        {
+          "name": "João Félix",
+          "country": "Portugal",
+          "club": "Al-Nassr",
+          "value": 75,
+          "rawValue": 75,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Nassr",
+            "clubId": 2939
+          }
+        },
+        {
+          "name": "A. Fatawu",
+          "country": "Ghana",
+          "club": "Leicester",
+          "value": 75,
+          "rawValue": 75,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Championship",
+            "leagueId": 40,
+            "club": "Leicester",
+            "clubId": 46
+          }
+        }
+      ],
+      "discipline-risks": [
+        {
+          "name": "A. Cubas",
+          "country": "Paraguay",
+          "club": "Vancouver Whitecaps",
+          "value": 86,
+          "rawValue": 86,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Vancouver Whitecaps",
+            "clubId": 1603
+          }
+        },
+        {
+          "name": "G. Puerta",
+          "country": "Colombia",
+          "club": "Racing Santander",
+          "value": 85,
+          "rawValue": 85,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Segunda División",
+            "leagueId": 141,
+            "club": "Racing Santander",
+            "clubId": 4665
+          }
+        },
+        {
+          "name": "M. Pongračić",
+          "country": "Croatia",
+          "club": "Fiorentina",
+          "value": 81,
+          "rawValue": 81,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Serie A",
+            "leagueId": 135,
+            "club": "Fiorentina",
+            "clubId": 502
+          }
+        },
+        {
+          "name": "Thiago",
+          "country": "Brazil",
+          "club": "Brentford",
+          "value": 80,
+          "rawValue": 80,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Brentford",
+            "clubId": 55
+          }
+        },
+        {
+          "name": "Samú Costa",
+          "country": "Portugal",
+          "club": "Mallorca",
+          "value": 75,
+          "rawValue": 75,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "La Liga",
+            "leagueId": 140,
+            "club": "Mallorca",
+            "clubId": 798
+          }
+        },
+        {
+          "name": "C. Baumgartner",
+          "country": "Austria",
+          "club": "RB Leipzig",
+          "value": 73,
+          "rawValue": 73,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "RB Leipzig",
+            "clubId": 173
+          }
+        },
+        {
+          "name": "N. Raskin",
+          "country": "Belgium",
+          "club": "Rangers",
+          "value": 72,
+          "rawValue": 72,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premiership",
+            "leagueId": 179,
+            "club": "Rangers",
+            "clubId": 257
+          }
+        },
+        {
+          "name": "J. Córdoba",
+          "country": "Colombia",
+          "club": "FC Krasnodar",
+          "value": 72,
+          "rawValue": 72,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 235,
+            "club": "FC Krasnodar",
+            "clubId": 621
+          }
+        },
+        {
+          "name": "A. Boakye",
+          "country": "Ghana",
+          "club": "Saint Etienne",
+          "value": 69,
+          "rawValue": 69,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Ligue 2",
+            "leagueId": 62,
+            "club": "Saint Etienne",
+            "clubId": 1063
+          }
+        },
+        {
+          "name": "J. Gallardo",
+          "country": "Mexico",
+          "club": "Toluca",
+          "value": 67,
+          "rawValue": 67,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Liga MX",
+            "leagueId": 262,
+            "club": "Toluca",
+            "clubId": 2281
+          }
+        }
+      ],
+      "chance-creators": [
+        {
+          "name": "Bruno Fernandes",
+          "country": "Portugal",
+          "club": "Manchester United",
+          "value": 137,
+          "rawValue": 137,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier League",
+            "leagueId": 39,
+            "club": "Manchester United",
+            "clubId": 33
+          }
+        },
+        {
+          "name": "L. Messi",
+          "country": "Argentina",
+          "club": "Inter Miami",
+          "value": 103,
+          "rawValue": 103,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Inter Miami",
+            "clubId": 9568
+          }
+        },
+        {
+          "name": "D. Raum",
+          "country": "Germany",
+          "club": "RB Leipzig",
+          "value": 98,
+          "rawValue": 98,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "RB Leipzig",
+            "clubId": 173
+          }
+        },
+        {
+          "name": "João Félix",
+          "country": "Portugal",
+          "club": "Al-Nassr",
+          "value": 97,
+          "rawValue": 97,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Nassr",
+            "clubId": 2939
+          }
+        },
+        {
+          "name": "R. Mofokeng",
+          "country": "South Africa",
+          "club": "Orlando Pirates",
+          "value": 92,
+          "rawValue": 92,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Premier Soccer League",
+            "leagueId": 288,
+            "club": "Orlando Pirates",
+            "clubId": 2700
+          }
+        },
+        {
+          "name": "O. Kökçü",
+          "country": "Türkiye",
+          "club": "Beşiktaş",
+          "value": 91,
+          "rawValue": 91,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Süper Lig",
+            "leagueId": 203,
+            "club": "Beşiktaş",
+            "clubId": 549
+          }
+        },
+        {
+          "name": "R. Schmid",
+          "country": "Austria",
+          "club": "Werder Bremen",
+          "value": 89,
+          "rawValue": 89,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Bundesliga",
+            "leagueId": 78,
+            "club": "Werder Bremen",
+            "clubId": 162
+          }
+        },
+        {
+          "name": "S. Berhalter",
+          "country": "United States",
+          "club": "Vancouver Whitecaps",
+          "value": 87,
+          "rawValue": 87,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Major League Soccer",
+            "leagueId": 253,
+            "club": "Vancouver Whitecaps",
+            "clubId": 1603
+          }
+        },
+        {
+          "name": "Musab Al Juwayr",
+          "country": "Saudi Arabia",
+          "club": "Al-Qadisiyah FC",
+          "value": 86,
+          "rawValue": 86,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Pro League",
+            "leagueId": 307,
+            "club": "Al-Qadisiyah FC",
+            "clubId": 2933
+          }
+        },
+        {
+          "name": "Trincão",
+          "country": "Portugal",
+          "club": "Sporting CP",
+          "value": 85,
+          "rawValue": 85,
+          "statSource": "club-season",
+          "statMeta": {
+            "source": "club-season",
+            "season": 2025,
+            "league": "Primeira Liga",
+            "leagueId": 94,
+            "club": "Sporting CP",
+            "clubId": 228
+          }
+        }
+      ]
+    },
+    "top20Goalscorers": [
+      {
+        "name": "H. Kane",
+        "country": "England",
+        "club": "Bayern München",
+        "value": 36,
+        "rawValue": 36,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Bundesliga",
+          "leagueId": 78,
+          "club": "Bayern München",
+          "clubId": 157
+        }
+      },
+      {
+        "name": "L. Messi",
+        "country": "Argentina",
+        "club": "Inter Miami",
+        "value": 35,
+        "rawValue": 35,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Major League Soccer",
+          "leagueId": 253,
+          "club": "Inter Miami",
+          "clubId": 9568
+        }
+      },
+      {
+        "name": "J. Quiñones",
+        "country": "Mexico",
+        "club": "Al-Qadisiyah FC",
+        "value": 33,
+        "rawValue": 33,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Qadisiyah FC",
+          "clubId": 2933
+        }
+      },
+      {
+        "name": "I. Toney",
+        "country": "England",
+        "club": "Al-Ahli Jeddah",
+        "value": 31,
+        "rawValue": 31,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Ahli Jeddah",
+          "clubId": 2929
+        }
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "country": "Portugal",
+        "club": "Al-Nassr",
+        "value": 28,
+        "rawValue": 28,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Nassr",
+          "clubId": 2939
+        }
+      },
+      {
+        "name": "L. Suárez",
+        "country": "Colombia",
+        "club": "Sporting CP",
+        "value": 28,
+        "rawValue": 28,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Primeira Liga",
+          "leagueId": 94,
+          "club": "Sporting CP",
+          "clubId": 228
+        }
+      },
+      {
+        "name": "E. Haaland",
+        "country": "Norway",
+        "club": "Manchester City",
+        "value": 27,
+        "rawValue": 27,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "Manchester City",
+          "clubId": 50
+        }
+      },
+      {
+        "name": "A. Ueda",
+        "country": "Japan",
+        "club": "Feyenoord",
+        "value": 25,
+        "rawValue": 25,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Eredivisie",
+          "leagueId": 88,
+          "club": "Feyenoord",
+          "clubId": 209
+        }
+      },
+      {
+        "name": "Kylian Mbappé",
+        "country": "France",
+        "club": "Real Madrid",
+        "value": 25,
+        "rawValue": 25,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "La Liga",
+          "leagueId": 140,
+          "club": "Real Madrid",
+          "clubId": 541
+        }
+      },
+      {
+        "name": "A. González",
+        "country": "Mexico",
+        "club": "Guadalajara Chivas",
+        "value": 24,
+        "rawValue": 24,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Liga MX",
+          "leagueId": 262,
+          "club": "Guadalajara Chivas",
+          "clubId": 2278
+        }
+      },
+      {
+        "name": "L. Shankland",
+        "country": "Scotland",
+        "club": "Heart Of Midlothian",
+        "value": 24,
+        "rawValue": 24,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "League Cup",
+          "leagueId": 185,
+          "club": "Heart Of Midlothian",
+          "clubId": 254
+        }
+      },
+      {
+        "name": "Thiago",
+        "country": "Brazil",
+        "club": "Brentford",
+        "value": 22,
+        "rawValue": 22,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "Brentford",
+          "clubId": 55
+        }
+      },
+      {
+        "name": "E. Shomurodov",
+        "country": "Uzbekistan",
+        "club": "Başakşehir",
+        "value": 22,
+        "rawValue": 22,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Süper Lig",
+          "leagueId": 203,
+          "club": "Başakşehir",
+          "clubId": 564
+        }
+      },
+      {
+        "name": "João Félix",
+        "country": "Portugal",
+        "club": "Al-Nassr",
+        "value": 20,
+        "rawValue": 20,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Nassr",
+          "clubId": 2939
+        }
+      },
+      {
+        "name": "D. Undav",
+        "country": "Germany",
+        "club": "VfB Stuttgart",
+        "value": 19,
+        "rawValue": 19,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Bundesliga",
+          "leagueId": 78,
+          "club": "VfB Stuttgart",
+          "clubId": 172
+        }
+      },
+      {
+        "name": "P. Musa",
+        "country": "Croatia",
+        "club": "FC Dallas",
+        "value": 19,
+        "rawValue": 19,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Major League Soccer",
+          "leagueId": 253,
+          "club": "FC Dallas",
+          "clubId": 1597
+        }
+      },
+      {
+        "name": "J. Lukić",
+        "country": "Bosnia and Herzegovina",
+        "club": "Universitatea Cluj",
+        "value": 18,
+        "rawValue": 18,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Liga I",
+          "leagueId": 283,
+          "club": "Universitatea Cluj",
+          "clubId": 2599
+        }
+      },
+      {
+        "name": "C. Fassnacht",
+        "country": "Switzerland",
+        "club": "BSC Young Boys",
+        "value": 18,
+        "rawValue": 18,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Super League",
+          "leagueId": 207,
+          "club": "BSC Young Boys",
+          "clubId": 565
+        }
+      },
+      {
+        "name": "A. El Kaabi",
+        "country": "Morocco",
+        "club": "Olympiakos Piraeus",
+        "value": 18,
+        "rawValue": 18,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Super League 1",
+          "leagueId": 197,
+          "club": "Olympiakos Piraeus",
+          "clubId": 553
+        }
+      },
+      {
+        "name": "G. de Arrascaeta",
+        "country": "Uruguay",
+        "club": "Flamengo",
+        "value": 18,
+        "rawValue": 18,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Serie A",
+          "leagueId": 71,
+          "club": "Flamengo",
+          "clubId": 127
+        }
+      }
+    ],
+    "top20Assists": [
+      {
+        "name": "L. Messi",
+        "country": "Argentina",
+        "club": "Inter Miami",
+        "value": 23,
+        "rawValue": 23,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Major League Soccer",
+          "leagueId": 253,
+          "club": "Inter Miami",
+          "clubId": 9568
+        }
+      },
+      {
+        "name": "Bruno Fernandes",
+        "country": "Portugal",
+        "club": "Manchester United",
+        "value": 21,
+        "rawValue": 21,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "Manchester United",
+          "clubId": 33
+        }
+      },
+      {
+        "name": "M. Olise",
+        "country": "France",
+        "club": "Bayern München",
+        "value": 19,
+        "rawValue": 19,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Bundesliga",
+          "leagueId": 78,
+          "club": "Bayern München",
+          "clubId": 157
+        }
+      },
+      {
+        "name": "J. Ryerson",
+        "country": "Norway",
+        "club": "Borussia Dortmund",
+        "value": 15,
+        "rawValue": 15,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Bundesliga",
+          "leagueId": 78,
+          "club": "Borussia Dortmund",
+          "clubId": 165
+        }
+      },
+      {
+        "name": "G. de Arrascaeta",
+        "country": "Uruguay",
+        "club": "Flamengo",
+        "value": 14,
+        "rawValue": 14,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Serie A",
+          "leagueId": 71,
+          "club": "Flamengo",
+          "clubId": 127
+        }
+      },
+      {
+        "name": "L. Díaz",
+        "country": "Colombia",
+        "club": "Bayern München",
+        "value": 14,
+        "rawValue": 14,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Bundesliga",
+          "leagueId": 78,
+          "club": "Bayern München",
+          "clubId": 157
+        }
+      },
+      {
+        "name": "João Félix",
+        "country": "Portugal",
+        "club": "Al-Nassr",
+        "value": 13,
+        "rawValue": 13,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Nassr",
+          "clubId": 2939
+        }
+      },
+      {
+        "name": "R. Cherki",
+        "country": "France",
+        "club": "Manchester City",
+        "value": 12,
+        "rawValue": 12,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "Manchester City",
+          "clubId": 50
+        }
+      },
+      {
+        "name": "P. Berg",
+        "country": "Norway",
+        "club": "Bodo/Glimt",
+        "value": 12,
+        "rawValue": 12,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Eliteserien",
+          "leagueId": 103,
+          "club": "Bodo/Glimt",
+          "clubId": 327
+        }
+      },
+      {
+        "name": "I. Perišić",
+        "country": "Croatia",
+        "club": "PSV Eindhoven",
+        "value": 12,
+        "rawValue": 12,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Eredivisie",
+          "leagueId": 88,
+          "club": "PSV Eindhoven",
+          "clubId": 197
+        }
+      },
+      {
+        "name": "C. Bonsu Baah",
+        "country": "Ghana",
+        "club": "Al-Qadisiyah FC",
+        "value": 12,
+        "rawValue": 12,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Qadisiyah FC",
+          "clubId": 2933
+        }
+      },
+      {
+        "name": "A. Vega",
+        "country": "Mexico",
+        "club": "Toluca",
+        "value": 11,
+        "rawValue": 11,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Liga MX",
+          "leagueId": 262,
+          "club": "Toluca",
+          "clubId": 2281
+        }
+      },
+      {
+        "name": "B. Yılmaz",
+        "country": "Türkiye",
+        "club": "Galatasaray",
+        "value": 11,
+        "rawValue": 11,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Süper Lig",
+          "leagueId": 203,
+          "club": "Galatasaray",
+          "clubId": 645
+        }
+      },
+      {
+        "name": "Lamine Yamal",
+        "country": "Spain",
+        "club": "Barcelona",
+        "value": 11,
+        "rawValue": 11,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "La Liga",
+          "leagueId": 140,
+          "club": "Barcelona",
+          "clubId": 529
+        }
+      },
+      {
+        "name": "Musab Al Juwayr",
+        "country": "Saudi Arabia",
+        "club": "Al-Qadisiyah FC",
+        "value": 11,
+        "rawValue": 11,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Qadisiyah FC",
+          "clubId": 2933
+        }
+      },
+      {
+        "name": "Trincão",
+        "country": "Portugal",
+        "club": "Sporting CP",
+        "value": 11,
+        "rawValue": 11,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Primeira Liga",
+          "leagueId": 94,
+          "club": "Sporting CP",
+          "clubId": 228
+        }
+      },
+      {
+        "name": "L. Provod",
+        "country": "Czechia",
+        "club": "Slavia Praha",
+        "value": 10,
+        "rawValue": 10,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Czech Liga",
+          "leagueId": 345,
+          "club": "Slavia Praha",
+          "clubId": 560
+        }
+      },
+      {
+        "name": "A. Ahmed",
+        "country": "Canada",
+        "club": "Vancouver Whitecaps",
+        "value": 10,
+        "rawValue": 10,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Major League Soccer",
+          "leagueId": 253,
+          "club": "Vancouver Whitecaps",
+          "clubId": 1603
+        }
+      },
+      {
+        "name": "S. Berhalter",
+        "country": "United States",
+        "club": "Vancouver Whitecaps",
+        "value": 10,
+        "rawValue": 10,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Major League Soccer",
+          "leagueId": 253,
+          "club": "Vancouver Whitecaps",
+          "clubId": 1603
+        }
+      },
+      {
+        "name": "A. Londoño",
+        "country": "Panama",
+        "club": "Universidad Catolica",
+        "value": 10,
+        "rawValue": 10,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Liga Pro",
+          "leagueId": 242,
+          "club": "Universidad Catolica",
+          "clubId": 1157
+        }
+      }
+    ],
+    "top20FoulsWon": [
+      {
+        "name": "J. Córdoba",
+        "country": "Colombia",
+        "club": "FC Krasnodar",
+        "value": 97,
+        "rawValue": 97,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 235,
+          "club": "FC Krasnodar",
+          "clubId": 621
+        }
+      },
+      {
+        "name": "Vinícius Júnior",
+        "country": "Brazil",
+        "club": "Real Madrid",
+        "value": 81,
+        "rawValue": 81,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "La Liga",
+          "leagueId": 140,
+          "club": "Real Madrid",
+          "clubId": 541
+        }
+      },
+      {
+        "name": "K. Felida",
+        "country": "Curaçao",
+        "club": "Den Bosch",
+        "value": 81,
+        "rawValue": 81,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Eerste Divisie",
+          "leagueId": 89,
+          "club": "Den Bosch",
+          "clubId": 421
+        }
+      },
+      {
+        "name": "E. Anderson",
+        "country": "England",
+        "club": "Nottingham Forest",
+        "value": 80,
+        "rawValue": 80,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "Nottingham Forest",
+          "clubId": 65
+        }
+      },
+      {
+        "name": "L. Červ",
+        "country": "Czechia",
+        "club": "Plzen",
+        "value": 78,
+        "rawValue": 78,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Czech Liga",
+          "leagueId": 345,
+          "club": "Plzen",
+          "clubId": 567
+        }
+      },
+      {
+        "name": "J. Manzambi",
+        "country": "Switzerland",
+        "club": "SC Freiburg",
+        "value": 78,
+        "rawValue": 78,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Bundesliga",
+          "leagueId": 78,
+          "club": "SC Freiburg",
+          "clubId": 160
+        }
+      },
+      {
+        "name": "C. Devlin",
+        "country": "Australia",
+        "club": "Heart Of Midlothian",
+        "value": 76,
+        "rawValue": 76,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premiership",
+          "leagueId": 179,
+          "club": "Heart Of Midlothian",
+          "clubId": 254
+        }
+      },
+      {
+        "name": "Bruno Guimarães",
+        "country": "Brazil",
+        "club": "Newcastle",
+        "value": 75,
+        "rawValue": 75,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "Newcastle",
+          "clubId": 34
+        }
+      },
+      {
+        "name": "João Félix",
+        "country": "Portugal",
+        "club": "Al-Nassr",
+        "value": 75,
+        "rawValue": 75,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Nassr",
+          "clubId": 2939
+        }
+      },
+      {
+        "name": "A. Fatawu",
+        "country": "Ghana",
+        "club": "Leicester",
+        "value": 75,
+        "rawValue": 75,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Championship",
+          "leagueId": 40,
+          "club": "Leicester",
+          "clubId": 46
+        }
+      },
+      {
+        "name": "S. McTominay",
+        "country": "Scotland",
+        "club": "Napoli",
+        "value": 73,
+        "rawValue": 73,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Serie A",
+          "leagueId": 135,
+          "club": "Napoli",
+          "clubId": 492
+        }
+      },
+      {
+        "name": "A. Ezzalzouli",
+        "country": "Morocco",
+        "club": "Real Betis",
+        "value": 71,
+        "rawValue": 71,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "La Liga",
+          "leagueId": 140,
+          "club": "Real Betis",
+          "clubId": 543
+        }
+      },
+      {
+        "name": "Neymar",
+        "country": "Brazil",
+        "club": "Santos",
+        "value": 69,
+        "rawValue": 69,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Serie A",
+          "leagueId": 71,
+          "club": "Santos",
+          "clubId": 128
+        }
+      },
+      {
+        "name": "F. Viñas",
+        "country": "Uruguay",
+        "club": "Oviedo",
+        "value": 69,
+        "rawValue": 69,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "La Liga",
+          "leagueId": 140,
+          "club": "Oviedo",
+          "clubId": 718
+        }
+      },
+      {
+        "name": "Samú Costa",
+        "country": "Portugal",
+        "club": "Mallorca",
+        "value": 68,
+        "rawValue": 68,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "La Liga",
+          "leagueId": 140,
+          "club": "Mallorca",
+          "clubId": 798
+        }
+      },
+      {
+        "name": "O. Pineda",
+        "country": "Mexico",
+        "club": "AEK Athens FC",
+        "value": 67,
+        "rawValue": 67,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Super League 1",
+          "leagueId": 197,
+          "club": "AEK Athens FC",
+          "clubId": 575
+        }
+      },
+      {
+        "name": "K. McLean",
+        "country": "Scotland",
+        "club": "Norwich",
+        "value": 67,
+        "rawValue": 67,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Championship",
+          "leagueId": 40,
+          "club": "Norwich",
+          "clubId": 71
+        }
+      },
+      {
+        "name": "C. Summerville",
+        "country": "Netherlands",
+        "club": "West Ham",
+        "value": 67,
+        "rawValue": 67,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "West Ham",
+          "clubId": 48
+        }
+      },
+      {
+        "name": "B. Zeneli",
+        "country": "Sweden",
+        "club": "IF Elfsborg",
+        "value": 66,
+        "rawValue": 66,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Allsvenskan",
+          "leagueId": 113,
+          "club": "IF Elfsborg",
+          "clubId": 372
+        }
+      },
+      {
+        "name": "R. Rios",
+        "country": "Colombia",
+        "club": "Benfica",
+        "value": 66,
+        "rawValue": 66,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Primeira Liga",
+          "leagueId": 94,
+          "club": "Benfica",
+          "clubId": 211
+        }
+      }
+    ],
+    "top20DisciplineRisks": [
+      {
+        "name": "A. Cubas",
+        "country": "Paraguay",
+        "club": "Vancouver Whitecaps",
+        "value": 86,
+        "rawValue": 86,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Major League Soccer",
+          "leagueId": 253,
+          "club": "Vancouver Whitecaps",
+          "clubId": 1603
+        }
+      },
+      {
+        "name": "G. Puerta",
+        "country": "Colombia",
+        "club": "Racing Santander",
+        "value": 85,
+        "rawValue": 85,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Segunda División",
+          "leagueId": 141,
+          "club": "Racing Santander",
+          "clubId": 4665
+        }
+      },
+      {
+        "name": "M. Pongračić",
+        "country": "Croatia",
+        "club": "Fiorentina",
+        "value": 81,
+        "rawValue": 81,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Serie A",
+          "leagueId": 135,
+          "club": "Fiorentina",
+          "clubId": 502
+        }
+      },
+      {
+        "name": "Thiago",
+        "country": "Brazil",
+        "club": "Brentford",
+        "value": 80,
+        "rawValue": 80,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "Brentford",
+          "clubId": 55
+        }
+      },
+      {
+        "name": "Samú Costa",
+        "country": "Portugal",
+        "club": "Mallorca",
+        "value": 75,
+        "rawValue": 75,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "La Liga",
+          "leagueId": 140,
+          "club": "Mallorca",
+          "clubId": 798
+        }
+      },
+      {
+        "name": "C. Baumgartner",
+        "country": "Austria",
+        "club": "RB Leipzig",
+        "value": 73,
+        "rawValue": 73,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Bundesliga",
+          "leagueId": 78,
+          "club": "RB Leipzig",
+          "clubId": 173
+        }
+      },
+      {
+        "name": "N. Raskin",
+        "country": "Belgium",
+        "club": "Rangers",
+        "value": 72,
+        "rawValue": 72,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premiership",
+          "leagueId": 179,
+          "club": "Rangers",
+          "clubId": 257
+        }
+      },
+      {
+        "name": "J. Córdoba",
+        "country": "Colombia",
+        "club": "FC Krasnodar",
+        "value": 72,
+        "rawValue": 72,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 235,
+          "club": "FC Krasnodar",
+          "clubId": 621
+        }
+      },
+      {
+        "name": "A. Boakye",
+        "country": "Ghana",
+        "club": "Saint Etienne",
+        "value": 69,
+        "rawValue": 69,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Ligue 2",
+          "leagueId": 62,
+          "club": "Saint Etienne",
+          "clubId": 1063
+        }
+      },
+      {
+        "name": "J. Gallardo",
+        "country": "Mexico",
+        "club": "Toluca",
+        "value": 67,
+        "rawValue": 67,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Liga MX",
+          "leagueId": 262,
+          "club": "Toluca",
+          "clubId": 2281
+        }
+      },
+      {
+        "name": "M. Caicedo",
+        "country": "Ecuador",
+        "club": "Chelsea",
+        "value": 66,
+        "rawValue": 66,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "Chelsea",
+          "clubId": 49
+        }
+      },
+      {
+        "name": "M. Stamenić",
+        "country": "New Zealand",
+        "club": "Swansea",
+        "value": 66,
+        "rawValue": 66,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Championship",
+          "leagueId": 40,
+          "club": "Swansea",
+          "clubId": 76
+        }
+      },
+      {
+        "name": "C. Itten",
+        "country": "Switzerland",
+        "club": "Fortuna Düsseldorf",
+        "value": 65,
+        "rawValue": 65,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "2. Bundesliga",
+          "leagueId": 79,
+          "club": "Fortuna Düsseldorf",
+          "clubId": 158
+        }
+      },
+      {
+        "name": "E. Anderson",
+        "country": "England",
+        "club": "Nottingham Forest",
+        "value": 65,
+        "rawValue": 65,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "Nottingham Forest",
+          "clubId": 65
+        }
+      },
+      {
+        "name": "A. Carrasquilla",
+        "country": "Panama",
+        "club": "U.N.A.M. - Pumas",
+        "value": 65,
+        "rawValue": 65,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Liga MX",
+          "leagueId": 262,
+          "club": "U.N.A.M. - Pumas",
+          "clubId": 2286
+        }
+      },
+      {
+        "name": "D. Maeda",
+        "country": "Japan",
+        "club": "Celtic",
+        "value": 64,
+        "rawValue": 64,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premiership",
+          "leagueId": 179,
+          "club": "Celtic",
+          "clubId": 247
+        }
+      },
+      {
+        "name": "J. Opoku",
+        "country": "Ghana",
+        "club": "Başakşehir",
+        "value": 64,
+        "rawValue": 64,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Süper Lig",
+          "leagueId": 203,
+          "club": "Başakşehir",
+          "clubId": 564
+        }
+      },
+      {
+        "name": "R. Halhal",
+        "country": "Morocco",
+        "club": "KV Mechelen",
+        "value": 63,
+        "rawValue": 63,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Jupiler Pro League",
+          "leagueId": 144,
+          "club": "KV Mechelen",
+          "clubId": 266
+        }
+      },
+      {
+        "name": "João Félix",
+        "country": "Portugal",
+        "club": "Al-Nassr",
+        "value": 63,
+        "rawValue": 63,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Nassr",
+          "clubId": 2939
+        }
+      },
+      {
+        "name": "W. Ditta",
+        "country": "Colombia",
+        "club": "Cruz Azul",
+        "value": 63,
+        "rawValue": 63,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Liga MX",
+          "leagueId": 262,
+          "club": "Cruz Azul",
+          "clubId": 2295
+        }
+      }
+    ],
+    "top20ChanceCreators": [
+      {
+        "name": "Bruno Fernandes",
+        "country": "Portugal",
+        "club": "Manchester United",
+        "value": 137,
+        "rawValue": 137,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier League",
+          "leagueId": 39,
+          "club": "Manchester United",
+          "clubId": 33
+        }
+      },
+      {
+        "name": "L. Messi",
+        "country": "Argentina",
+        "club": "Inter Miami",
+        "value": 103,
+        "rawValue": 103,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Major League Soccer",
+          "leagueId": 253,
+          "club": "Inter Miami",
+          "clubId": 9568
+        }
+      },
+      {
+        "name": "D. Raum",
+        "country": "Germany",
+        "club": "RB Leipzig",
+        "value": 98,
+        "rawValue": 98,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Bundesliga",
+          "leagueId": 78,
+          "club": "RB Leipzig",
+          "clubId": 173
+        }
+      },
+      {
+        "name": "João Félix",
+        "country": "Portugal",
+        "club": "Al-Nassr",
+        "value": 97,
+        "rawValue": 97,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Nassr",
+          "clubId": 2939
+        }
+      },
+      {
+        "name": "R. Mofokeng",
+        "country": "South Africa",
+        "club": "Orlando Pirates",
+        "value": 92,
+        "rawValue": 92,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Premier Soccer League",
+          "leagueId": 288,
+          "club": "Orlando Pirates",
+          "clubId": 2700
+        }
+      },
+      {
+        "name": "O. Kökçü",
+        "country": "Türkiye",
+        "club": "Beşiktaş",
+        "value": 91,
+        "rawValue": 91,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Süper Lig",
+          "leagueId": 203,
+          "club": "Beşiktaş",
+          "clubId": 549
+        }
+      },
+      {
+        "name": "R. Schmid",
+        "country": "Austria",
+        "club": "Werder Bremen",
+        "value": 89,
+        "rawValue": 89,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Bundesliga",
+          "leagueId": 78,
+          "club": "Werder Bremen",
+          "clubId": 162
+        }
+      },
+      {
+        "name": "S. Berhalter",
+        "country": "United States",
+        "club": "Vancouver Whitecaps",
+        "value": 87,
+        "rawValue": 87,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Major League Soccer",
+          "leagueId": 253,
+          "club": "Vancouver Whitecaps",
+          "clubId": 1603
+        }
+      },
+      {
+        "name": "Musab Al Juwayr",
+        "country": "Saudi Arabia",
+        "club": "Al-Qadisiyah FC",
+        "value": 86,
+        "rawValue": 86,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Qadisiyah FC",
+          "clubId": 2933
+        }
+      },
+      {
+        "name": "Trincão",
+        "country": "Portugal",
+        "club": "Sporting CP",
+        "value": 85,
+        "rawValue": 85,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Primeira Liga",
+          "leagueId": 94,
+          "club": "Sporting CP",
+          "clubId": 228
+        }
+      },
+      {
+        "name": "M. Olise",
+        "country": "France",
+        "club": "Bayern München",
+        "value": 81,
+        "rawValue": 81,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Bundesliga",
+          "leagueId": 78,
+          "club": "Bayern München",
+          "clubId": 157
+        }
+      },
+      {
+        "name": "B. Zeneli",
+        "country": "Sweden",
+        "club": "IF Elfsborg",
+        "value": 78,
+        "rawValue": 78,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Allsvenskan",
+          "leagueId": 113,
+          "club": "IF Elfsborg",
+          "clubId": 372
+        }
+      },
+      {
+        "name": "R. Mahrez",
+        "country": "Algeria",
+        "club": "Al-Ahli Jeddah",
+        "value": 77,
+        "rawValue": 77,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Pro League",
+          "leagueId": 307,
+          "club": "Al-Ahli Jeddah",
+          "clubId": 2929
+        }
+      },
+      {
+        "name": "K. Yıldız",
+        "country": "Türkiye",
+        "club": "Juventus",
+        "value": 76,
+        "rawValue": 76,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Serie A",
+          "leagueId": 135,
+          "club": "Juventus",
+          "clubId": 496
+        }
+      },
+      {
+        "name": "P. Berg",
+        "country": "Norway",
+        "club": "Bodo/Glimt",
+        "value": 76,
+        "rawValue": 76,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Eliteserien",
+          "leagueId": 103,
+          "club": "Bodo/Glimt",
+          "clubId": 327
+        }
+      },
+      {
+        "name": "Lamine Yamal",
+        "country": "Spain",
+        "club": "Barcelona",
+        "value": 72,
+        "rawValue": 72,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "La Liga",
+          "leagueId": 140,
+          "club": "Barcelona",
+          "clubId": 529
+        }
+      },
+      {
+        "name": "A. Vega",
+        "country": "Mexico",
+        "club": "Toluca",
+        "value": 71,
+        "rawValue": 71,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Liga MX",
+          "leagueId": 262,
+          "club": "Toluca",
+          "clubId": 2281
+        }
+      },
+      {
+        "name": "B. Rodríguez",
+        "country": "Uruguay",
+        "club": "Club America",
+        "value": 71,
+        "rawValue": 71,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Liga MX",
+          "leagueId": 262,
+          "club": "Club America",
+          "clubId": 2287
+        }
+      },
+      {
+        "name": "A. Hadj-Moussa",
+        "country": "Algeria",
+        "club": "Feyenoord",
+        "value": 71,
+        "rawValue": 71,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "Eredivisie",
+          "leagueId": 88,
+          "club": "Feyenoord",
+          "clubId": 209
+        }
+      },
+      {
+        "name": "Vinícius Júnior",
+        "country": "Brazil",
+        "club": "Real Madrid",
+        "value": 70,
+        "rawValue": 70,
+        "statSource": "club-season",
+        "statMeta": {
+          "source": "club-season",
+          "season": 2025,
+          "league": "La Liga",
+          "leagueId": 140,
+          "club": "Real Madrid",
+          "clubId": 541
+        }
+      }
+    ],
+    "teamsUsed": 48,
+    "teamsExcluded": [],
+    "mockDataUsed": false,
+    "harryKane": {
+      "found": true,
+      "inSquadPool": true,
+      "inRankedPool": true,
+      "clubStatsVerified": true,
+      "playerId": 184,
+      "name": "H. Kane",
+      "country": "England",
+      "club": "Bayern München",
+      "goals": 36,
+      "assists": 5
+    },
+    "enrichLog": {
+      "playersProcessed": 1248,
+      "playersEnriched": 1219,
+      "playersEnrichFailed": 29,
+      "playersNoClubStat": 29
+    },
+    "cache": {
+      "squadPool": {
+        "hit": false,
+        "fresh": true,
+        "scope": "official-squad-pool"
+      },
+      "rankings": {
+        "hit": false,
+        "fresh": true,
+        "scope": "build-script"
+      }
+    },
+    "endpoints": [
+      "GET /fixtures?league=1&season=2026 (team id lookup only)",
+      "GET /players/squads?team={teamId}",
+      "GET /players?id={playerId}&season={2025|2026|2024}"
+    ],
+    "totalPlayersWithVerifiedStats": 1219,
+    "buildDurationSeconds": 207.01
+  }
+}

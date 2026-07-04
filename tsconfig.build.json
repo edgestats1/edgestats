@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "outDir": "lib/prediction-engine",
+    "rootDir": "prediction-engine",
+    "declaration": false,
+    "strict": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": ["prediction-engine/**/*.ts"],
+  "exclude": ["prediction-engine-dashboard/**"]
+}

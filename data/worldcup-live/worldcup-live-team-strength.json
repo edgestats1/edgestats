@@ -1,0 +1,5697 @@
+{
+  "version": "wc2026-live-power-rankings-v2",
+  "exportedAt": "2026-06-28T11:18:22.293Z",
+  "methodology": {
+    "description": "EdgeStats-only model: 65% club-season player data, 35% World Cup Round 1 (50/50 for GK and corners).",
+    "clubDataset": "video-data/wc2026-full-player-data.json",
+    "excludes": [
+      "FIFA rankings",
+      "bookmaker odds",
+      "simulated match data"
+    ],
+    "blend": {
+      "default": "65% club / 35% Round 1",
+      "goalkeeperAndCorners": "50% club / 50% Round 1",
+      "discipline": "55% club / 45% Round 1 with low-card tournament adjustment"
+    },
+    "lowCardTournamentAdjustment": 0.82,
+    "weights": {
+      "attackRating": 0.18,
+      "defenceRating": 0.16,
+      "chanceCreationRating": 0.14,
+      "finishingRating": 0.12,
+      "cornerRating": 0.08,
+      "disciplineRating": 0.06,
+      "goalkeeperRating": 0.12,
+      "currentFormRating": 0.14
+    }
+  },
+  "teamsRanked": 48,
+  "completedMatchesInPool": 72,
+  "teams": [
+    {
+      "team": "France",
+      "group": "I",
+      "overallRank": 1,
+      "overallPowerScore": 75.2,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 86.3,
+          "club": 653.2,
+          "round1": 83.13,
+          "rank": 2
+        },
+        "defenceRating": {
+          "combined": 73.7,
+          "club": 49.25,
+          "round1": 23.39,
+          "rank": 2
+        },
+        "chanceCreationRating": {
+          "combined": 68.5,
+          "club": 13.61,
+          "round1": 113.67,
+          "rank": 9
+        },
+        "finishingRating": {
+          "combined": 66.3,
+          "club": 3.89,
+          "round1": 43.25,
+          "rank": 10
+        },
+        "cornerRating": {
+          "combined": 39.4,
+          "club": 0,
+          "round1": 5,
+          "rank": 16
+        },
+        "disciplineRating": {
+          "combined": 96.7,
+          "club": 19.04,
+          "round1": 16.92,
+          "rank": 4
+        },
+        "goalkeeperRating": {
+          "combined": 61.1,
+          "club": 6.89,
+          "round1": 1.67,
+          "rank": 20
+        },
+        "currentFormRating": {
+          "combined": 100,
+          "club": null,
+          "round1": 114.63,
+          "rank": 1
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 129,
+        "assists": 92,
+        "chancesCreated": 692,
+        "cornersInvolved": 0,
+        "yellowCards": 92,
+        "redCards": 1,
+        "foulsCommitted": 588,
+        "attackRaw": 653.2,
+        "defenceRaw": 49.250081778098064,
+        "finishingRaw": 3.885217100309546,
+        "cornersRaw": 0,
+        "cardsRaw": 1.4652173913043478,
+        "disciplineRaw": 19.0383631713555,
+        "goalkeeperRaw": 6.891742658746757,
+        "chanceCreationRaw": 13.61331883209236
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 10,
+        "goalsAgainst": 2,
+        "goalDifference": 8,
+        "finishingEfficiency": 1.73,
+        "averages": {
+          "goalsFor": 3.33,
+          "goalsAgainst": 0.67,
+          "shots": 16,
+          "shotsOnTarget": 7.33,
+          "xG": 1.92,
+          "cornersFor": 5,
+          "cornersAgainst": 3.33,
+          "yellowCards": 0.33,
+          "savesFor": 1.67
+        },
+        "cardEnvironment": 1.5,
+        "attackRaw": 83.13199999999999,
+        "defenceRaw": 23.389499999999998,
+        "finishingRaw": 43.25,
+        "cornersRaw": 5,
+        "cardsRaw": 0.5953200000000001,
+        "disciplineRaw": 16.9176,
+        "goalkeeperRaw": 1.67,
+        "chanceCreationRaw": 113.66666666666667,
+        "formRaw": 114.63000000000001
+      },
+      "categoryRanks": {
+        "attackRating": 2,
+        "defenceRating": 2,
+        "chanceCreationRating": 9,
+        "finishingRating": 10,
+        "cornerRating": 16,
+        "disciplineRating": 4,
+        "goalkeeperRating": 20,
+        "currentFormRating": 1
+      }
+    },
+    {
+      "team": "Germany",
+      "group": "E",
+      "overallRank": 2,
+      "overallPowerScore": 71,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 85.7,
+          "club": 648.65,
+          "round1": 83.72,
+          "rank": 3
+        },
+        "defenceRating": {
+          "combined": 58.6,
+          "club": 43.75,
+          "round1": 16.88,
+          "rank": 22
+        },
+        "chanceCreationRating": {
+          "combined": 86.5,
+          "club": 15.53,
+          "round1": 135,
+          "rank": 3
+        },
+        "finishingRating": {
+          "combined": 56.5,
+          "club": 3.68,
+          "round1": 37,
+          "rank": 15
+        },
+        "cornerRating": {
+          "combined": 48.5,
+          "club": 0,
+          "round1": 6,
+          "rank": 9
+        },
+        "disciplineRating": {
+          "combined": 99.4,
+          "club": 19.21,
+          "round1": 16.92,
+          "rank": 2
+        },
+        "goalkeeperRating": {
+          "combined": 51.2,
+          "club": 6.5,
+          "round1": 1,
+          "rank": 29
+        },
+        "currentFormRating": {
+          "combined": 81.1,
+          "club": null,
+          "round1": 81.33,
+          "rank": 7
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 113,
+        "assists": 84,
+        "chancesCreated": 739,
+        "cornersInvolved": 0,
+        "yellowCards": 70,
+        "redCards": 1,
+        "foulsCommitted": 471,
+        "attackRaw": 648.6500000000001,
+        "defenceRaw": 43.75303260062493,
+        "finishingRaw": 3.679849477150197,
+        "cornersRaw": 0,
+        "cardsRaw": 1.218801652892562,
+        "disciplineRaw": 19.206611570247933,
+        "goalkeeperRaw": 6.496725404349242,
+        "chanceCreationRaw": 15.533523899120743
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 10,
+        "goalsAgainst": 4,
+        "goalDifference": 6,
+        "finishingEfficiency": 1.48,
+        "averages": {
+          "goalsFor": 3.33,
+          "goalsAgainst": 1.33,
+          "shots": 17.67,
+          "shotsOnTarget": 7.33,
+          "xG": 2.25,
+          "cornersFor": 6,
+          "cornersAgainst": 2.33,
+          "yellowCards": 0.33,
+          "savesFor": 1
+        },
+        "cardEnvironment": 4,
+        "attackRaw": 83.7165,
+        "defenceRaw": 16.880000000000003,
+        "finishingRaw": 37,
+        "cornersRaw": 6,
+        "cardsRaw": 0.5953200000000001,
+        "disciplineRaw": 16.9176,
+        "goalkeeperRaw": 1,
+        "chanceCreationRaw": 135,
+        "formRaw": 81.33
+      },
+      "categoryRanks": {
+        "attackRating": 3,
+        "defenceRating": 22,
+        "chanceCreationRating": 3,
+        "finishingRating": 15,
+        "cornerRating": 9,
+        "disciplineRating": 2,
+        "goalkeeperRating": 29,
+        "currentFormRating": 7
+      }
+    },
+    {
+      "team": "Spain",
+      "group": "H",
+      "overallRank": 3,
+      "overallPowerScore": 69.4,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 82,
+          "club": 638.55,
+          "round1": 49.27,
+          "rank": 5
+        },
+        "defenceRating": {
+          "combined": 70.1,
+          "club": 44.01,
+          "round1": 29.13,
+          "rank": 5
+        },
+        "chanceCreationRating": {
+          "combined": 72.2,
+          "club": 15.06,
+          "round1": 116,
+          "rank": 7
+        },
+        "finishingRating": {
+          "combined": 36.4,
+          "club": 3.49,
+          "round1": 23.75,
+          "rank": 31
+        },
+        "cornerRating": {
+          "combined": 63.6,
+          "club": 0,
+          "round1": 7.67,
+          "rank": 4
+        },
+        "disciplineRating": {
+          "combined": 81.8,
+          "club": 19.05,
+          "round1": 15.8,
+          "rank": 10
+        },
+        "goalkeeperRating": {
+          "combined": 62.8,
+          "club": 7.41,
+          "round1": 1.33,
+          "rank": 17
+        },
+        "currentFormRating": {
+          "combined": 81.2,
+          "club": null,
+          "round1": 81.35,
+          "rank": 6
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 110,
+        "assists": 77,
+        "chancesCreated": 741,
+        "cornersInvolved": 0,
+        "yellowCards": 89,
+        "redCards": 1,
+        "foulsCommitted": 564,
+        "attackRaw": 638.55,
+        "defenceRaw": 44.01130132352053,
+        "finishingRaw": 3.4850565001584117,
+        "cornersRaw": 0,
+        "cardsRaw": 1.4513761467889907,
+        "disciplineRaw": 19.045871559633028,
+        "goalkeeperRaw": 7.41366564579153,
+        "chanceCreationRaw": 15.061780547048263
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 0,
+        "goalDifference": 5,
+        "finishingEfficiency": 0.95,
+        "averages": {
+          "goalsFor": 1.67,
+          "goalsAgainst": 0,
+          "shots": 18.33,
+          "shotsOnTarget": 5.33,
+          "xG": 1.75,
+          "cornersFor": 7.67,
+          "cornersAgainst": 1,
+          "yellowCards": 0.67,
+          "savesFor": 1.33
+        },
+        "cardEnvironment": 2.6666666666666665,
+        "attackRaw": 49.2675,
+        "defenceRaw": 29.1305,
+        "finishingRaw": 23.75,
+        "cornersRaw": 7.67,
+        "cardsRaw": 1.2086800000000002,
+        "disciplineRaw": 15.8024,
+        "goalkeeperRaw": 1.33,
+        "chanceCreationRaw": 116,
+        "formRaw": 81.35333333333334
+      },
+      "categoryRanks": {
+        "attackRating": 5,
+        "defenceRating": 5,
+        "chanceCreationRating": 7,
+        "finishingRating": 31,
+        "cornerRating": 4,
+        "disciplineRating": 10,
+        "goalkeeperRating": 17,
+        "currentFormRating": 6
+      }
+    },
+    {
+      "team": "Belgium",
+      "group": "G",
+      "overallRank": 4,
+      "overallPowerScore": 68.6,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 68.5,
+          "club": 536.45,
+          "round1": 48.43,
+          "rank": 12
+        },
+        "defenceRating": {
+          "combined": 73.2,
+          "club": 48.94,
+          "round1": 23.39,
+          "rank": 3
+        },
+        "chanceCreationRating": {
+          "combined": 100,
+          "club": 13.78,
+          "round1": 157,
+          "rank": 1
+        },
+        "finishingRating": {
+          "combined": 68.6,
+          "club": 2.33,
+          "round1": 47.75,
+          "rank": 7
+        },
+        "cornerRating": {
+          "combined": 12.1,
+          "club": 0,
+          "round1": 2,
+          "rank": 42
+        },
+        "disciplineRating": {
+          "combined": 68,
+          "club": 19.1,
+          "round1": 14.72,
+          "rank": 17
+        },
+        "goalkeeperRating": {
+          "combined": 62.7,
+          "club": 7.06,
+          "round1": 1.67,
+          "rank": 18
+        },
+        "currentFormRating": {
+          "combined": 69.8,
+          "club": null,
+          "round1": 61.32,
+          "rank": 15
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 72,
+        "assists": 71,
+        "chancesCreated": 663,
+        "cornersInvolved": 0,
+        "yellowCards": 81,
+        "redCards": 1,
+        "foulsCommitted": 508,
+        "attackRaw": 536.45,
+        "defenceRaw": 48.94216689294976,
+        "finishingRaw": 2.3282552457602756,
+        "cornersRaw": 0,
+        "cardsRaw": 1.3730245231607632,
+        "disciplineRaw": 19.095367847411445,
+        "goalkeeperRaw": 7.057523713710836,
+        "chanceCreationRaw": 13.781977579764298
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": 4,
+        "finishingEfficiency": 1.91,
+        "averages": {
+          "goalsFor": 2,
+          "goalsAgainst": 0.67,
+          "shots": 12.67,
+          "shotsOnTarget": 3.33,
+          "xG": 1.05,
+          "cornersFor": 2,
+          "cornersAgainst": 3,
+          "yellowCards": 1,
+          "savesFor": 1.67
+        },
+        "cardEnvironment": 3,
+        "attackRaw": 48.4265,
+        "defenceRaw": 23.389499999999998,
+        "finishingRaw": 47.75,
+        "cornersRaw": 2,
+        "cardsRaw": 1.804,
+        "disciplineRaw": 14.72,
+        "goalkeeperRaw": 1.67,
+        "chanceCreationRaw": 157,
+        "formRaw": 61.31666666666667
+      },
+      "categoryRanks": {
+        "attackRating": 12,
+        "defenceRating": 3,
+        "chanceCreationRating": 1,
+        "finishingRating": 7,
+        "cornerRating": 42,
+        "disciplineRating": 17,
+        "goalkeeperRating": 18,
+        "currentFormRating": 15
+      }
+    },
+    {
+      "team": "Netherlands",
+      "group": "F",
+      "overallRank": 5,
+      "overallPowerScore": 66.6,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 63.8,
+          "club": 483.35,
+          "round1": 80.61,
+          "rank": 16
+        },
+        "defenceRating": {
+          "combined": 60.6,
+          "club": 43.72,
+          "round1": 19.15,
+          "rank": 18
+        },
+        "chanceCreationRating": {
+          "combined": 61.6,
+          "club": 11.34,
+          "round1": 108.33,
+          "rank": 12
+        },
+        "finishingRating": {
+          "combined": 71.2,
+          "club": 3.26,
+          "round1": 47.75,
+          "rank": 4
+        },
+        "cornerRating": {
+          "combined": 33.3,
+          "club": 0,
+          "round1": 4.33,
+          "rank": 19
+        },
+        "disciplineRating": {
+          "combined": 61.8,
+          "club": 18.72,
+          "round1": 14.72,
+          "rank": 19
+        },
+        "goalkeeperRating": {
+          "combined": 83,
+          "club": 7.24,
+          "round1": 3.67,
+          "rank": 4
+        },
+        "currentFormRating": {
+          "combined": 85.3,
+          "club": null,
+          "round1": 88.66,
+          "rank": 4
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 98,
+        "assists": 53,
+        "chancesCreated": 533,
+        "cornersInvolved": 0,
+        "yellowCards": 114,
+        "redCards": 1,
+        "foulsCommitted": 591,
+        "attackRaw": 483.35,
+        "defenceRaw": 43.71976600735036,
+        "finishingRaw": 3.257798215967644,
+        "cornersRaw": 0,
+        "cardsRaw": 1.8853103448275863,
+        "disciplineRaw": 18.72,
+        "goalkeeperRaw": 7.241121391766858,
+        "chanceCreationRaw": 11.335808078009864
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 10,
+        "goalsAgainst": 4,
+        "goalDifference": 6,
+        "finishingEfficiency": 1.91,
+        "averages": {
+          "goalsFor": 3.33,
+          "goalsAgainst": 1.33,
+          "shots": 13.33,
+          "shotsOnTarget": 6.67,
+          "xG": 1.75,
+          "cornersFor": 4.33,
+          "cornersAgainst": 4.33,
+          "yellowCards": 1,
+          "savesFor": 3.67
+        },
+        "cardEnvironment": 3,
+        "attackRaw": 80.61349999999999,
+        "defenceRaw": 19.1495,
+        "finishingRaw": 47.75,
+        "cornersRaw": 4.33,
+        "cardsRaw": 1.804,
+        "disciplineRaw": 14.72,
+        "goalkeeperRaw": 3.67,
+        "chanceCreationRaw": 108.33333333333333,
+        "formRaw": 88.66333333333334
+      },
+      "categoryRanks": {
+        "attackRating": 16,
+        "defenceRating": 18,
+        "chanceCreationRating": 12,
+        "finishingRating": 4,
+        "cornerRating": 19,
+        "disciplineRating": 19,
+        "goalkeeperRating": 4,
+        "currentFormRating": 4
+      }
+    },
+    {
+      "team": "England",
+      "group": "L",
+      "overallRank": 6,
+      "overallPowerScore": 66,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 80,
+          "club": 618.25,
+          "round1": 58.77,
+          "rank": 6
+        },
+        "defenceRating": {
+          "combined": 58.6,
+          "club": 40.2,
+          "round1": 23.39,
+          "rank": 23
+        },
+        "chanceCreationRating": {
+          "combined": 71.7,
+          "club": 12.41,
+          "round1": 120.33,
+          "rank": 8
+        },
+        "finishingRating": {
+          "combined": 41.6,
+          "club": 4.82,
+          "round1": 24.75,
+          "rank": 24
+        },
+        "cornerRating": {
+          "combined": 66.6,
+          "club": 0,
+          "round1": 8,
+          "rank": 3
+        },
+        "disciplineRating": {
+          "combined": 80.6,
+          "club": 18.97,
+          "round1": 15.8,
+          "rank": 12
+        },
+        "goalkeeperRating": {
+          "combined": 50.5,
+          "club": 5.75,
+          "round1": 1.67,
+          "rank": 30
+        },
+        "currentFormRating": {
+          "combined": 78.1,
+          "club": null,
+          "round1": 75.98,
+          "rank": 9
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 153,
+        "assists": 68,
+        "chancesCreated": 611,
+        "cornersInvolved": 0,
+        "yellowCards": 93,
+        "redCards": 2,
+        "foulsCommitted": 560,
+        "attackRaw": 618.25,
+        "defenceRaw": 40.198738807426466,
+        "finishingRaw": 4.82083778248464,
+        "cornersRaw": 0,
+        "cardsRaw": 1.5423280423280425,
+        "disciplineRaw": 18.973544973544975,
+        "goalkeeperRaw": 5.7519211581213785,
+        "chanceCreationRaw": 12.408143259754581
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": 4,
+        "finishingEfficiency": 0.99,
+        "averages": {
+          "goalsFor": 2,
+          "goalsAgainst": 0.67,
+          "shots": 19.33,
+          "shotsOnTarget": 6.67,
+          "xG": 2.02,
+          "cornersFor": 8,
+          "cornersAgainst": 2.33,
+          "yellowCards": 0.67,
+          "savesFor": 1.67
+        },
+        "cardEnvironment": 2.5,
+        "attackRaw": 58.7735,
+        "defenceRaw": 23.389499999999998,
+        "finishingRaw": 24.75,
+        "cornersRaw": 8,
+        "cardsRaw": 1.2086800000000002,
+        "disciplineRaw": 15.8024,
+        "goalkeeperRaw": 1.67,
+        "chanceCreationRaw": 120.33333333333333,
+        "formRaw": 75.98333333333335
+      },
+      "categoryRanks": {
+        "attackRating": 6,
+        "defenceRating": 23,
+        "chanceCreationRating": 8,
+        "finishingRating": 24,
+        "cornerRating": 3,
+        "disciplineRating": 12,
+        "goalkeeperRating": 30,
+        "currentFormRating": 9
+      }
+    },
+    {
+      "team": "Japan",
+      "group": "F",
+      "overallRank": 7,
+      "overallPowerScore": 62.6,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 58.1,
+          "club": 454.05,
+          "round1": 54.13,
+          "rank": 19
+        },
+        "defenceRating": {
+          "combined": 66.7,
+          "club": 46.21,
+          "round1": 21.27,
+          "rank": 8
+        },
+        "chanceCreationRating": {
+          "combined": 44.5,
+          "club": 10.41,
+          "round1": 86.33,
+          "rank": 22
+        },
+        "finishingRating": {
+          "combined": 67.6,
+          "club": 3.7,
+          "round1": 44.5,
+          "rank": 8
+        },
+        "cornerRating": {
+          "combined": 27.3,
+          "club": 0,
+          "round1": 3.67,
+          "rank": 27
+        },
+        "disciplineRating": {
+          "combined": 100,
+          "club": 19.24,
+          "round1": 16.92,
+          "rank": 1
+        },
+        "goalkeeperRating": {
+          "combined": 76.5,
+          "club": 7.54,
+          "round1": 2.67,
+          "rank": 6
+        },
+        "currentFormRating": {
+          "combined": 70,
+          "club": null,
+          "round1": 61.65,
+          "rank": 14
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 106,
+        "assists": 51,
+        "chancesCreated": 463,
+        "cornersInvolved": 0,
+        "yellowCards": 62,
+        "redCards": 2,
+        "foulsCommitted": 487,
+        "attackRaw": 454.05,
+        "defenceRaw": 46.21178194799445,
+        "finishingRaw": 3.700040723718657,
+        "cornersRaw": 0,
+        "cardsRaw": 1.1948920863309351,
+        "disciplineRaw": 19.24028776978417,
+        "goalkeeperRaw": 7.539705625690849,
+        "chanceCreationRaw": 10.408982488800977
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
+        "goalDifference": 4,
+        "finishingEfficiency": 1.78,
+        "averages": {
+          "goalsFor": 2.33,
+          "goalsAgainst": 1,
+          "shots": 9.67,
+          "shotsOnTarget": 3.67,
+          "xG": 1.31,
+          "cornersFor": 3.67,
+          "cornersAgainst": 5.33,
+          "yellowCards": 0.33,
+          "savesFor": 2.67
+        },
+        "cardEnvironment": 3,
+        "attackRaw": 54.1325,
+        "defenceRaw": 21.2695,
+        "finishingRaw": 44.5,
+        "cornersRaw": 3.67,
+        "cardsRaw": 0.5953200000000001,
+        "disciplineRaw": 16.9176,
+        "goalkeeperRaw": 2.67,
+        "chanceCreationRaw": 86.33333333333334,
+        "formRaw": 61.646666666666675
+      },
+      "categoryRanks": {
+        "attackRating": 19,
+        "defenceRating": 8,
+        "chanceCreationRating": 22,
+        "finishingRating": 8,
+        "cornerRating": 27,
+        "disciplineRating": 1,
+        "goalkeeperRating": 6,
+        "currentFormRating": 14
+      }
+    },
+    {
+      "team": "Portugal",
+      "group": "K",
+      "overallRank": 8,
+      "overallPowerScore": 62.4,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 100,
+          "club": 775.65,
+          "round1": 49.92,
+          "rank": 1
+        },
+        "defenceRating": {
+          "combined": 56.1,
+          "club": 36.48,
+          "round1": 27.58,
+          "rank": 31
+        },
+        "chanceCreationRating": {
+          "combined": 40.4,
+          "club": 16.64,
+          "round1": 69,
+          "rank": 23
+        },
+        "finishingRating": {
+          "combined": 58.8,
+          "club": 3.99,
+          "round1": 38,
+          "rank": 14
+        },
+        "cornerRating": {
+          "combined": 24.2,
+          "club": 0,
+          "round1": 3.33,
+          "rank": 30
+        },
+        "disciplineRating": {
+          "combined": 49.4,
+          "club": 18.85,
+          "round1": 13.64,
+          "rank": 26
+        },
+        "goalkeeperRating": {
+          "combined": 63.4,
+          "club": 5.81,
+          "round1": 3,
+          "rank": 16
+        },
+        "currentFormRating": {
+          "combined": 73,
+          "club": null,
+          "round1": 67.02,
+          "rank": 13
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 135,
+        "assists": 112,
+        "chancesCreated": 863,
+        "cornersInvolved": 0,
+        "yellowCards": 109,
+        "redCards": 2,
+        "foulsCommitted": 561,
+        "attackRaw": 775.6500000000001,
+        "defenceRaw": 36.48437409317009,
+        "finishingRaw": 3.9938202616527514,
+        "cornersRaw": 0,
+        "cardsRaw": 1.6896178343949044,
+        "disciplineRaw": 18.8484076433121,
+        "goalkeeperRaw": 5.810268884360003,
+        "chanceCreationRaw": 16.643876142265462
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 1,
+        "goalDifference": 5,
+        "finishingEfficiency": 1.52,
+        "averages": {
+          "goalsFor": 2,
+          "goalsAgainst": 0.33,
+          "shots": 12.33,
+          "shotsOnTarget": 4,
+          "xG": 1.32,
+          "cornersFor": 3.33,
+          "cornersAgainst": 3.67,
+          "yellowCards": 1.33,
+          "savesFor": 3
+        },
+        "cardEnvironment": 2.3333333333333335,
+        "attackRaw": 49.9155,
+        "defenceRaw": 27.580000000000002,
+        "finishingRaw": 38,
+        "cornersRaw": 3.33,
+        "cardsRaw": 2.3993200000000003,
+        "disciplineRaw": 13.637599999999999,
+        "goalkeeperRaw": 3,
+        "chanceCreationRaw": 69,
+        "formRaw": 67.01666666666667
+      },
+      "categoryRanks": {
+        "attackRating": 1,
+        "defenceRating": 31,
+        "chanceCreationRating": 23,
+        "finishingRating": 14,
+        "cornerRating": 30,
+        "disciplineRating": 26,
+        "goalkeeperRating": 16,
+        "currentFormRating": 13
+      }
+    },
+    {
+      "team": "Switzerland",
+      "group": "B",
+      "overallRank": 9,
+      "overallPowerScore": 61.5,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 50.6,
+          "club": 392.9,
+          "round1": 61.59,
+          "rank": 25
+        },
+        "defenceRating": {
+          "combined": 60.2,
+          "club": 41.85,
+          "round1": 22.12,
+          "rank": 19
+        },
+        "chanceCreationRating": {
+          "combined": 60.2,
+          "club": 9,
+          "round1": 110.67,
+          "rank": 14
+        },
+        "finishingRating": {
+          "combined": 39.9,
+          "club": 2.73,
+          "round1": 27.5,
+          "rank": 26
+        },
+        "cornerRating": {
+          "combined": 51.5,
+          "club": 0,
+          "round1": 6.33,
+          "rank": 7
+        },
+        "disciplineRating": {
+          "combined": 64.2,
+          "club": 18.87,
+          "round1": 14.72,
+          "rank": 18
+        },
+        "goalkeeperRating": {
+          "combined": 88.2,
+          "club": 7.8,
+          "round1": 3.67,
+          "rank": 2
+        },
+        "currentFormRating": {
+          "combined": 78.3,
+          "club": null,
+          "round1": 76.31,
+          "rank": 8
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 81,
+        "assists": 54,
+        "chancesCreated": 410,
+        "cornersInvolved": 0,
+        "yellowCards": 90,
+        "redCards": 5,
+        "foulsCommitted": 576,
+        "attackRaw": 392.9,
+        "defenceRaw": 41.84856960982104,
+        "finishingRaw": 2.7251827068652923,
+        "cornersRaw": 0,
+        "cardsRaw": 1.7043971631205674,
+        "disciplineRaw": 18.865248226950353,
+        "goalkeeperRaw": 7.797050522420141,
+        "chanceCreationRaw": 9.00319620194015
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
+        "goalDifference": 4,
+        "finishingEfficiency": 1.1,
+        "averages": {
+          "goalsFor": 2.33,
+          "goalsAgainst": 1,
+          "shots": 15,
+          "shotsOnTarget": 6,
+          "xG": 2.12,
+          "cornersFor": 6.33,
+          "cornersAgainst": 4.33,
+          "yellowCards": 1,
+          "savesFor": 3.67
+        },
+        "cardEnvironment": 3,
+        "attackRaw": 61.589999999999996,
+        "defenceRaw": 22.1195,
+        "finishingRaw": 27.500000000000004,
+        "cornersRaw": 6.33,
+        "cardsRaw": 1.804,
+        "disciplineRaw": 14.72,
+        "goalkeeperRaw": 3.67,
+        "chanceCreationRaw": 110.66666666666667,
+        "formRaw": 76.31333333333335
+      },
+      "categoryRanks": {
+        "attackRating": 25,
+        "defenceRating": 19,
+        "chanceCreationRating": 14,
+        "finishingRating": 26,
+        "cornerRating": 7,
+        "disciplineRating": 18,
+        "goalkeeperRating": 2,
+        "currentFormRating": 8
+      }
+    },
+    {
+      "team": "Brazil",
+      "group": "C",
+      "overallRank": 10,
+      "overallPowerScore": 61.2,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 74.4,
+          "club": 573.95,
+          "round1": 61.92,
+          "rank": 7
+        },
+        "defenceRating": {
+          "combined": 63.8,
+          "club": 40.91,
+          "round1": 27.86,
+          "rank": 12
+        },
+        "chanceCreationRating": {
+          "combined": 58.9,
+          "club": 12.01,
+          "round1": 103.33,
+          "rank": 15
+        },
+        "finishingRating": {
+          "combined": 39.2,
+          "club": 4.48,
+          "round1": 23.75,
+          "rank": 27
+        },
+        "cornerRating": {
+          "combined": 42.4,
+          "club": 0,
+          "round1": 5.33,
+          "rank": 13
+        },
+        "disciplineRating": {
+          "combined": 29.7,
+          "club": 18.56,
+          "round1": 12.52,
+          "rank": 41
+        },
+        "goalkeeperRating": {
+          "combined": 63.4,
+          "club": 5.47,
+          "round1": 3.33,
+          "rank": 15
+        },
+        "currentFormRating": {
+          "combined": 84.7,
+          "club": null,
+          "round1": 87.66,
+          "rank": 5
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 140,
+        "assists": 54,
+        "chancesCreated": 589,
+        "cornersInvolved": 0,
+        "yellowCards": 120,
+        "redCards": 4,
+        "foulsCommitted": 654,
+        "attackRaw": 573.95,
+        "defenceRaw": 40.90601794359142,
+        "finishingRaw": 4.48302853483242,
+        "cornersRaw": 0,
+        "cardsRaw": 2.1162692847124824,
+        "disciplineRaw": 18.56381486676017,
+        "goalkeeperRaw": 5.474098057354301,
+        "chanceCreationRaw": 12.008112146872552
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
+        "goalDifference": 6,
+        "finishingEfficiency": 0.95,
+        "averages": {
+          "goalsFor": 2.33,
+          "goalsAgainst": 0.33,
+          "shots": 13.67,
+          "shotsOnTarget": 6.33,
+          "xG": 2.45,
+          "cornersFor": 5.33,
+          "cornersAgainst": 4.33,
+          "yellowCards": 1.67,
+          "savesFor": 3.33
+        },
+        "cardEnvironment": 3,
+        "attackRaw": 61.9165,
+        "defenceRaw": 27.860500000000002,
+        "finishingRaw": 23.75,
+        "cornersRaw": 5.33,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 3.33,
+        "chanceCreationRaw": 103.33333333333333,
+        "formRaw": 87.66333333333334
+      },
+      "categoryRanks": {
+        "attackRating": 7,
+        "defenceRating": 12,
+        "chanceCreationRating": 15,
+        "finishingRating": 27,
+        "cornerRating": 13,
+        "disciplineRating": 41,
+        "goalkeeperRating": 15,
+        "currentFormRating": 5
+      }
+    },
+    {
+      "team": "Mexico",
+      "group": "A",
+      "overallRank": 11,
+      "overallPowerScore": 60.8,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 64.5,
+          "club": 505.3,
+          "round1": 50.48,
+          "rank": 14
+        },
+        "defenceRating": {
+          "combined": 68.3,
+          "club": 42.76,
+          "round1": 29.42,
+          "rank": 7
+        },
+        "chanceCreationRating": {
+          "combined": 45.9,
+          "club": 11.76,
+          "round1": 85.67,
+          "rank": 20
+        },
+        "finishingRating": {
+          "combined": 62.4,
+          "club": 4.36,
+          "round1": 39.75,
+          "rank": 12
+        },
+        "cornerRating": {
+          "combined": 6,
+          "club": 0,
+          "round1": 1.33,
+          "rank": 47
+        },
+        "disciplineRating": {
+          "combined": 76.1,
+          "club": 18.7,
+          "round1": 15.8,
+          "rank": 15
+        },
+        "goalkeeperRating": {
+          "combined": 52.1,
+          "club": 5.92,
+          "round1": 1.67,
+          "rank": 28
+        },
+        "currentFormRating": {
+          "combined": 92.9,
+          "club": null,
+          "round1": 102,
+          "rank": 3
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 123,
+        "assists": 46,
+        "chancesCreated": 522,
+        "cornersInvolved": 0,
+        "yellowCards": 103,
+        "redCards": 2,
+        "foulsCommitted": 581,
+        "attackRaw": 505.3,
+        "defenceRaw": 42.76483173442972,
+        "finishingRaw": 4.362991427726869,
+        "cornersRaw": 0,
+        "cardsRaw": 1.9293181818181817,
+        "disciplineRaw": 18.703030303030303,
+        "goalkeeperRaw": 5.919302394324564,
+        "chanceCreationRaw": 11.762341117351461
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 0,
+        "goalDifference": 6,
+        "finishingEfficiency": 1.59,
+        "averages": {
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "shots": 11.67,
+          "shotsOnTarget": 4.33,
+          "xG": 1.26,
+          "cornersFor": 1.33,
+          "cornersAgainst": 2.67,
+          "yellowCards": 0.67,
+          "savesFor": 1.67
+        },
+        "cardEnvironment": 2,
+        "attackRaw": 50.476499999999994,
+        "defenceRaw": 29.4195,
+        "finishingRaw": 39.75,
+        "cornersRaw": 1.33,
+        "cardsRaw": 1.2086800000000002,
+        "disciplineRaw": 15.8024,
+        "goalkeeperRaw": 1.67,
+        "chanceCreationRaw": 85.66666666666666,
+        "formRaw": 102
+      },
+      "categoryRanks": {
+        "attackRating": 14,
+        "defenceRating": 7,
+        "chanceCreationRating": 20,
+        "finishingRating": 12,
+        "cornerRating": 47,
+        "disciplineRating": 15,
+        "goalkeeperRating": 28,
+        "currentFormRating": 3
+      }
+    },
+    {
+      "team": "United States",
+      "group": "D",
+      "overallRank": 12,
+      "overallPowerScore": 60.8,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 74,
+          "club": 569.5,
+          "round1": 65.19,
+          "rank": 8
+        },
+        "defenceRating": {
+          "combined": 61.2,
+          "club": 45.15,
+          "round1": 17.16,
+          "rank": 16
+        },
+        "chanceCreationRating": {
+          "combined": 57.4,
+          "club": 12.65,
+          "round1": 100,
+          "rank": 18
+        },
+        "finishingRating": {
+          "combined": 66.2,
+          "club": 3.31,
+          "round1": 44.25,
+          "rank": 11
+        },
+        "cornerRating": {
+          "combined": 51.5,
+          "club": 0,
+          "round1": 6.33,
+          "rank": 8
+        },
+        "disciplineRating": {
+          "combined": 34.6,
+          "club": 18.86,
+          "round1": 12.52,
+          "rank": 37
+        },
+        "goalkeeperRating": {
+          "combined": 42.2,
+          "club": 5.2,
+          "round1": 1.33,
+          "rank": 36
+        },
+        "currentFormRating": {
+          "combined": 74.4,
+          "club": null,
+          "round1": 69.37,
+          "rank": 12
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 108,
+        "assists": 63,
+        "chancesCreated": 646,
+        "cornersInvolved": 0,
+        "yellowCards": 103,
+        "redCards": 3,
+        "foulsCommitted": 595,
+        "attackRaw": 569.5,
+        "defenceRaw": 45.15376972085592,
+        "finishingRaw": 3.309105145794679,
+        "cornersRaw": 0,
+        "cardsRaw": 1.6948433420365534,
+        "disciplineRaw": 18.861618798955615,
+        "goalkeeperRaw": 5.201882649326774,
+        "chanceCreationRaw": 12.648135223926328
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 4,
+        "goalDifference": 4,
+        "finishingEfficiency": 1.77,
+        "averages": {
+          "goalsFor": 2.67,
+          "goalsAgainst": 1.33,
+          "shots": 14.67,
+          "shotsOnTarget": 5,
+          "xG": 1.5,
+          "cornersFor": 6.33,
+          "cornersAgainst": 2.33,
+          "yellowCards": 1.67,
+          "savesFor": 1.33
+        },
+        "cardEnvironment": 4.666666666666667,
+        "attackRaw": 65.1945,
+        "defenceRaw": 17.160500000000003,
+        "finishingRaw": 44.25,
+        "cornersRaw": 6.33,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 1.33,
+        "chanceCreationRaw": 100,
+        "formRaw": 69.36999999999999
+      },
+      "categoryRanks": {
+        "attackRating": 8,
+        "defenceRating": 16,
+        "chanceCreationRating": 18,
+        "finishingRating": 11,
+        "cornerRating": 8,
+        "disciplineRating": 37,
+        "goalkeeperRating": 36,
+        "currentFormRating": 12
+      }
+    },
+    {
+      "team": "Canada",
+      "group": "B",
+      "overallRank": 13,
+      "overallPowerScore": 59.4,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 46.3,
+          "club": 355.3,
+          "round1": 71.63,
+          "rank": 27
+        },
+        "defenceRating": {
+          "combined": 56.2,
+          "club": 40.56,
+          "round1": 20.13,
+          "rank": 30
+        },
+        "chanceCreationRating": {
+          "combined": 72.7,
+          "club": 10.66,
+          "round1": 125,
+          "rank": 6
+        },
+        "finishingRating": {
+          "combined": 41,
+          "club": 3.52,
+          "round1": 26.75,
+          "rank": 25
+        },
+        "cornerRating": {
+          "combined": 100,
+          "club": 0,
+          "round1": 11.67,
+          "rank": 1
+        },
+        "disciplineRating": {
+          "combined": 31.9,
+          "club": 18.7,
+          "round1": 12.52,
+          "rank": 39
+        },
+        "goalkeeperRating": {
+          "combined": 61,
+          "club": 7.22,
+          "round1": 1.33,
+          "rank": 21
+        },
+        "currentFormRating": {
+          "combined": 69.3,
+          "club": null,
+          "round1": 60.35,
+          "rank": 16
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 78,
+        "assists": 47,
+        "chancesCreated": 362,
+        "cornersInvolved": 0,
+        "yellowCards": 87,
+        "redCards": 4,
+        "foulsCommitted": 471,
+        "attackRaw": 355.3,
+        "defenceRaw": 40.55677176176577,
+        "finishingRaw": 3.523477300675082,
+        "cornersRaw": 0,
+        "cardsRaw": 1.9122641509433964,
+        "disciplineRaw": 18.69639794168096,
+        "goalkeeperRaw": 7.223128466383918,
+        "chanceCreationRaw": 10.66077747383743
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 3,
+        "goalDifference": 5,
+        "finishingEfficiency": 1.07,
+        "averages": {
+          "goalsFor": 2.67,
+          "goalsAgainst": 1,
+          "shots": 19.33,
+          "shotsOnTarget": 7,
+          "xG": 2.5,
+          "cornersFor": 11.67,
+          "cornersAgainst": 2.33,
+          "yellowCards": 1.67,
+          "savesFor": 1.33
+        },
+        "cardEnvironment": 3.3333333333333335,
+        "attackRaw": 71.6255,
+        "defenceRaw": 20.1305,
+        "finishingRaw": 26.75,
+        "cornersRaw": 11.67,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 1.33,
+        "chanceCreationRaw": 125,
+        "formRaw": 60.353333333333325
+      },
+      "categoryRanks": {
+        "attackRating": 27,
+        "defenceRating": 30,
+        "chanceCreationRating": 6,
+        "finishingRating": 25,
+        "cornerRating": 1,
+        "disciplineRating": 39,
+        "goalkeeperRating": 21,
+        "currentFormRating": 16
+      }
+    },
+    {
+      "team": "Argentina",
+      "group": "J",
+      "overallRank": 14,
+      "overallPowerScore": 59.2,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 83.8,
+          "club": 645,
+          "round1": 64.03,
+          "rank": 4
+        },
+        "defenceRating": {
+          "combined": 59.8,
+          "club": 39.92,
+          "round1": 25.31,
+          "rank": 21
+        },
+        "chanceCreationRating": {
+          "combined": 30.4,
+          "club": 16.36,
+          "round1": 55.67,
+          "rank": 27
+        },
+        "finishingRating": {
+          "combined": 53.6,
+          "club": 4.5,
+          "round1": 33.5,
+          "rank": 17
+        },
+        "cornerRating": {
+          "combined": 21.2,
+          "club": 0,
+          "round1": 3,
+          "rank": 36
+        },
+        "disciplineRating": {
+          "combined": 71.5,
+          "club": 18.42,
+          "round1": 15.8,
+          "rank": 16
+        },
+        "goalkeeperRating": {
+          "combined": 36.2,
+          "club": 5.56,
+          "round1": 0.33,
+          "rank": 40
+        },
+        "currentFormRating": {
+          "combined": 96.5,
+          "club": null,
+          "round1": 108.37,
+          "rank": 2
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 125,
+        "assists": 85,
+        "chancesCreated": 700,
+        "cornersInvolved": 0,
+        "yellowCards": 117,
+        "redCards": 7,
+        "foulsCommitted": 579,
+        "attackRaw": 645,
+        "defenceRaw": 39.91570052207147,
+        "finishingRaw": 4.504775061565259,
+        "cornersRaw": 0,
+        "cardsRaw": 2.2780873493975906,
+        "disciplineRaw": 18.42168674698795,
+        "goalkeeperRaw": 5.555288605922278,
+        "chanceCreationRaw": 16.36134302360502
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 8,
+        "goalsAgainst": 1,
+        "goalDifference": 7,
+        "finishingEfficiency": 1.34,
+        "averages": {
+          "goalsFor": 2.67,
+          "goalsAgainst": 0.33,
+          "shots": 11.33,
+          "shotsOnTarget": 5,
+          "xG": 1.99,
+          "cornersFor": 3,
+          "cornersAgainst": 2.33,
+          "yellowCards": 0.67,
+          "savesFor": 0.33
+        },
+        "cardEnvironment": 3.5,
+        "attackRaw": 64.02550000000001,
+        "defenceRaw": 25.3105,
+        "finishingRaw": 33.5,
+        "cornersRaw": 3,
+        "cardsRaw": 1.2086800000000002,
+        "disciplineRaw": 15.8024,
+        "goalkeeperRaw": 0.33,
+        "chanceCreationRaw": 55.666666666666664,
+        "formRaw": 108.36999999999999
+      },
+      "categoryRanks": {
+        "attackRating": 4,
+        "defenceRating": 21,
+        "chanceCreationRating": 27,
+        "finishingRating": 17,
+        "cornerRating": 36,
+        "disciplineRating": 16,
+        "goalkeeperRating": 40,
+        "currentFormRating": 2
+      }
+    },
+    {
+      "team": "Colombia",
+      "group": "K",
+      "overallRank": 15,
+      "overallPowerScore": 59.1,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 64.3,
+          "club": 505.9,
+          "round1": 46.02,
+          "rank": 15
+        },
+        "defenceRating": {
+          "combined": 63.7,
+          "club": 41.8,
+          "round1": 26.16,
+          "rank": 13
+        },
+        "chanceCreationRating": {
+          "combined": 75.5,
+          "club": 11.79,
+          "round1": 126.67,
+          "rank": 4
+        },
+        "finishingRating": {
+          "combined": 36.3,
+          "club": 3.42,
+          "round1": 23.75,
+          "rank": 32
+        },
+        "cornerRating": {
+          "combined": 36.4,
+          "club": 0,
+          "round1": 4.67,
+          "rank": 18
+        },
+        "disciplineRating": {
+          "combined": 39.7,
+          "club": 18.26,
+          "round1": 13.64,
+          "rank": 30
+        },
+        "goalkeeperRating": {
+          "combined": 56,
+          "club": 6.68,
+          "round1": 1.33,
+          "rank": 26
+        },
+        "currentFormRating": {
+          "combined": 74.5,
+          "club": null,
+          "round1": 69.66,
+          "rank": 11
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 102,
+        "assists": 65,
+        "chancesCreated": 542,
+        "cornersInvolved": 0,
+        "yellowCards": 137,
+        "redCards": 6,
+        "foulsCommitted": 708,
+        "attackRaw": 505.9,
+        "defenceRaw": 41.80438193996547,
+        "finishingRaw": 3.424542554977337,
+        "cornersRaw": 0,
+        "cardsRaw": 2.5406432748538013,
+        "disciplineRaw": 18.257309941520468,
+        "goalkeeperRaw": 6.683733422863858,
+        "chanceCreationRaw": 11.791170052039616
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 1,
+        "goalDifference": 3,
+        "finishingEfficiency": 0.95,
+        "averages": {
+          "goalsFor": 1.33,
+          "goalsAgainst": 0.33,
+          "shots": 19.67,
+          "shotsOnTarget": 6.33,
+          "xG": 1.41,
+          "cornersFor": 4.67,
+          "cornersAgainst": 3,
+          "yellowCards": 1.33,
+          "savesFor": 1.33
+        },
+        "cardEnvironment": 2,
+        "attackRaw": 46.01650000000001,
+        "defenceRaw": 26.160500000000003,
+        "finishingRaw": 23.75,
+        "cornersRaw": 4.67,
+        "cardsRaw": 2.3993200000000003,
+        "disciplineRaw": 13.637599999999999,
+        "goalkeeperRaw": 1.33,
+        "chanceCreationRaw": 126.66666666666667,
+        "formRaw": 69.66333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 15,
+        "defenceRating": 13,
+        "chanceCreationRating": 4,
+        "finishingRating": 32,
+        "cornerRating": 18,
+        "disciplineRating": 30,
+        "goalkeeperRating": 26,
+        "currentFormRating": 11
+      }
+    },
+    {
+      "team": "Senegal",
+      "group": "I",
+      "overallRank": 16,
+      "overallPowerScore": 59,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 45.6,
+          "club": 351.25,
+          "round1": 68.29,
+          "rank": 30
+        },
+        "defenceRating": {
+          "combined": 50.5,
+          "club": 41.19,
+          "round1": 12.55,
+          "rank": 37
+        },
+        "chanceCreationRating": {
+          "combined": 72.9,
+          "club": 9.12,
+          "round1": 128,
+          "rank": 5
+        },
+        "finishingRating": {
+          "combined": 55.1,
+          "club": 2.92,
+          "round1": 37.5,
+          "rank": 16
+        },
+        "cornerRating": {
+          "combined": 54.5,
+          "club": 0,
+          "round1": 6.67,
+          "rank": 6
+        },
+        "disciplineRating": {
+          "combined": 78.4,
+          "club": 18.84,
+          "round1": 15.8,
+          "rank": 13
+        },
+        "goalkeeperRating": {
+          "combined": 75.8,
+          "club": 7.13,
+          "round1": 3,
+          "rank": 8
+        },
+        "currentFormRating": {
+          "combined": 55.5,
+          "club": null,
+          "round1": 36.02,
+          "rank": 22
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 76,
+        "assists": 43,
+        "chancesCreated": 367,
+        "cornersInvolved": 0,
+        "yellowCards": 85,
+        "redCards": 4,
+        "foulsCommitted": 527,
+        "attackRaw": 351.25,
+        "defenceRaw": 41.188101159536444,
+        "finishingRaw": 2.9212043561819345,
+        "cornersRaw": 0,
+        "cardsRaw": 1.7386115444617785,
+        "disciplineRaw": 18.839313572542903,
+        "goalkeeperRaw": 7.134849455477259,
+        "chanceCreationRaw": 9.1249199231262
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 8,
+        "goalsAgainst": 6,
+        "goalDifference": 2,
+        "finishingEfficiency": 1.5,
+        "averages": {
+          "goalsFor": 2.67,
+          "goalsAgainst": 2,
+          "shots": 16.67,
+          "shotsOnTarget": 6,
+          "xG": 1.78,
+          "cornersFor": 6.67,
+          "cornersAgainst": 4.67,
+          "yellowCards": 0.67,
+          "savesFor": 3
+        },
+        "cardEnvironment": 4,
+        "attackRaw": 68.2945,
+        "defenceRaw": 12.55,
+        "finishingRaw": 37.5,
+        "cornersRaw": 6.67,
+        "cardsRaw": 1.2086800000000002,
+        "disciplineRaw": 15.8024,
+        "goalkeeperRaw": 3,
+        "chanceCreationRaw": 128,
+        "formRaw": 36.019999999999996
+      },
+      "categoryRanks": {
+        "attackRating": 30,
+        "defenceRating": 37,
+        "chanceCreationRating": 5,
+        "finishingRating": 16,
+        "cornerRating": 6,
+        "disciplineRating": 13,
+        "goalkeeperRating": 8,
+        "currentFormRating": 22
+      }
+    },
+    {
+      "team": "Türkiye",
+      "group": "D",
+      "overallRank": 17,
+      "overallPowerScore": 58.9,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 72,
+          "club": 567.95,
+          "round1": 39.08,
+          "rank": 10
+        },
+        "defenceRating": {
+          "combined": 60.6,
+          "club": 45.84,
+          "round1": 15.24,
+          "rank": 17
+        },
+        "chanceCreationRating": {
+          "combined": 99.1,
+          "club": 18.28,
+          "round1": 147.33,
+          "rank": 2
+        },
+        "finishingRating": {
+          "combined": 18.3,
+          "club": 3.59,
+          "round1": 11.25,
+          "rank": 44
+        },
+        "cornerRating": {
+          "combined": 60.5,
+          "club": 0,
+          "round1": 7.33,
+          "rank": 5
+        },
+        "disciplineRating": {
+          "combined": 77.6,
+          "club": 18.79,
+          "round1": 15.8,
+          "rank": 14
+        },
+        "goalkeeperRating": {
+          "combined": 40.4,
+          "club": 3.66,
+          "round1": 2.67,
+          "rank": 38
+        },
+        "currentFormRating": {
+          "combined": 41.7,
+          "club": null,
+          "round1": 11.65,
+          "rank": 35
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 86,
+        "assists": 73,
+        "chancesCreated": 681,
+        "cornersInvolved": 0,
+        "yellowCards": 89,
+        "redCards": 3,
+        "foulsCommitted": 528,
+        "attackRaw": 567.95,
+        "defenceRaw": 45.83567203215739,
+        "finishingRaw": 3.591480673750638,
+        "cornersRaw": 0,
+        "cardsRaw": 1.804133545310016,
+        "disciplineRaw": 18.791732909379967,
+        "goalkeeperRaw": 3.6645631293211456,
+        "chanceCreationRaw": 18.283142313581738
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": -2,
+        "finishingEfficiency": 0.45,
+        "averages": {
+          "goalsFor": 1,
+          "goalsAgainst": 1.67,
+          "shots": 23.67,
+          "shotsOnTarget": 5.33,
+          "xG": 2.25,
+          "cornersFor": 7.33,
+          "cornersAgainst": 4.67,
+          "yellowCards": 0.67,
+          "savesFor": 2.67
+        },
+        "cardEnvironment": 1.3333333333333333,
+        "attackRaw": 39.0765,
+        "defenceRaw": 15.2395,
+        "finishingRaw": 11.25,
+        "cornersRaw": 7.33,
+        "cardsRaw": 1.2086800000000002,
+        "disciplineRaw": 15.8024,
+        "goalkeeperRaw": 2.67,
+        "chanceCreationRaw": 147.33333333333334,
+        "formRaw": 11.65
+      },
+      "categoryRanks": {
+        "attackRating": 10,
+        "defenceRating": 17,
+        "chanceCreationRating": 2,
+        "finishingRating": 44,
+        "cornerRating": 5,
+        "disciplineRating": 14,
+        "goalkeeperRating": 38,
+        "currentFormRating": 35
+      }
+    },
+    {
+      "team": "Sweden",
+      "group": "F",
+      "overallRank": 18,
+      "overallPowerScore": 57.3,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 55.3,
+          "club": 428.5,
+          "round1": 62.61,
+          "rank": 21
+        },
+        "defenceRating": {
+          "combined": 49.9,
+          "club": 43.06,
+          "round1": 8.45,
+          "rank": 38
+        },
+        "chanceCreationRating": {
+          "combined": 58.3,
+          "club": 11.56,
+          "round1": 103.33,
+          "rank": 17
+        },
+        "finishingRating": {
+          "combined": 86,
+          "club": 2.75,
+          "round1": 58.75,
+          "rank": 2
+        },
+        "cornerRating": {
+          "combined": 45.5,
+          "club": 0,
+          "round1": 5.67,
+          "rank": 12
+        },
+        "disciplineRating": {
+          "combined": 39.1,
+          "club": 19.14,
+          "round1": 12.52,
+          "rank": 31
+        },
+        "goalkeeperRating": {
+          "combined": 62.2,
+          "club": 7.01,
+          "round1": 1.67,
+          "rank": 19
+        },
+        "currentFormRating": {
+          "combined": 53,
+          "club": null,
+          "round1": 31.66,
+          "rank": 23
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 75,
+        "assists": 54,
+        "chancesCreated": 490,
+        "cornersInvolved": 0,
+        "yellowCards": 74,
+        "redCards": 1,
+        "foulsCommitted": 600,
+        "attackRaw": 428.5,
+        "defenceRaw": 43.05741478911207,
+        "finishingRaw": 2.748203489200578,
+        "cornersRaw": 0,
+        "cardsRaw": 1.3739376770538243,
+        "disciplineRaw": 19.138810198300284,
+        "goalkeeperRaw": 7.007918897461474,
+        "chanceCreationRaw": 11.564440282556033
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 7,
+        "goalsAgainst": 7,
+        "goalDifference": 0,
+        "finishingEfficiency": 2.35,
+        "averages": {
+          "goalsFor": 2.33,
+          "goalsAgainst": 2.33,
+          "shots": 13.33,
+          "shotsOnTarget": 6.67,
+          "xG": 0.99,
+          "cornersFor": 5.67,
+          "cornersAgainst": 2,
+          "yellowCards": 1.67,
+          "savesFor": 1.67
+        },
+        "cardEnvironment": 2.3333333333333335,
+        "attackRaw": 62.613499999999995,
+        "defenceRaw": 8.4495,
+        "finishingRaw": 58.75,
+        "cornersRaw": 5.67,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 1.67,
+        "chanceCreationRaw": 103.33333333333333,
+        "formRaw": 31.663333333333334
+      },
+      "categoryRanks": {
+        "attackRating": 21,
+        "defenceRating": 38,
+        "chanceCreationRating": 17,
+        "finishingRating": 2,
+        "cornerRating": 12,
+        "disciplineRating": 31,
+        "goalkeeperRating": 19,
+        "currentFormRating": 23
+      }
+    },
+    {
+      "team": "Croatia",
+      "group": "L",
+      "overallRank": 19,
+      "overallPowerScore": 57.2,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 72.5,
+          "club": 570.4,
+          "round1": 41.67,
+          "rank": 9
+        },
+        "defenceRating": {
+          "combined": 53.3,
+          "club": 41.41,
+          "round1": 15.24,
+          "rank": 34
+        },
+        "chanceCreationRating": {
+          "combined": 29.8,
+          "club": 12.68,
+          "round1": 61.67,
+          "rank": 28
+        },
+        "finishingRating": {
+          "combined": 69.3,
+          "club": 4.34,
+          "round1": 44.5,
+          "rank": 6
+        },
+        "cornerRating": {
+          "combined": 15.1,
+          "club": 0,
+          "round1": 2.33,
+          "rank": 41
+        },
+        "disciplineRating": {
+          "combined": 80.9,
+          "club": 18.99,
+          "round1": 15.8,
+          "rank": 11
+        },
+        "goalkeeperRating": {
+          "combined": 71,
+          "club": 6.95,
+          "round1": 2.67,
+          "rank": 10
+        },
+        "currentFormRating": {
+          "combined": 61,
+          "club": null,
+          "round1": 45.67,
+          "rank": 20
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 131,
+        "assists": 57,
+        "chancesCreated": 600,
+        "cornersInvolved": 0,
+        "yellowCards": 90,
+        "redCards": 2,
+        "foulsCommitted": 579,
+        "attackRaw": 570.4,
+        "defenceRaw": 41.40860984900547,
+        "finishingRaw": 4.33830699317425,
+        "cornersRaw": 0,
+        "cardsRaw": 1.527606951871658,
+        "disciplineRaw": 18.994652406417114,
+        "goalkeeperRaw": 6.9545379279892545,
+        "chanceCreationRaw": 12.677129137306128
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
+        "goalDifference": 0,
+        "finishingEfficiency": 1.78,
+        "averages": {
+          "goalsFor": 1.67,
+          "goalsAgainst": 1.67,
+          "shots": 8,
+          "shotsOnTarget": 3.67,
+          "xG": 0.94,
+          "cornersFor": 2.33,
+          "cornersAgainst": 5.67,
+          "yellowCards": 0.67,
+          "savesFor": 2.67
+        },
+        "cardEnvironment": 2,
+        "attackRaw": 41.66799999999999,
+        "defenceRaw": 15.2395,
+        "finishingRaw": 44.5,
+        "cornersRaw": 2.33,
+        "cardsRaw": 1.2086800000000002,
+        "disciplineRaw": 15.8024,
+        "goalkeeperRaw": 2.67,
+        "chanceCreationRaw": 61.66666666666667,
+        "formRaw": 45.669999999999995
+      },
+      "categoryRanks": {
+        "attackRating": 9,
+        "defenceRating": 34,
+        "chanceCreationRating": 28,
+        "finishingRating": 6,
+        "cornerRating": 41,
+        "disciplineRating": 11,
+        "goalkeeperRating": 10,
+        "currentFormRating": 20
+      }
+    },
+    {
+      "team": "Norway",
+      "group": "I",
+      "overallRank": 20,
+      "overallPowerScore": 57.1,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 70.6,
+          "club": 543.35,
+          "round1": 64.94,
+          "rank": 11
+        },
+        "defenceRating": {
+          "combined": 52.7,
+          "club": 44.44,
+          "round1": 9.01,
+          "rank": 35
+        },
+        "chanceCreationRating": {
+          "combined": 40.3,
+          "club": 13.34,
+          "round1": 75,
+          "rank": 24
+        },
+        "finishingRating": {
+          "combined": 47.3,
+          "club": 3.44,
+          "round1": 31.25,
+          "rank": 21
+        },
+        "cornerRating": {
+          "combined": 36.4,
+          "club": 0,
+          "round1": 4.67,
+          "rank": 17
+        },
+        "disciplineRating": {
+          "combined": 98,
+          "club": 19.12,
+          "round1": 16.92,
+          "rank": 3
+        },
+        "goalkeeperRating": {
+          "combined": 56.7,
+          "club": 5.76,
+          "round1": 2.33,
+          "rank": 25
+        },
+        "currentFormRating": {
+          "combined": 64.8,
+          "club": null,
+          "round1": 52.37,
+          "rank": 18
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 100,
+        "assists": 75,
+        "chancesCreated": 597,
+        "cornersInvolved": 0,
+        "yellowCards": 74,
+        "redCards": 2,
+        "foulsCommitted": 539,
+        "attackRaw": 543.35,
+        "defenceRaw": 44.43618408787337,
+        "finishingRaw": 3.435245620061834,
+        "cornersRaw": 0,
+        "cardsRaw": 1.3662200282087449,
+        "disciplineRaw": 19.119887165021158,
+        "goalkeeperRaw": 5.758330470628651,
+        "chanceCreationRaw": 13.335623497080041
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 7,
+        "goalDifference": 1,
+        "finishingEfficiency": 1.25,
+        "averages": {
+          "goalsFor": 2.67,
+          "goalsAgainst": 2.33,
+          "shots": 11.67,
+          "shotsOnTarget": 5.33,
+          "xG": 2.14,
+          "cornersFor": 4.67,
+          "cornersAgainst": 3.67,
+          "yellowCards": 0.33,
+          "savesFor": 2.33
+        },
+        "cardEnvironment": 1.5,
+        "attackRaw": 64.93650000000001,
+        "defenceRaw": 9.0105,
+        "finishingRaw": 31.25,
+        "cornersRaw": 4.67,
+        "cardsRaw": 0.5953200000000001,
+        "disciplineRaw": 16.9176,
+        "goalkeeperRaw": 2.33,
+        "chanceCreationRaw": 75,
+        "formRaw": 52.37
+      },
+      "categoryRanks": {
+        "attackRating": 11,
+        "defenceRating": 35,
+        "chanceCreationRating": 24,
+        "finishingRating": 21,
+        "cornerRating": 17,
+        "disciplineRating": 3,
+        "goalkeeperRating": 25,
+        "currentFormRating": 18
+      }
+    },
+    {
+      "team": "Morocco",
+      "group": "C",
+      "overallRank": 21,
+      "overallPowerScore": 56.2,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 52.2,
+          "club": 409.15,
+          "round1": 54.39,
+          "rank": 23
+        },
+        "defenceRating": {
+          "combined": 58.2,
+          "club": 41.59,
+          "round1": 20.42,
+          "rank": 25
+        },
+        "chanceCreationRating": {
+          "combined": 65.4,
+          "club": 13.41,
+          "round1": 109.67,
+          "rank": 10
+        },
+        "finishingRating": {
+          "combined": 38.1,
+          "club": 3.69,
+          "round1": 24.5,
+          "rank": 29
+        },
+        "cornerRating": {
+          "combined": 42.4,
+          "club": 0,
+          "round1": 5.33,
+          "rank": 14
+        },
+        "disciplineRating": {
+          "combined": 91.8,
+          "club": 18.74,
+          "round1": 16.92,
+          "rank": 8
+        },
+        "goalkeeperRating": {
+          "combined": 36.1,
+          "club": 4.2,
+          "round1": 1.67,
+          "rank": 41
+        },
+        "currentFormRating": {
+          "combined": 74.9,
+          "club": null,
+          "round1": 70.33,
+          "rank": 10
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 79,
+        "assists": 56,
+        "chancesCreated": 441,
+        "cornersInvolved": 0,
+        "yellowCards": 81,
+        "redCards": 3,
+        "foulsCommitted": 423,
+        "attackRaw": 409.15,
+        "defenceRaw": 41.59120302513047,
+        "finishingRaw": 3.6905348939814697,
+        "cornersRaw": 0,
+        "cardsRaw": 1.8409584086799278,
+        "disciplineRaw": 18.741410488245933,
+        "goalkeeperRaw": 4.204406841244713,
+        "chanceCreationRaw": 13.407386260413693
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 3,
+        "goalDifference": 3,
+        "finishingEfficiency": 0.98,
+        "averages": {
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "shots": 16,
+          "shotsOnTarget": 5.33,
+          "xG": 2.04,
+          "cornersFor": 5.33,
+          "cornersAgainst": 3,
+          "yellowCards": 0.33,
+          "savesFor": 1.67
+        },
+        "cardEnvironment": 2.3333333333333335,
+        "attackRaw": 54.392,
+        "defenceRaw": 20.4195,
+        "finishingRaw": 24.5,
+        "cornersRaw": 5.33,
+        "cardsRaw": 0.5953200000000001,
+        "disciplineRaw": 16.9176,
+        "goalkeeperRaw": 1.67,
+        "chanceCreationRaw": 109.66666666666666,
+        "formRaw": 70.33333333333334
+      },
+      "categoryRanks": {
+        "attackRating": 23,
+        "defenceRating": 25,
+        "chanceCreationRating": 10,
+        "finishingRating": 29,
+        "cornerRating": 14,
+        "disciplineRating": 8,
+        "goalkeeperRating": 41,
+        "currentFormRating": 10
+      }
+    },
+    {
+      "team": "Ivory Coast",
+      "group": "E",
+      "overallRank": 22,
+      "overallPowerScore": 51.9,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 53.4,
+          "club": 429,
+          "round1": 34.76,
+          "rank": 22
+        },
+        "defenceRating": {
+          "combined": 64.6,
+          "club": 43.34,
+          "round1": 24.24,
+          "rank": 11
+        },
+        "chanceCreationRating": {
+          "combined": 35.1,
+          "club": 12.69,
+          "round1": 69,
+          "rank": 26
+        },
+        "finishingRating": {
+          "combined": 36.9,
+          "club": 3.13,
+          "round1": 24.75,
+          "rank": 30
+        },
+        "cornerRating": {
+          "combined": 30.3,
+          "club": 0,
+          "round1": 4,
+          "rank": 24
+        },
+        "disciplineRating": {
+          "combined": 50.6,
+          "club": 18.93,
+          "round1": 13.64,
+          "rank": 25
+        },
+        "goalkeeperRating": {
+          "combined": 64.5,
+          "club": 6.26,
+          "round1": 2.67,
+          "rank": 14
+        },
+        "currentFormRating": {
+          "combined": 67.2,
+          "club": null,
+          "round1": 56.63,
+          "rank": 17
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 76,
+        "assists": 63,
+        "chancesCreated": 472,
+        "cornersInvolved": 0,
+        "yellowCards": 77,
+        "redCards": 2,
+        "foulsCommitted": 542,
+        "attackRaw": 429,
+        "defenceRaw": 43.33643173649486,
+        "finishingRaw": 3.128215682239144,
+        "cornersRaw": 0,
+        "cardsRaw": 1.6578772802653399,
+        "disciplineRaw": 18.925373134328357,
+        "goalkeeperRaw": 6.259518419427866,
+        "chanceCreationRaw": 12.693969952665158
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "goalDifference": 2,
+        "finishingEfficiency": 0.99,
+        "averages": {
+          "goalsFor": 1.33,
+          "goalsAgainst": 0.67,
+          "shots": 10.33,
+          "shotsOnTarget": 3,
+          "xG": 1.35,
+          "cornersFor": 4,
+          "cornersAgainst": 5.67,
+          "yellowCards": 1.33,
+          "savesFor": 2.67
+        },
+        "cardEnvironment": 3.5,
+        "attackRaw": 34.7555,
+        "defenceRaw": 24.2395,
+        "finishingRaw": 24.75,
+        "cornersRaw": 4,
+        "cardsRaw": 2.3993200000000003,
+        "disciplineRaw": 13.637599999999999,
+        "goalkeeperRaw": 2.67,
+        "chanceCreationRaw": 69,
+        "formRaw": 56.63
+      },
+      "categoryRanks": {
+        "attackRating": 22,
+        "defenceRating": 11,
+        "chanceCreationRating": 26,
+        "finishingRating": 30,
+        "cornerRating": 24,
+        "disciplineRating": 25,
+        "goalkeeperRating": 14,
+        "currentFormRating": 17
+      }
+    },
+    {
+      "team": "Egypt",
+      "group": "G",
+      "overallRank": 23,
+      "overallPowerScore": 50.8,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 34.4,
+          "club": 278.45,
+          "round1": 46.05,
+          "rank": 38
+        },
+        "defenceRating": {
+          "combined": 57.2,
+          "club": 40.23,
+          "round1": 21.83,
+          "rank": 28
+        },
+        "chanceCreationRating": {
+          "combined": 60.4,
+          "club": 12.56,
+          "round1": 104.33,
+          "rank": 13
+        },
+        "finishingRating": {
+          "combined": 49,
+          "club": 2.95,
+          "round1": 33.25,
+          "rank": 19
+        },
+        "cornerRating": {
+          "combined": 48.5,
+          "club": 0,
+          "round1": 6,
+          "rank": 10
+        },
+        "disciplineRating": {
+          "combined": 22.1,
+          "club": 18.99,
+          "round1": 11.44,
+          "rank": 42
+        },
+        "goalkeeperRating": {
+          "combined": 59.2,
+          "club": 5.02,
+          "round1": 3.33,
+          "rank": 22
+        },
+        "currentFormRating": {
+          "combined": 63.2,
+          "club": null,
+          "round1": 49.69,
+          "rank": 19
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 23,
+        "goals": 48,
+        "assists": 38,
+        "chancesCreated": 315,
+        "cornersInvolved": 0,
+        "yellowCards": 51,
+        "redCards": 1,
+        "foulsCommitted": 290,
+        "attackRaw": 278.45,
+        "defenceRaw": 40.234874471301794,
+        "finishingRaw": 2.952735723317727,
+        "cornersRaw": 0,
+        "cardsRaw": 1.5035714285714286,
+        "disciplineRaw": 18.99047619047619,
+        "goalkeeperRaw": 5.022726496018591,
+        "chanceCreationRaw": 12.561429889614162
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "goalDifference": 2,
+        "finishingEfficiency": 1.33,
+        "averages": {
+          "goalsFor": 1.67,
+          "goalsAgainst": 1,
+          "shots": 16,
+          "shotsOnTarget": 4.33,
+          "xG": 1.25,
+          "cornersFor": 6,
+          "cornersAgainst": 2.67,
+          "yellowCards": 2,
+          "savesFor": 3.33
+        },
+        "cardEnvironment": 4.666666666666667,
+        "attackRaw": 46.052,
+        "defenceRaw": 21.8305,
+        "finishingRaw": 33.25,
+        "cornersRaw": 6,
+        "cardsRaw": 3.608,
+        "disciplineRaw": 11.440000000000001,
+        "goalkeeperRaw": 3.33,
+        "chanceCreationRaw": 104.33333333333333,
+        "formRaw": 49.68666666666667
+      },
+      "categoryRanks": {
+        "attackRating": 38,
+        "defenceRating": 28,
+        "chanceCreationRating": 13,
+        "finishingRating": 19,
+        "cornerRating": 10,
+        "disciplineRating": 42,
+        "goalkeeperRating": 22,
+        "currentFormRating": 19
+      }
+    },
+    {
+      "team": "Algeria",
+      "group": "J",
+      "overallRank": 24,
+      "overallPowerScore": 50.7,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 62.8,
+          "club": 495.2,
+          "round1": 44.65,
+          "rank": 17
+        },
+        "defenceRating": {
+          "combined": 39.1,
+          "club": 36.43,
+          "round1": 8.73,
+          "rank": 44
+        },
+        "chanceCreationRating": {
+          "combined": 53.3,
+          "club": 16.26,
+          "round1": 87.67,
+          "rank": 19
+        },
+        "finishingRating": {
+          "combined": 51.2,
+          "club": 4.04,
+          "round1": 32.75,
+          "rank": 18
+        },
+        "cornerRating": {
+          "combined": 30.3,
+          "club": 0,
+          "round1": 4,
+          "rank": 25
+        },
+        "disciplineRating": {
+          "combined": 94.6,
+          "club": 18.91,
+          "round1": 16.92,
+          "rank": 6
+        },
+        "goalkeeperRating": {
+          "combined": 41.4,
+          "club": 4.45,
+          "round1": 2,
+          "rank": 37
+        },
+        "currentFormRating": {
+          "combined": 46.3,
+          "club": null,
+          "round1": 19.7,
+          "rank": 32
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 90,
+        "assists": 59,
+        "chancesCreated": 564,
+        "cornersInvolved": 0,
+        "yellowCards": 77,
+        "redCards": 2,
+        "foulsCommitted": 374,
+        "attackRaw": 495.20000000000005,
+        "defenceRaw": 36.43014644006564,
+        "finishingRaw": 4.0435303514377,
+        "cornersRaw": 0,
+        "cardsRaw": 1.5813445378151259,
+        "disciplineRaw": 18.9109243697479,
+        "goalkeeperRaw": 4.44676018370607,
+        "chanceCreationRaw": 16.263977635782748
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 7,
+        "goalDifference": -2,
+        "finishingEfficiency": 1.31,
+        "averages": {
+          "goalsFor": 1.67,
+          "goalsAgainst": 2.33,
+          "shots": 12,
+          "shotsOnTarget": 4.33,
+          "xG": 1.27,
+          "cornersFor": 4,
+          "cornersAgainst": 2,
+          "yellowCards": 0.33,
+          "savesFor": 2
+        },
+        "cardEnvironment": 1.5,
+        "attackRaw": 44.652,
+        "defenceRaw": 8.73,
+        "finishingRaw": 32.75,
+        "cornersRaw": 4,
+        "cardsRaw": 0.5953200000000001,
+        "disciplineRaw": 16.9176,
+        "goalkeeperRaw": 2,
+        "chanceCreationRaw": 87.66666666666667,
+        "formRaw": 19.703333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 17,
+        "defenceRating": 44,
+        "chanceCreationRating": 19,
+        "finishingRating": 18,
+        "cornerRating": 25,
+        "disciplineRating": 6,
+        "goalkeeperRating": 37,
+        "currentFormRating": 32
+      }
+    },
+    {
+      "team": "Ecuador",
+      "group": "E",
+      "overallRank": 25,
+      "overallPowerScore": 50,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 45.9,
+          "club": 373.25,
+          "round1": 32.62,
+          "rank": 29
+        },
+        "defenceRating": {
+          "combined": 62.8,
+          "club": 42.27,
+          "round1": 24.24,
+          "rank": 14
+        },
+        "chanceCreationRating": {
+          "combined": 61.9,
+          "club": 10.65,
+          "round1": 110,
+          "rank": 11
+        },
+        "finishingRating": {
+          "combined": 14.3,
+          "club": 2.93,
+          "round1": 9.75,
+          "rank": 47
+        },
+        "cornerRating": {
+          "combined": 45.5,
+          "club": 0,
+          "round1": 5.67,
+          "rank": 11
+        },
+        "disciplineRating": {
+          "combined": 34.9,
+          "club": 18.88,
+          "round1": 12.52,
+          "rank": 36
+        },
+        "goalkeeperRating": {
+          "combined": 69,
+          "club": 6.74,
+          "round1": 2.67,
+          "rank": 11
+        },
+        "currentFormRating": {
+          "combined": 52.1,
+          "club": null,
+          "round1": 30,
+          "rank": 26
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 74,
+        "assists": 37,
+        "chancesCreated": 423,
+        "cornersInvolved": 0,
+        "yellowCards": 76,
+        "redCards": 7,
+        "foulsCommitted": 519,
+        "attackRaw": 373.25,
+        "defenceRaw": 42.27190674578472,
+        "finishingRaw": 2.9329516679511176,
+        "cornersRaw": 0,
+        "cardsRaw": 1.6848130841121494,
+        "disciplineRaw": 18.878504672897197,
+        "goalkeeperRaw": 6.737861939887702,
+        "chanceCreationRaw": 10.64582186502257
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": 0,
+        "finishingEfficiency": 0.39,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 0.67,
+          "shots": 15.33,
+          "shotsOnTarget": 6.33,
+          "xG": 1.71,
+          "cornersFor": 5.67,
+          "cornersAgainst": 1.67,
+          "yellowCards": 1.67,
+          "savesFor": 2.67
+        },
+        "cardEnvironment": 4.666666666666667,
+        "attackRaw": 32.6175,
+        "defenceRaw": 24.2395,
+        "finishingRaw": 9.75,
+        "cornersRaw": 5.67,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 2.67,
+        "chanceCreationRaw": 110,
+        "formRaw": 30.00333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 29,
+        "defenceRating": 14,
+        "chanceCreationRating": 11,
+        "finishingRating": 47,
+        "cornerRating": 11,
+        "disciplineRating": 36,
+        "goalkeeperRating": 11,
+        "currentFormRating": 26
+      }
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "group": "B",
+      "overallRank": 26,
+      "overallPowerScore": 49.8,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 46.1,
+          "club": 369.7,
+          "round1": 42.02,
+          "rank": 28
+        },
+        "defenceRating": {
+          "combined": 55,
+          "club": 44.36,
+          "round1": 11.7,
+          "rank": 33
+        },
+        "chanceCreationRating": {
+          "combined": 23.6,
+          "club": 9.88,
+          "round1": 58.33,
+          "rank": 37
+        },
+        "finishingRating": {
+          "combined": 100,
+          "club": 3.56,
+          "round1": 66.75,
+          "rank": 1
+        },
+        "cornerRating": {
+          "combined": 30.3,
+          "club": 0,
+          "round1": 4,
+          "rank": 21
+        },
+        "disciplineRating": {
+          "combined": 17.1,
+          "club": 18.68,
+          "round1": 11.44,
+          "rank": 44
+        },
+        "goalkeeperRating": {
+          "combined": 58.2,
+          "club": 6.25,
+          "round1": 2,
+          "rank": 24
+        },
+        "currentFormRating": {
+          "combined": 49.5,
+          "club": null,
+          "round1": 25.35,
+          "rank": 28
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 86,
+        "assists": 48,
+        "chancesCreated": 366,
+        "cornersInvolved": 0,
+        "yellowCards": 100,
+        "redCards": 2,
+        "foulsCommitted": 551,
+        "attackRaw": 369.7,
+        "defenceRaw": 44.362978355230155,
+        "finishingRaw": 3.5565766800689262,
+        "cornersRaw": 0,
+        "cardsRaw": 1.9507120253164556,
+        "disciplineRaw": 18.68354430379747,
+        "goalkeeperRaw": 6.248822515795519,
+        "chanceCreationRaw": 9.875703618609995
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 6,
+        "goalDifference": -1,
+        "finishingEfficiency": 2.67,
+        "averages": {
+          "goalsFor": 1.67,
+          "goalsAgainst": 2,
+          "shots": 9,
+          "shotsOnTarget": 3.67,
+          "xG": 0.62,
+          "cornersFor": 4,
+          "cornersAgainst": 7,
+          "yellowCards": 2,
+          "savesFor": 2
+        },
+        "cardEnvironment": 3.3333333333333335,
+        "attackRaw": 42.017999999999994,
+        "defenceRaw": 11.7,
+        "finishingRaw": 66.75,
+        "cornersRaw": 4,
+        "cardsRaw": 3.608,
+        "disciplineRaw": 11.440000000000001,
+        "goalkeeperRaw": 2,
+        "chanceCreationRaw": 58.333333333333336,
+        "formRaw": 25.35333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 28,
+        "defenceRating": 33,
+        "chanceCreationRating": 37,
+        "finishingRating": 1,
+        "cornerRating": 21,
+        "disciplineRating": 44,
+        "goalkeeperRating": 24,
+        "currentFormRating": 28
+      }
+    },
+    {
+      "team": "Uruguay",
+      "group": "H",
+      "overallRank": 27,
+      "overallPowerScore": 49.7,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 59,
+          "club": 471.65,
+          "round1": 34.11,
+          "rank": 18
+        },
+        "defenceRating": {
+          "combined": 60.2,
+          "club": 44.56,
+          "round1": 17.16,
+          "rank": 20
+        },
+        "chanceCreationRating": {
+          "combined": 58.4,
+          "club": 13.2,
+          "round1": 100.33,
+          "rank": 16
+        },
+        "finishingRating": {
+          "combined": 29,
+          "club": 4,
+          "round1": 17.75,
+          "rank": 38
+        },
+        "cornerRating": {
+          "combined": 72.7,
+          "club": 0,
+          "round1": 8.67,
+          "rank": 2
+        },
+        "disciplineRating": {
+          "combined": 31.6,
+          "club": 18.68,
+          "round1": 12.52,
+          "rank": 40
+        },
+        "goalkeeperRating": {
+          "combined": 36.6,
+          "club": 4.6,
+          "round1": 1.33,
+          "rank": 39
+        },
+        "currentFormRating": {
+          "combined": 40.8,
+          "club": null,
+          "round1": 10.02,
+          "rank": 36
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 98,
+        "assists": 60,
+        "chancesCreated": 499,
+        "cornersInvolved": 0,
+        "yellowCards": 85,
+        "redCards": 8,
+        "foulsCommitted": 515,
+        "attackRaw": 471.65000000000003,
+        "defenceRaw": 44.55817879095841,
+        "finishingRaw": 3.9987305617264357,
+        "cornersRaw": 0,
+        "cardsRaw": 1.941680261011419,
+        "disciplineRaw": 18.68189233278956,
+        "goalkeeperRaw": 4.598540145985401,
+        "chanceCreationRaw": 13.195810853697239
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDifference": -1,
+        "finishingEfficiency": 0.71,
+        "averages": {
+          "goalsFor": 1,
+          "goalsAgainst": 1.33,
+          "shots": 16.33,
+          "shotsOnTarget": 4.33,
+          "xG": 1.41,
+          "cornersFor": 8.67,
+          "cornersAgainst": 4.67,
+          "yellowCards": 1.67,
+          "savesFor": 1.33
+        },
+        "cardEnvironment": 3,
+        "attackRaw": 34.1075,
+        "defenceRaw": 17.160500000000003,
+        "finishingRaw": 17.75,
+        "cornersRaw": 8.67,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 1.33,
+        "chanceCreationRaw": 100.33333333333334,
+        "formRaw": 10.016666666666664
+      },
+      "categoryRanks": {
+        "attackRating": 18,
+        "defenceRating": 20,
+        "chanceCreationRating": 16,
+        "finishingRating": 38,
+        "cornerRating": 2,
+        "disciplineRating": 40,
+        "goalkeeperRating": 39,
+        "currentFormRating": 36
+      }
+    },
+    {
+      "team": "Czechia",
+      "group": "A",
+      "overallRank": 28,
+      "overallPowerScore": 49.5,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 67.9,
+          "club": 545.85,
+          "round1": 22.43,
+          "rank": 13
+        },
+        "defenceRating": {
+          "combined": 51.5,
+          "club": 41.84,
+          "round1": 12.55,
+          "rank": 36
+        },
+        "chanceCreationRating": {
+          "combined": 24.9,
+          "club": 13.17,
+          "round1": 54,
+          "rank": 36
+        },
+        "finishingRating": {
+          "combined": 35.6,
+          "club": 4.39,
+          "round1": 21.5,
+          "rank": 33
+        },
+        "cornerRating": {
+          "combined": 39.4,
+          "club": 0,
+          "round1": 5,
+          "rank": 15
+        },
+        "disciplineRating": {
+          "combined": 95.6,
+          "club": 18.97,
+          "round1": 16.92,
+          "rank": 5
+        },
+        "goalkeeperRating": {
+          "combined": 72.3,
+          "club": 6.77,
+          "round1": 3,
+          "rank": 9
+        },
+        "currentFormRating": {
+          "combined": 26.8,
+          "club": null,
+          "round1": -14.65,
+          "rank": 39
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 121,
+        "assists": 69,
+        "chancesCreated": 559,
+        "cornersInvolved": 0,
+        "yellowCards": 76,
+        "redCards": 5,
+        "foulsCommitted": 542,
+        "attackRaw": 545.85,
+        "defenceRaw": 41.83596337022338,
+        "finishingRaw": 4.390951977742833,
+        "cornersRaw": 0,
+        "cardsRaw": 1.5714071856287424,
+        "disciplineRaw": 18.97005988023952,
+        "goalkeeperRaw": 6.767872263215193,
+        "chanceCreationRaw": 13.172855933228497
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 6,
+        "goalDifference": -4,
+        "finishingEfficiency": 0.86,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 2,
+          "shots": 11.33,
+          "shotsOnTarget": 2.67,
+          "xG": 0.77,
+          "cornersFor": 5,
+          "cornersAgainst": 3.33,
+          "yellowCards": 0.33,
+          "savesFor": 3
+        },
+        "cardEnvironment": 1.6666666666666667,
+        "attackRaw": 22.4335,
+        "defenceRaw": 12.55,
+        "finishingRaw": 21.5,
+        "cornersRaw": 5,
+        "cardsRaw": 0.5953200000000001,
+        "disciplineRaw": 16.9176,
+        "goalkeeperRaw": 3,
+        "chanceCreationRaw": 54,
+        "formRaw": -14.646666666666668
+      },
+      "categoryRanks": {
+        "attackRating": 13,
+        "defenceRating": 36,
+        "chanceCreationRating": 36,
+        "finishingRating": 33,
+        "cornerRating": 15,
+        "disciplineRating": 5,
+        "goalkeeperRating": 9,
+        "currentFormRating": 39
+      }
+    },
+    {
+      "team": "Australia",
+      "group": "D",
+      "overallRank": 29,
+      "overallPowerScore": 47.3,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 36.6,
+          "club": 306.95,
+          "round1": 23.9,
+          "rank": 36
+        },
+        "defenceRating": {
+          "combined": 69.9,
+          "club": 46.08,
+          "round1": 25.09,
+          "rank": 6
+        },
+        "chanceCreationRating": {
+          "combined": 25.1,
+          "club": 9.9,
+          "round1": 60.33,
+          "rank": 35
+        },
+        "finishingRating": {
+          "combined": 30.9,
+          "club": 1.46,
+          "round1": 23.75,
+          "rank": 36
+        },
+        "cornerRating": {
+          "combined": 30.3,
+          "club": 0,
+          "round1": 4,
+          "rank": 23
+        },
+        "disciplineRating": {
+          "combined": 35.1,
+          "club": 18.89,
+          "round1": 12.52,
+          "rank": 34
+        },
+        "goalkeeperRating": {
+          "combined": 87.6,
+          "club": 7.74,
+          "round1": 3.67,
+          "rank": 3
+        },
+        "currentFormRating": {
+          "combined": 52.1,
+          "club": null,
+          "round1": 30,
+          "rank": 25
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 37,
+        "assists": 39,
+        "chancesCreated": 393,
+        "cornersInvolved": 0,
+        "yellowCards": 83,
+        "redCards": 1,
+        "foulsCommitted": 447,
+        "attackRaw": 306.95,
+        "defenceRaw": 46.08301536819245,
+        "finishingRaw": 1.4566291938235423,
+        "cornersRaw": 0,
+        "cardsRaw": 1.639169381107492,
+        "disciplineRaw": 18.892508143322477,
+        "goalkeeperRaw": 7.735882069900705,
+        "chanceCreationRaw": 9.89720484668212
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": 0,
+        "finishingEfficiency": 0.95,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 0.67,
+          "shots": 8.67,
+          "shotsOnTarget": 3.67,
+          "xG": 0.7,
+          "cornersFor": 4,
+          "cornersAgainst": 5.33,
+          "yellowCards": 1.67,
+          "savesFor": 3.67
+        },
+        "cardEnvironment": 3.3333333333333335,
+        "attackRaw": 23.902500000000003,
+        "defenceRaw": 25.089499999999997,
+        "finishingRaw": 23.75,
+        "cornersRaw": 4,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 3.67,
+        "chanceCreationRaw": 60.33333333333333,
+        "formRaw": 30.00333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 36,
+        "defenceRating": 6,
+        "chanceCreationRating": 35,
+        "finishingRating": 36,
+        "cornerRating": 23,
+        "disciplineRating": 34,
+        "goalkeeperRating": 3,
+        "currentFormRating": 25
+      }
+    },
+    {
+      "team": "South Africa",
+      "group": "A",
+      "overallRank": 30,
+      "overallPowerScore": 47.2,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 44.9,
+          "club": 369.65,
+          "round1": 23.9,
+          "rank": 31
+        },
+        "defenceRating": {
+          "combined": 73.1,
+          "club": 50.34,
+          "round1": 20.7,
+          "rank": 4
+        },
+        "chanceCreationRating": {
+          "combined": 29.4,
+          "club": 11.69,
+          "round1": 63,
+          "rank": 29
+        },
+        "finishingRating": {
+          "combined": 27.4,
+          "club": 2.48,
+          "round1": 19.5,
+          "rank": 39
+        },
+        "cornerRating": {
+          "combined": 24.2,
+          "club": 0,
+          "round1": 3.33,
+          "rank": 28
+        },
+        "disciplineRating": {
+          "combined": 34.1,
+          "club": 18.83,
+          "round1": 12.52,
+          "rank": 38
+        },
+        "goalkeeperRating": {
+          "combined": 76.3,
+          "club": 8.19,
+          "round1": 2,
+          "rank": 7
+        },
+        "currentFormRating": {
+          "combined": 48.9,
+          "club": null,
+          "round1": 24.35,
+          "rank": 29
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 60,
+        "assists": 42,
+        "chancesCreated": 443,
+        "cornersInvolved": 0,
+        "yellowCards": 82,
+        "redCards": 3,
+        "foulsCommitted": 470,
+        "attackRaw": 369.65,
+        "defenceRaw": 50.33513805407351,
+        "finishingRaw": 2.4822450527477073,
+        "cornersRaw": 0,
+        "cardsRaw": 1.7350498338870435,
+        "disciplineRaw": 18.830564784053156,
+        "goalkeeperRaw": 8.191408674067434,
+        "chanceCreationRaw": 11.691374198441702
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": -1,
+        "finishingEfficiency": 0.78,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 1,
+          "shots": 11,
+          "shotsOnTarget": 3.33,
+          "xG": 0.85,
+          "cornersFor": 3.33,
+          "cornersAgainst": 4.67,
+          "yellowCards": 1.67,
+          "savesFor": 2
+        },
+        "cardEnvironment": 2.6666666666666665,
+        "attackRaw": 23.902,
+        "defenceRaw": 20.7,
+        "finishingRaw": 19.5,
+        "cornersRaw": 3.33,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 2,
+        "chanceCreationRaw": 63,
+        "formRaw": 24.35333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 31,
+        "defenceRating": 4,
+        "chanceCreationRating": 29,
+        "finishingRating": 39,
+        "cornerRating": 28,
+        "disciplineRating": 38,
+        "goalkeeperRating": 7,
+        "currentFormRating": 29
+      }
+    },
+    {
+      "team": "Austria",
+      "group": "J",
+      "overallRank": 31,
+      "overallPowerScore": 47.1,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 51.6,
+          "club": 409.45,
+          "round1": 45.56,
+          "rank": 24
+        },
+        "defenceRating": {
+          "combined": 57,
+          "club": 45.38,
+          "round1": 11.98,
+          "rank": 29
+        },
+        "chanceCreationRating": {
+          "combined": 10,
+          "club": 11.2,
+          "round1": 37,
+          "rank": 43
+        },
+        "finishingRating": {
+          "combined": 59.3,
+          "club": 2.55,
+          "round1": 41,
+          "rank": 13
+        },
+        "cornerRating": {
+          "combined": 24.2,
+          "club": 0,
+          "round1": 3.33,
+          "rank": 29
+        },
+        "disciplineRating": {
+          "combined": 46.4,
+          "club": 18.67,
+          "round1": 13.64,
+          "rank": 28
+        },
+        "goalkeeperRating": {
+          "combined": 67.5,
+          "club": 6.92,
+          "round1": 2.33,
+          "rank": 12
+        },
+        "currentFormRating": {
+          "combined": 52.8,
+          "club": null,
+          "round1": 31.33,
+          "rank": 24
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 68,
+        "assists": 64,
+        "chancesCreated": 455,
+        "cornersInvolved": 0,
+        "yellowCards": 105,
+        "redCards": 3,
+        "foulsCommitted": 494,
+        "attackRaw": 409.45000000000005,
+        "defenceRaw": 45.3839978197624,
+        "finishingRaw": 2.5496281792238626,
+        "cornersRaw": 0,
+        "cardsRaw": 1.9262762762762762,
+        "disciplineRaw": 18.666666666666668,
+        "goalkeeperRaw": 6.918678526048284,
+        "chanceCreationRaw": 11.195867269356551
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 6,
+        "goalDifference": 0,
+        "finishingEfficiency": 1.64,
+        "averages": {
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "shots": 9,
+          "shotsOnTarget": 2.67,
+          "xG": 1.22,
+          "cornersFor": 3.33,
+          "cornersAgainst": 1.33,
+          "yellowCards": 1.33,
+          "savesFor": 2.33
+        },
+        "cardEnvironment": 2,
+        "attackRaw": 45.558,
+        "defenceRaw": 11.9805,
+        "finishingRaw": 41,
+        "cornersRaw": 3.33,
+        "cardsRaw": 2.3993200000000003,
+        "disciplineRaw": 13.637599999999999,
+        "goalkeeperRaw": 2.33,
+        "chanceCreationRaw": 37,
+        "formRaw": 31.33333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 24,
+        "defenceRating": 29,
+        "chanceCreationRating": 43,
+        "finishingRating": 13,
+        "cornerRating": 29,
+        "disciplineRating": 28,
+        "goalkeeperRating": 12,
+        "currentFormRating": 24
+      }
+    },
+    {
+      "team": "South Korea",
+      "group": "A",
+      "overallRank": 32,
+      "overallPowerScore": 45.5,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 55.8,
+          "club": 452.65,
+          "round1": 24.6,
+          "rank": 20
+        },
+        "defenceRating": {
+          "combined": 57.5,
+          "club": 40.53,
+          "round1": 21.55,
+          "rank": 27
+        },
+        "chanceCreationRating": {
+          "combined": 44.6,
+          "club": 14.94,
+          "round1": 78,
+          "rank": 21
+        },
+        "finishingRating": {
+          "combined": 17.2,
+          "club": 2.79,
+          "round1": 12,
+          "rank": 45
+        },
+        "cornerRating": {
+          "combined": 30.3,
+          "club": 0,
+          "round1": 4,
+          "rank": 20
+        },
+        "disciplineRating": {
+          "combined": 53.4,
+          "club": 19.09,
+          "round1": 13.64,
+          "rank": 23
+        },
+        "goalkeeperRating": {
+          "combined": 50.3,
+          "club": 4.4,
+          "round1": 3,
+          "rank": 31
+        },
+        "currentFormRating": {
+          "combined": 44.7,
+          "club": null,
+          "round1": 17.02,
+          "rank": 34
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 25,
+        "goals": 67,
+        "assists": 47,
+        "chancesCreated": 567,
+        "cornersInvolved": 0,
+        "yellowCards": 79,
+        "redCards": 2,
+        "foulsCommitted": 468,
+        "attackRaw": 452.65000000000003,
+        "defenceRaw": 40.52937852391551,
+        "finishingRaw": 2.78850378043423,
+        "cornersRaw": 0,
+        "cardsRaw": 1.3613698630136988,
+        "disciplineRaw": 19.09041095890411,
+        "goalkeeperRaw": 4.401257832551042,
+        "chanceCreationRaw": 14.941385927998336
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": -1,
+        "finishingEfficiency": 0.48,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 1,
+          "shots": 10.67,
+          "shotsOnTarget": 3.67,
+          "xG": 1.4,
+          "cornersFor": 4,
+          "cornersAgainst": 3,
+          "yellowCards": 1.33,
+          "savesFor": 3
+        },
+        "cardEnvironment": 1.6666666666666667,
+        "attackRaw": 24.602500000000003,
+        "defenceRaw": 21.55,
+        "finishingRaw": 12,
+        "cornersRaw": 4,
+        "cardsRaw": 2.3993200000000003,
+        "disciplineRaw": 13.637599999999999,
+        "goalkeeperRaw": 3,
+        "chanceCreationRaw": 78,
+        "formRaw": 17.02
+      },
+      "categoryRanks": {
+        "attackRating": 20,
+        "defenceRating": 27,
+        "chanceCreationRating": 21,
+        "finishingRating": 45,
+        "cornerRating": 20,
+        "disciplineRating": 23,
+        "goalkeeperRating": 31,
+        "currentFormRating": 34
+      }
+    },
+    {
+      "team": "Ghana",
+      "group": "L",
+      "overallRank": 33,
+      "overallPowerScore": 44.9,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 44.8,
+          "club": 372.55,
+          "round1": 17.12,
+          "rank": 33
+        },
+        "defenceRating": {
+          "combined": 66.6,
+          "club": 44.39,
+          "round1": 24.52,
+          "rank": 9
+        },
+        "chanceCreationRating": {
+          "combined": 5.3,
+          "club": 9.49,
+          "round1": 33.67,
+          "rank": 46
+        },
+        "finishingRating": {
+          "combined": 31.2,
+          "club": 2.26,
+          "round1": 22.5,
+          "rank": 35
+        },
+        "cornerRating": {
+          "combined": 12.1,
+          "club": 0,
+          "round1": 2,
+          "rank": 44
+        },
+        "disciplineRating": {
+          "combined": 60.9,
+          "club": 18.66,
+          "round1": 14.72,
+          "rank": 20
+        },
+        "goalkeeperRating": {
+          "combined": 81.7,
+          "club": 7.77,
+          "round1": 3,
+          "rank": 5
+        },
+        "currentFormRating": {
+          "combined": 52.1,
+          "club": null,
+          "round1": 30,
+          "rank": 27
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 64,
+        "assists": 58,
+        "chancesCreated": 409,
+        "cornersInvolved": 0,
+        "yellowCards": 116,
+        "redCards": 1,
+        "foulsCommitted": 719,
+        "attackRaw": 372.55,
+        "defenceRaw": 44.39090310781225,
+        "finishingRaw": 2.2606409073961418,
+        "cornersRaw": 0,
+        "cardsRaw": 2.024964639321075,
+        "disciplineRaw": 18.664780763790667,
+        "goalkeeperRaw": 7.773602307737593,
+        "chanceCreationRaw": 9.487627308228184
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": 0,
+        "finishingEfficiency": 0.9,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 0.67,
+          "shots": 5.33,
+          "shotsOnTarget": 1.33,
+          "xG": 0.74,
+          "cornersFor": 2,
+          "cornersAgainst": 4.67,
+          "yellowCards": 1,
+          "savesFor": 3
+        },
+        "cardEnvironment": 2.3333333333333335,
+        "attackRaw": 17.1175,
+        "defenceRaw": 24.52,
+        "finishingRaw": 22.5,
+        "cornersRaw": 2,
+        "cardsRaw": 1.804,
+        "disciplineRaw": 14.72,
+        "goalkeeperRaw": 3,
+        "chanceCreationRaw": 33.666666666666664,
+        "formRaw": 30.00333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 33,
+        "defenceRating": 9,
+        "chanceCreationRating": 46,
+        "finishingRating": 35,
+        "cornerRating": 44,
+        "disciplineRating": 20,
+        "goalkeeperRating": 5,
+        "currentFormRating": 27
+      }
+    },
+    {
+      "team": "Cape Verde",
+      "group": "H",
+      "overallRank": 34,
+      "overallPowerScore": 42.9,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 35.6,
+          "club": 300.6,
+          "round1": 21.5,
+          "rank": 37
+        },
+        "defenceRating": {
+          "combined": 61.9,
+          "club": 41.45,
+          "round1": 24.8,
+          "rank": 15
+        },
+        "chanceCreationRating": {
+          "combined": 26.5,
+          "club": 11.84,
+          "round1": 58.67,
+          "rank": 31
+        },
+        "finishingRating": {
+          "combined": 27.4,
+          "club": 2.34,
+          "round1": 19.75,
+          "rank": 40
+        },
+        "cornerRating": {
+          "combined": 21.2,
+          "club": 0,
+          "round1": 3,
+          "rank": 35
+        },
+        "disciplineRating": {
+          "combined": 51.3,
+          "club": 18.97,
+          "round1": 13.64,
+          "rank": 24
+        },
+        "goalkeeperRating": {
+          "combined": 67.3,
+          "club": 5.89,
+          "round1": 3.33,
+          "rank": 13
+        },
+        "currentFormRating": {
+          "combined": 47.9,
+          "club": null,
+          "round1": 22.67,
+          "rank": 31
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 46,
+        "assists": 36,
+        "chancesCreated": 364,
+        "cornersInvolved": 0,
+        "yellowCards": 76,
+        "redCards": 5,
+        "foulsCommitted": 407,
+        "attackRaw": 300.6,
+        "defenceRaw": 41.45056533401729,
+        "finishingRaw": 2.338586680223691,
+        "cornersRaw": 0,
+        "cardsRaw": 1.5051801801801803,
+        "disciplineRaw": 18.966966966966968,
+        "goalkeeperRaw": 5.894763599389934,
+        "chanceCreationRaw": 11.835282155566853
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 3,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": 0,
+        "finishingEfficiency": 0.79,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 0.67,
+          "shots": 11,
+          "shotsOnTarget": 2.33,
+          "xG": 0.85,
+          "cornersFor": 3,
+          "cornersAgainst": 8,
+          "yellowCards": 1.33,
+          "savesFor": 3.33
+        },
+        "cardEnvironment": 3.3333333333333335,
+        "attackRaw": 21.502000000000002,
+        "defenceRaw": 24.8005,
+        "finishingRaw": 19.75,
+        "cornersRaw": 3,
+        "cardsRaw": 2.3993200000000003,
+        "disciplineRaw": 13.637599999999999,
+        "goalkeeperRaw": 3.33,
+        "chanceCreationRaw": 58.666666666666664,
+        "formRaw": 22.669999999999998
+      },
+      "categoryRanks": {
+        "attackRating": 37,
+        "defenceRating": 15,
+        "chanceCreationRating": 31,
+        "finishingRating": 40,
+        "cornerRating": 35,
+        "disciplineRating": 24,
+        "goalkeeperRating": 13,
+        "currentFormRating": 31
+      }
+    },
+    {
+      "team": "DR Congo",
+      "group": "K",
+      "overallRank": 35,
+      "overallPowerScore": 40.8,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 31,
+          "club": 258.9,
+          "round1": 33.5,
+          "rank": 40
+        },
+        "defenceRating": {
+          "combined": 48.8,
+          "club": 35.35,
+          "round1": 21.55,
+          "rank": 40
+        },
+        "chanceCreationRating": {
+          "combined": 38.8,
+          "club": 10.64,
+          "round1": 78,
+          "rank": 25
+        },
+        "finishingRating": {
+          "combined": 39.1,
+          "club": 2.3,
+          "round1": 27.75,
+          "rank": 28
+        },
+        "cornerRating": {
+          "combined": 24.2,
+          "club": 0,
+          "round1": 3.33,
+          "rank": 31
+        },
+        "disciplineRating": {
+          "combined": 35.1,
+          "club": 18.89,
+          "round1": 12.52,
+          "rank": 35
+        },
+        "goalkeeperRating": {
+          "combined": 45.8,
+          "club": 3.91,
+          "round1": 3,
+          "rank": 33
+        },
+        "currentFormRating": {
+          "combined": 55.7,
+          "club": null,
+          "round1": 36.31,
+          "rank": 21
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 43,
+        "assists": 26,
+        "chancesCreated": 314,
+        "cornersInvolved": 0,
+        "yellowCards": 69,
+        "redCards": 1,
+        "foulsCommitted": 397,
+        "attackRaw": 258.9,
+        "defenceRaw": 35.34813169034689,
+        "finishingRaw": 2.3013796384395815,
+        "cornersRaw": 0,
+        "cardsRaw": 1.6548732943469784,
+        "disciplineRaw": 18.892787524366472,
+        "goalkeeperRaw": 3.9136833967649856,
+        "chanceCreationRaw": 10.639866793529972
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
+        "goalDifference": 1,
+        "finishingEfficiency": 1.11,
+        "averages": {
+          "goalsFor": 1.33,
+          "goalsAgainst": 1,
+          "shots": 11.33,
+          "shotsOnTarget": 2.33,
+          "xG": 1.2,
+          "cornersFor": 3.33,
+          "cornersAgainst": 4.67,
+          "yellowCards": 1.67,
+          "savesFor": 3
+        },
+        "cardEnvironment": 4,
+        "attackRaw": 33.4975,
+        "defenceRaw": 21.55,
+        "finishingRaw": 27.750000000000004,
+        "cornersRaw": 3.33,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 3,
+        "chanceCreationRaw": 78,
+        "formRaw": 36.31333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 40,
+        "defenceRating": 40,
+        "chanceCreationRating": 25,
+        "finishingRating": 28,
+        "cornerRating": 31,
+        "disciplineRating": 35,
+        "goalkeeperRating": 33,
+        "currentFormRating": 21
+      }
+    },
+    {
+      "team": "Paraguay",
+      "group": "D",
+      "overallRank": 36,
+      "overallPowerScore": 40.6,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 43.2,
+          "club": 359.75,
+          "round1": 18.75,
+          "rank": 34
+        },
+        "defenceRating": {
+          "combined": 56,
+          "club": 40.67,
+          "round1": 19.71,
+          "rank": 32
+        },
+        "chanceCreationRating": {
+          "combined": 17.7,
+          "club": 10.63,
+          "round1": 48.67,
+          "rank": 40
+        },
+        "finishingRating": {
+          "combined": 66.5,
+          "club": 3.04,
+          "round1": 45,
+          "rank": 9
+        },
+        "cornerRating": {
+          "combined": 0,
+          "club": 0,
+          "round1": 0.67,
+          "rank": 48
+        },
+        "disciplineRating": {
+          "combined": 0,
+          "club": 18.53,
+          "round1": 10.36,
+          "rank": 48
+        },
+        "goalkeeperRating": {
+          "combined": 58.6,
+          "club": 3.97,
+          "round1": 4.33,
+          "rank": 23
+        },
+        "currentFormRating": {
+          "combined": 45.7,
+          "club": null,
+          "round1": 18.7,
+          "rank": 33
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 25,
+        "goals": 72,
+        "assists": 45,
+        "chancesCreated": 389,
+        "cornersInvolved": 0,
+        "yellowCards": 99,
+        "redCards": 4,
+        "foulsCommitted": 537,
+        "attackRaw": 359.75,
+        "defenceRaw": 40.66593316410903,
+        "finishingRaw": 3.0446835502513743,
+        "cornersRaw": 0,
+        "cardsRaw": 2.1577186963979416,
+        "disciplineRaw": 18.53173241852487,
+        "goalkeeperRaw": 3.9676032514213224,
+        "chanceCreationRaw": 10.63102006296105
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 4,
+        "goalDifference": -2,
+        "finishingEfficiency": 1.8,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 1.33,
+          "shots": 7.67,
+          "shotsOnTarget": 1.67,
+          "xG": 0.37,
+          "cornersFor": 0.67,
+          "cornersAgainst": 6,
+          "yellowCards": 2.33,
+          "savesFor": 4.33
+        },
+        "cardEnvironment": 3.3333333333333335,
+        "attackRaw": 18.7525,
+        "defenceRaw": 19.7105,
+        "finishingRaw": 45,
+        "cornersRaw": 0.67,
+        "cardsRaw": 4.20332,
+        "disciplineRaw": 10.357600000000001,
+        "goalkeeperRaw": 4.33,
+        "chanceCreationRaw": 48.66666666666667,
+        "formRaw": 18.703333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 34,
+        "defenceRating": 32,
+        "chanceCreationRating": 40,
+        "finishingRating": 9,
+        "cornerRating": 48,
+        "disciplineRating": 48,
+        "goalkeeperRating": 23,
+        "currentFormRating": 33
+      }
+    },
+    {
+      "team": "Qatar",
+      "group": "B",
+      "overallRank": 37,
+      "overallPowerScore": 36.2,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 13,
+          "club": 129.9,
+          "round1": 18.84,
+          "rank": 44
+        },
+        "defenceRating": {
+          "combined": 49,
+          "club": 46.3,
+          "round1": 1.43,
+          "rank": 39
+        },
+        "chanceCreationRating": {
+          "combined": 16.5,
+          "club": 12.12,
+          "round1": 44.33,
+          "rank": 42
+        },
+        "finishingRating": {
+          "combined": 46.1,
+          "club": 2.85,
+          "round1": 31.5,
+          "rank": 22
+        },
+        "cornerRating": {
+          "combined": 21.2,
+          "club": 0,
+          "round1": 3,
+          "rank": 32
+        },
+        "disciplineRating": {
+          "combined": 41.6,
+          "club": 18.38,
+          "round1": 13.64,
+          "rank": 29
+        },
+        "goalkeeperRating": {
+          "combined": 100,
+          "club": 8.74,
+          "round1": 4,
+          "rank": 1
+        },
+        "currentFormRating": {
+          "combined": 14,
+          "club": null,
+          "round1": -37.3,
+          "rank": 44
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 24,
+        "goals": 22,
+        "assists": 21,
+        "chancesCreated": 142,
+        "cornersInvolved": 0,
+        "yellowCards": 67,
+        "redCards": 2,
+        "foulsCommitted": 169,
+        "attackRaw": 129.9,
+        "defenceRaw": 46.30435711717266,
+        "finishingRaw": 2.8478964401294498,
+        "cornersRaw": 0,
+        "cardsRaw": 2.1975714285714285,
+        "disciplineRaw": 18.377142857142857,
+        "goalkeeperRaw": 8.737864077669903,
+        "chanceCreationRaw": 12.11650485436893
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 10,
+        "goalDifference": -8,
+        "finishingEfficiency": 1.26,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 3.33,
+          "shots": 5.67,
+          "shotsOnTarget": 2,
+          "xG": 0.53,
+          "cornersFor": 3,
+          "cornersAgainst": 11.33,
+          "yellowCards": 1.33,
+          "savesFor": 4
+        },
+        "cardEnvironment": 2.3333333333333335,
+        "attackRaw": 18.8445,
+        "defenceRaw": 1.430000000000001,
+        "finishingRaw": 31.5,
+        "cornersRaw": 3,
+        "cardsRaw": 2.3993200000000003,
+        "disciplineRaw": 13.637599999999999,
+        "goalkeeperRaw": 4,
+        "chanceCreationRaw": 44.33333333333333,
+        "formRaw": -37.29666666666667
+      },
+      "categoryRanks": {
+        "attackRating": 44,
+        "defenceRating": 39,
+        "chanceCreationRating": 42,
+        "finishingRating": 22,
+        "cornerRating": 32,
+        "disciplineRating": 29,
+        "goalkeeperRating": 1,
+        "currentFormRating": 44
+      }
+    },
+    {
+      "team": "Saudi Arabia",
+      "group": "H",
+      "overallRank": 38,
+      "overallPowerScore": 34.8,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 46.4,
+          "club": 386.7,
+          "round1": 13.52,
+          "rank": 26
+        },
+        "defenceRating": {
+          "combined": 66.1,
+          "club": 47.89,
+          "round1": 17.5,
+          "rank": 10
+        },
+        "chanceCreationRating": {
+          "combined": 0,
+          "club": 13.58,
+          "round1": 18.67,
+          "rank": 48
+        },
+        "finishingRating": {
+          "combined": 30.3,
+          "club": 2.85,
+          "round1": 20.75,
+          "rank": 37
+        },
+        "cornerRating": {
+          "combined": 15.1,
+          "club": 0,
+          "round1": 2.33,
+          "rank": 39
+        },
+        "disciplineRating": {
+          "combined": 22,
+          "club": 18.98,
+          "round1": 11.44,
+          "rank": 43
+        },
+        "goalkeeperRating": {
+          "combined": 45,
+          "club": 1.5,
+          "round1": 5.33,
+          "rank": 34
+        },
+        "currentFormRating": {
+          "combined": 30.7,
+          "club": null,
+          "round1": -7.7,
+          "rank": 38
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 24,
+        "goals": 60,
+        "assists": 64,
+        "chancesCreated": 434,
+        "cornersInvolved": 0,
+        "yellowCards": 62,
+        "redCards": 8,
+        "foulsCommitted": 490,
+        "attackRaw": 386.70000000000005,
+        "defenceRaw": 47.8912766388979,
+        "finishingRaw": 2.8498298018312793,
+        "cornersRaw": 0,
+        "cardsRaw": 1.554738562091503,
+        "disciplineRaw": 18.980392156862745,
+        "goalkeeperRaw": 1.4997229332137108,
+        "chanceCreationRaw": 13.584188722062432
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "goalDifference": -4,
+        "finishingEfficiency": 0.83,
+        "averages": {
+          "goalsFor": 0.33,
+          "goalsAgainst": 1.67,
+          "shots": 5.67,
+          "shotsOnTarget": 2.33,
+          "xG": 0.4,
+          "cornersFor": 2.33,
+          "cornersAgainst": 8,
+          "yellowCards": 2,
+          "savesFor": 5.33
+        },
+        "cardEnvironment": 2.3333333333333335,
+        "attackRaw": 13.5165,
+        "defenceRaw": 17.500500000000002,
+        "finishingRaw": 20.75,
+        "cornersRaw": 2.33,
+        "cardsRaw": 3.608,
+        "disciplineRaw": 11.440000000000001,
+        "goalkeeperRaw": 5.33,
+        "chanceCreationRaw": 18.666666666666668,
+        "formRaw": -7.703333333333333
+      },
+      "categoryRanks": {
+        "attackRating": 26,
+        "defenceRating": 10,
+        "chanceCreationRating": 48,
+        "finishingRating": 37,
+        "cornerRating": 39,
+        "disciplineRating": 43,
+        "goalkeeperRating": 34,
+        "currentFormRating": 38
+      }
+    },
+    {
+      "team": "Panama",
+      "group": "L",
+      "overallRank": 39,
+      "overallPowerScore": 34.2,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 42.5,
+          "club": 359.55,
+          "round1": 9.21,
+          "rank": 35
+        },
+        "defenceRating": {
+          "combined": 58,
+          "club": 42.78,
+          "round1": 18.01,
+          "rank": 26
+        },
+        "chanceCreationRating": {
+          "combined": 25.6,
+          "club": 12.59,
+          "round1": 56,
+          "rank": 32
+        },
+        "finishingRating": {
+          "combined": 0,
+          "club": 2.97,
+          "round1": 0,
+          "rank": 48
+        },
+        "cornerRating": {
+          "combined": 30.3,
+          "club": 0,
+          "round1": 4,
+          "rank": 26
+        },
+        "disciplineRating": {
+          "combined": 35.2,
+          "club": 18.9,
+          "round1": 12.52,
+          "rank": 33
+        },
+        "goalkeeperRating": {
+          "combined": 50.1,
+          "club": 5.04,
+          "round1": 2.33,
+          "rank": 32
+        },
+        "currentFormRating": {
+          "combined": 22.3,
+          "club": null,
+          "round1": -22.65,
+          "rank": 40
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 25,
+        "goals": 62,
+        "assists": 50,
+        "chancesCreated": 405,
+        "cornersInvolved": 0,
+        "yellowCards": 71,
+        "redCards": 0,
+        "foulsCommitted": 373,
+        "attackRaw": 359.55000000000007,
+        "defenceRaw": 42.77940887146599,
+        "finishingRaw": 2.9669015020603484,
+        "cornersRaw": 0,
+        "cardsRaw": 1.6258220502901355,
+        "disciplineRaw": 18.901353965183752,
+        "goalkeeperRaw": 5.044928884753422,
+        "chanceCreationRaw": 12.585404758739863
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 0,
+        "goalsAgainst": 4,
+        "goalDifference": -4,
+        "finishingEfficiency": 0,
+        "averages": {
+          "goalsFor": 0,
+          "goalsAgainst": 1.33,
+          "shots": 10.33,
+          "shotsOnTarget": 2.33,
+          "xG": 0.62,
+          "cornersFor": 4,
+          "cornersAgainst": 3.67,
+          "yellowCards": 1.67,
+          "savesFor": 2.33
+        },
+        "cardEnvironment": 2.6666666666666665,
+        "attackRaw": 9.2075,
+        "defenceRaw": 18.0105,
+        "finishingRaw": 0,
+        "cornersRaw": 4,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 2.33,
+        "chanceCreationRaw": 56,
+        "formRaw": -22.65
+      },
+      "categoryRanks": {
+        "attackRating": 35,
+        "defenceRating": 26,
+        "chanceCreationRating": 32,
+        "finishingRating": 48,
+        "cornerRating": 26,
+        "disciplineRating": 33,
+        "goalkeeperRating": 32,
+        "currentFormRating": 40
+      }
+    },
+    {
+      "team": "Scotland",
+      "group": "C",
+      "overallRank": 40,
+      "overallPowerScore": 34,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 44.8,
+          "club": 374.45,
+          "round1": 14.92,
+          "rank": 32
+        },
+        "defenceRating": {
+          "combined": 58.5,
+          "club": 42.92,
+          "round1": 18.3,
+          "rank": 24
+        },
+        "chanceCreationRating": {
+          "combined": 25.1,
+          "club": 10.78,
+          "round1": 58.67,
+          "rank": 34
+        },
+        "finishingRating": {
+          "combined": 16.5,
+          "club": 3.88,
+          "round1": 9.5,
+          "rank": 46
+        },
+        "cornerRating": {
+          "combined": 30.3,
+          "club": 0,
+          "round1": 4,
+          "rank": 22
+        },
+        "disciplineRating": {
+          "combined": 37,
+          "club": 19.01,
+          "round1": 12.52,
+          "rank": 32
+        },
+        "goalkeeperRating": {
+          "combined": 9,
+          "club": 0.3,
+          "round1": 2.67,
+          "rank": 46
+        },
+        "currentFormRating": {
+          "combined": 38.1,
+          "club": null,
+          "round1": 5.33,
+          "rank": 37
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 89,
+        "assists": 37,
+        "chancesCreated": 387,
+        "cornersInvolved": 0,
+        "yellowCards": 67,
+        "redCards": 4,
+        "foulsCommitted": 486,
+        "attackRaw": 374.45000000000005,
+        "defenceRaw": 42.915150823992164,
+        "finishingRaw": 3.883353937895426,
+        "cornersRaw": 0,
+        "cardsRaw": 1.5208264462809917,
+        "disciplineRaw": 19.00826446280992,
+        "goalkeeperRaw": 0.2956148643735001,
+        "chanceCreationRaw": 10.777398007417643
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "goalDifference": -3,
+        "finishingEfficiency": 0.38,
+        "averages": {
+          "goalsFor": 0.33,
+          "goalsAgainst": 1.33,
+          "shots": 9.67,
+          "shotsOnTarget": 2.33,
+          "xG": 0.87,
+          "cornersFor": 4,
+          "cornersAgainst": 5,
+          "yellowCards": 1.67,
+          "savesFor": 2.67
+        },
+        "cardEnvironment": 3,
+        "attackRaw": 14.9165,
+        "defenceRaw": 18.299500000000002,
+        "finishingRaw": 9.5,
+        "cornersRaw": 4,
+        "cardsRaw": 3.01268,
+        "disciplineRaw": 12.522400000000001,
+        "goalkeeperRaw": 2.67,
+        "chanceCreationRaw": 58.666666666666664,
+        "formRaw": 5.33
+      },
+      "categoryRanks": {
+        "attackRating": 32,
+        "defenceRating": 24,
+        "chanceCreationRating": 34,
+        "finishingRating": 46,
+        "cornerRating": 22,
+        "disciplineRating": 32,
+        "goalkeeperRating": 46,
+        "currentFormRating": 37
+      }
+    },
+    {
+      "team": "Iran",
+      "group": "G",
+      "overallRank": 41,
+      "overallPowerScore": 33.8,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 0,
+          "club": 24.2,
+          "round1": 31.01,
+          "rank": 48
+        },
+        "defenceRating": {
+          "combined": 100,
+          "club": 65.07,
+          "round1": 23.25,
+          "rank": 1
+        },
+        "chanceCreationRating": {
+          "combined": 18.1,
+          "club": 3.2,
+          "round1": 63,
+          "rank": 39
+        },
+        "finishingRating": {
+          "combined": 24.1,
+          "club": 1.55,
+          "round1": 19,
+          "rank": 42
+        },
+        "cornerRating": {
+          "combined": 18.2,
+          "club": 0,
+          "round1": 2.67,
+          "rank": 38
+        },
+        "disciplineRating": {
+          "combined": 13.6,
+          "club": 18.47,
+          "round1": 11.44,
+          "rank": 45
+        },
+        "goalkeeperRating": {
+          "combined": 27.9,
+          "club": 0,
+          "round1": 5,
+          "rank": 43
+        },
+        "currentFormRating": {
+          "combined": 48.1,
+          "club": null,
+          "round1": 23,
+          "rank": 30
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 11,
+        "goals": 6,
+        "assists": 7,
+        "chancesCreated": 16,
+        "cornersInvolved": 0,
+        "yellowCards": 22,
+        "redCards": 0,
+        "foulsCommitted": 19,
+        "attackRaw": 24.2,
+        "defenceRaw": 65.07357100949956,
+        "finishingRaw": 1.550387596899225,
+        "cornersRaw": 0,
+        "cardsRaw": 1.9708695652173913,
+        "disciplineRaw": 18.469565217391306,
+        "goalkeeperRaw": 0,
+        "chanceCreationRaw": 3.2041343669250644
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 3,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 3,
+        "goalDifference": 0,
+        "finishingEfficiency": 0.76,
+        "averages": {
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "shots": 12,
+          "shotsOnTarget": 3.67,
+          "xG": 1.32,
+          "cornersFor": 2.67,
+          "cornersAgainst": 4.33,
+          "yellowCards": 2,
+          "savesFor": 5
+        },
+        "cardEnvironment": 3.3333333333333335,
+        "attackRaw": 31.008,
+        "defenceRaw": 23.25,
+        "finishingRaw": 19,
+        "cornersRaw": 2.67,
+        "cardsRaw": 3.608,
+        "disciplineRaw": 11.440000000000001,
+        "goalkeeperRaw": 5,
+        "chanceCreationRaw": 63,
+        "formRaw": 23
+      },
+      "categoryRanks": {
+        "attackRating": 48,
+        "defenceRating": 1,
+        "chanceCreationRating": 39,
+        "finishingRating": 42,
+        "cornerRating": 38,
+        "disciplineRating": 45,
+        "goalkeeperRating": 43,
+        "currentFormRating": 30
+      }
+    },
+    {
+      "team": "Tunisia",
+      "group": "F",
+      "overallRank": 42,
+      "overallPowerScore": 31.5,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 29,
+          "club": 251.5,
+          "round1": 18.96,
+          "rank": 41
+        },
+        "defenceRating": {
+          "combined": 35.5,
+          "club": 42.36,
+          "round1": -6.3,
+          "rank": 45
+        },
+        "chanceCreationRating": {
+          "combined": 6.1,
+          "club": 9.17,
+          "round1": 35.33,
+          "rank": 44
+        },
+        "finishingRating": {
+          "combined": 76.8,
+          "club": 2.62,
+          "round1": 52.75,
+          "rank": 3
+        },
+        "cornerRating": {
+          "combined": 21.2,
+          "club": 0,
+          "round1": 3,
+          "rank": 34
+        },
+        "disciplineRating": {
+          "combined": 89.1,
+          "club": 18.58,
+          "round1": 16.92,
+          "rank": 9
+        },
+        "goalkeeperRating": {
+          "combined": 25.1,
+          "club": 2.7,
+          "round1": 2,
+          "rank": 44
+        },
+        "currentFormRating": {
+          "combined": 3.4,
+          "club": null,
+          "round1": -55.98,
+          "rank": 47
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 23,
+        "goals": 50,
+        "assists": 33,
+        "chancesCreated": 270,
+        "cornersInvolved": 0,
+        "yellowCards": 83,
+        "redCards": 1,
+        "foulsCommitted": 357,
+        "attackRaw": 251.5,
+        "defenceRaw": 42.3622405153684,
+        "finishingRaw": 2.6166593981683386,
+        "cornersRaw": 0,
+        "cardsRaw": 2.035386221294363,
+        "disciplineRaw": 18.580375782881003,
+        "goalkeeperRaw": 2.696467509812473,
+        "chanceCreationRaw": 9.168774531181857
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 12,
+        "goalDifference": -10,
+        "finishingEfficiency": 2.11,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 4,
+          "shots": 6,
+          "shotsOnTarget": 2,
+          "xG": 0.32,
+          "cornersFor": 3,
+          "cornersAgainst": 5,
+          "yellowCards": 0.33,
+          "savesFor": 2
+        },
+        "cardEnvironment": 1,
+        "attackRaw": 18.96,
+        "defenceRaw": -6.3,
+        "finishingRaw": 52.75,
+        "cornersRaw": 3,
+        "cardsRaw": 0.5953200000000001,
+        "disciplineRaw": 16.9176,
+        "goalkeeperRaw": 2,
+        "chanceCreationRaw": 35.333333333333336,
+        "formRaw": -55.98
+      },
+      "categoryRanks": {
+        "attackRating": 41,
+        "defenceRating": 45,
+        "chanceCreationRating": 44,
+        "finishingRating": 3,
+        "cornerRating": 34,
+        "disciplineRating": 9,
+        "goalkeeperRating": 44,
+        "currentFormRating": 47
+      }
+    },
+    {
+      "team": "Haiti",
+      "group": "C",
+      "overallRank": 43,
+      "overallPowerScore": 27.8,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 14.4,
+          "club": 138.85,
+          "round1": 21.27,
+          "rank": 43
+        },
+        "defenceRating": {
+          "combined": 46.1,
+          "club": 41.5,
+          "round1": 7.09,
+          "rank": 41
+        },
+        "chanceCreationRating": {
+          "combined": 20,
+          "club": 7.52,
+          "round1": 57.67,
+          "rank": 38
+        },
+        "finishingRating": {
+          "combined": 35.5,
+          "club": 2.08,
+          "round1": 25.75,
+          "rank": 34
+        },
+        "cornerRating": {
+          "combined": 21.2,
+          "club": 0,
+          "round1": 3,
+          "rank": 33
+        },
+        "disciplineRating": {
+          "combined": 6.6,
+          "club": 18.93,
+          "round1": 10.36,
+          "rank": 46
+        },
+        "goalkeeperRating": {
+          "combined": 53.6,
+          "club": 4.09,
+          "round1": 3.67,
+          "rank": 27
+        },
+        "currentFormRating": {
+          "combined": 16.2,
+          "club": null,
+          "round1": -33.33,
+          "rank": 43
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 25,
+        "goals": 27,
+        "assists": 18,
+        "chancesCreated": 151,
+        "cornersInvolved": 0,
+        "yellowCards": 57,
+        "redCards": 1,
+        "foulsCommitted": 327,
+        "attackRaw": 138.85000000000002,
+        "defenceRaw": 41.49905414485749,
+        "finishingRaw": 2.0751494449188725,
+        "cornersRaw": 0,
+        "cardsRaw": 1.597392290249433,
+        "disciplineRaw": 18.929705215419503,
+        "goalkeeperRaw": 4.088812980358668,
+        "chanceCreationRaw": 7.516652433817249
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 8,
+        "goalDifference": -6,
+        "finishingEfficiency": 1.03,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 2.67,
+          "shots": 10.33,
+          "shotsOnTarget": 2.33,
+          "xG": 0.65,
+          "cornersFor": 3,
+          "cornersAgainst": 5.33,
+          "yellowCards": 2.33,
+          "savesFor": 3.67
+        },
+        "cardEnvironment": 3.6666666666666665,
+        "attackRaw": 21.267500000000002,
+        "defenceRaw": 7.089499999999999,
+        "finishingRaw": 25.75,
+        "cornersRaw": 3,
+        "cardsRaw": 4.20332,
+        "disciplineRaw": 10.357600000000001,
+        "goalkeeperRaw": 3.67,
+        "chanceCreationRaw": 57.666666666666664,
+        "formRaw": -33.33
+      },
+      "categoryRanks": {
+        "attackRating": 43,
+        "defenceRating": 41,
+        "chanceCreationRating": 38,
+        "finishingRating": 34,
+        "cornerRating": 33,
+        "disciplineRating": 46,
+        "goalkeeperRating": 27,
+        "currentFormRating": 43
+      }
+    },
+    {
+      "team": "Curaçao",
+      "group": "E",
+      "overallRank": 44,
+      "overallPowerScore": 27.7,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 31.2,
+          "club": 270.85,
+          "round1": 14.92,
+          "rank": 39
+        },
+        "defenceRating": {
+          "combined": 44,
+          "club": 40.47,
+          "round1": 6.67,
+          "rank": 43
+        },
+        "chanceCreationRating": {
+          "combined": 27.9,
+          "club": 10.01,
+          "round1": 64,
+          "rank": 30
+        },
+        "finishingRating": {
+          "combined": 24.7,
+          "club": 2.44,
+          "round1": 17.75,
+          "rank": 41
+        },
+        "cornerRating": {
+          "combined": 9.1,
+          "club": 0,
+          "round1": 1.67,
+          "rank": 45
+        },
+        "disciplineRating": {
+          "combined": 3.9,
+          "club": 18.77,
+          "round1": 10.36,
+          "rank": 47
+        },
+        "goalkeeperRating": {
+          "combined": 44.2,
+          "club": 0.07,
+          "round1": 6.67,
+          "rank": 35
+        },
+        "currentFormRating": {
+          "combined": 13.8,
+          "club": null,
+          "round1": -37.69,
+          "rank": 45
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 26,
+        "goals": 48,
+        "assists": 37,
+        "chancesCreated": 303,
+        "cornersInvolved": 0,
+        "yellowCards": 79,
+        "redCards": 3,
+        "foulsCommitted": 427,
+        "attackRaw": 270.85,
+        "defenceRaw": 40.473787975271556,
+        "finishingRaw": 2.443024373692247,
+        "cornersRaw": 0,
+        "cardsRaw": 1.8073236889692583,
+        "disciplineRaw": 18.77034358047016,
+        "goalkeeperRaw": 0.07125487756602386,
+        "chanceCreationRaw": 10.006220663914494
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 1,
+        "goalsAgainst": 9,
+        "goalDifference": -8,
+        "finishingEfficiency": 0.71,
+        "averages": {
+          "goalsFor": 0.33,
+          "goalsAgainst": 3,
+          "shots": 9.67,
+          "shotsOnTarget": 2.33,
+          "xG": 0.47,
+          "cornersFor": 1.67,
+          "cornersAgainst": 7.67,
+          "yellowCards": 2.33,
+          "savesFor": 6.67
+        },
+        "cardEnvironment": 4.5,
+        "attackRaw": 14.9165,
+        "defenceRaw": 6.6695,
+        "finishingRaw": 17.75,
+        "cornersRaw": 1.67,
+        "cardsRaw": 4.20332,
+        "disciplineRaw": 10.357600000000001,
+        "goalkeeperRaw": 6.67,
+        "chanceCreationRaw": 64,
+        "formRaw": -37.68666666666667
+      },
+      "categoryRanks": {
+        "attackRating": 39,
+        "defenceRating": 43,
+        "chanceCreationRating": 30,
+        "finishingRating": 41,
+        "cornerRating": 45,
+        "disciplineRating": 47,
+        "goalkeeperRating": 35,
+        "currentFormRating": 45
+      }
+    },
+    {
+      "team": "Uzbekistan",
+      "group": "K",
+      "overallRank": 45,
+      "overallPowerScore": 23.5,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 12,
+          "club": 122.15,
+          "round1": 18.28,
+          "rank": 45
+        },
+        "defenceRating": {
+          "combined": 33,
+          "club": 39.29,
+          "round1": -3.33,
+          "rank": 46
+        },
+        "chanceCreationRating": {
+          "combined": 5.8,
+          "club": 6.97,
+          "round1": 39,
+          "rank": 45
+        },
+        "finishingRating": {
+          "combined": 47.5,
+          "club": 4.16,
+          "round1": 30,
+          "rank": 20
+        },
+        "cornerRating": {
+          "combined": 21.2,
+          "club": 0,
+          "round1": 3,
+          "rank": 37
+        },
+        "disciplineRating": {
+          "combined": 54.9,
+          "club": 19.18,
+          "round1": 13.64,
+          "rank": 22
+        },
+        "goalkeeperRating": {
+          "combined": 30.1,
+          "club": 3.24,
+          "round1": 2,
+          "rank": 42
+        },
+        "currentFormRating": {
+          "combined": 6.6,
+          "club": null,
+          "round1": -50.33,
+          "rank": 46
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 24,
+        "goals": 39,
+        "assists": 12,
+        "chancesCreated": 101,
+        "cornersInvolved": 0,
+        "yellowCards": 26,
+        "redCards": 2,
+        "foulsCommitted": 94,
+        "attackRaw": 122.15,
+        "defenceRaw": 39.28716821167711,
+        "finishingRaw": 4.1590141596066115,
+        "cornersRaw": 0,
+        "cardsRaw": 1.132312925170068,
+        "disciplineRaw": 19.183673469387756,
+        "goalkeeperRaw": 3.236566147283607,
+        "chanceCreationRaw": 6.974346821494164
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 11,
+        "goalDifference": -9,
+        "finishingEfficiency": 1.2,
+        "averages": {
+          "goalsFor": 0.67,
+          "goalsAgainst": 3.67,
+          "shots": 6.33,
+          "shotsOnTarget": 1.67,
+          "xG": 0.56,
+          "cornersFor": 3,
+          "cornersAgainst": 3,
+          "yellowCards": 1.33,
+          "savesFor": 2
+        },
+        "cardEnvironment": 3,
+        "attackRaw": 18.2835,
+        "defenceRaw": -3.330000000000001,
+        "finishingRaw": 30,
+        "cornersRaw": 3,
+        "cardsRaw": 2.3993200000000003,
+        "disciplineRaw": 13.637599999999999,
+        "goalkeeperRaw": 2,
+        "chanceCreationRaw": 39,
+        "formRaw": -50.33
+      },
+      "categoryRanks": {
+        "attackRating": 45,
+        "defenceRating": 46,
+        "chanceCreationRating": 45,
+        "finishingRating": 20,
+        "cornerRating": 37,
+        "disciplineRating": 22,
+        "goalkeeperRating": 42,
+        "currentFormRating": 46
+      }
+    },
+    {
+      "team": "Jordan",
+      "group": "J",
+      "overallRank": 46,
+      "overallPowerScore": 21.6,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 5.4,
+          "club": 66.8,
+          "round1": 28,
+          "rank": 46
+        },
+        "defenceRating": {
+          "combined": 44.1,
+          "club": 40.77,
+          "round1": 6.24,
+          "rank": 42
+        },
+        "chanceCreationRating": {
+          "combined": 4.1,
+          "club": 10.55,
+          "round1": 30,
+          "rank": 47
+        },
+        "finishingRating": {
+          "combined": 42.6,
+          "club": 2.5,
+          "round1": 29.75,
+          "rank": 23
+        },
+        "cornerRating": {
+          "combined": 12.1,
+          "club": 0,
+          "round1": 2,
+          "rank": 43
+        },
+        "disciplineRating": {
+          "combined": 56.4,
+          "club": 19.27,
+          "round1": 13.64,
+          "rank": 21
+        },
+        "goalkeeperRating": {
+          "combined": 6.2,
+          "club": 0,
+          "round1": 2.67,
+          "rank": 47
+        },
+        "currentFormRating": {
+          "combined": 19.6,
+          "club": null,
+          "round1": -27.35,
+          "rank": 42
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 19,
+        "goals": 11,
+        "assists": 14,
+        "chancesCreated": 68,
+        "cornersInvolved": 0,
+        "yellowCards": 12,
+        "redCards": 0,
+        "foulsCommitted": 78,
+        "attackRaw": 66.80000000000001,
+        "defenceRaw": 40.766100877394464,
+        "finishingRaw": 2.5012632642748867,
+        "cornersRaw": 0,
+        "cardsRaw": 1.115909090909091,
+        "disciplineRaw": 19.272727272727273,
+        "goalkeeperRaw": 0,
+        "chanceCreationRaw": 10.55078322385043
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 3,
+        "goalsAgainst": 8,
+        "goalDifference": -5,
+        "finishingEfficiency": 1.19,
+        "averages": {
+          "goalsFor": 1,
+          "goalsAgainst": 2.67,
+          "shots": 8,
+          "shotsOnTarget": 3,
+          "xG": 0.84,
+          "cornersFor": 2,
+          "cornersAgainst": 6.67,
+          "yellowCards": 1.33,
+          "savesFor": 2.67
+        },
+        "cardEnvironment": 2,
+        "attackRaw": 28,
+        "defenceRaw": 6.239499999999999,
+        "finishingRaw": 29.75,
+        "cornersRaw": 2,
+        "cardsRaw": 2.3993200000000003,
+        "disciplineRaw": 13.637599999999999,
+        "goalkeeperRaw": 2.67,
+        "chanceCreationRaw": 30,
+        "formRaw": -27.35
+      },
+      "categoryRanks": {
+        "attackRating": 46,
+        "defenceRating": 42,
+        "chanceCreationRating": 47,
+        "finishingRating": 23,
+        "cornerRating": 43,
+        "disciplineRating": 21,
+        "goalkeeperRating": 47,
+        "currentFormRating": 42
+      }
+    },
+    {
+      "team": "New Zealand",
+      "group": "G",
+      "overallRank": 47,
+      "overallPowerScore": 21.2,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 0.2,
+          "club": 22.65,
+          "round1": 37.25,
+          "rank": 47
+        },
+        "defenceRating": {
+          "combined": 0,
+          "club": 17.89,
+          "round1": -0.27,
+          "rank": 48
+        },
+        "chanceCreationRating": {
+          "combined": 25.5,
+          "club": 9.82,
+          "round1": 61,
+          "rank": 33
+        },
+        "finishingRating": {
+          "combined": 69.4,
+          "club": 6.66,
+          "round1": 40.25,
+          "rank": 5
+        },
+        "cornerRating": {
+          "combined": 9.1,
+          "club": 0,
+          "round1": 1.67,
+          "rank": 46
+        },
+        "disciplineRating": {
+          "combined": 93.8,
+          "club": 19.78,
+          "round1": 15.8,
+          "rank": 7
+        },
+        "goalkeeperRating": {
+          "combined": 0,
+          "club": 0,
+          "round1": 2,
+          "rank": 48
+        },
+        "currentFormRating": {
+          "combined": 20.8,
+          "club": null,
+          "round1": -25.34,
+          "rank": 41
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 3,
+        "goals": 8,
+        "assists": 1,
+        "chancesCreated": 19,
+        "cornersInvolved": 0,
+        "yellowCards": 2,
+        "redCards": 0,
+        "foulsCommitted": 19,
+        "attackRaw": 22.65,
+        "defenceRaw": 17.88888888888889,
+        "finishingRaw": 6.657420249653258,
+        "cornersRaw": 0,
+        "cardsRaw": 0.3701388888888889,
+        "disciplineRaw": 19.77777777777778,
+        "goalkeeperRaw": 0,
+        "chanceCreationRaw": 9.819694868238557
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 10,
+        "goalDifference": -6,
+        "finishingEfficiency": 1.61,
+        "averages": {
+          "goalsFor": 1.33,
+          "goalsAgainst": 3.33,
+          "shots": 8.33,
+          "shotsOnTarget": 4.33,
+          "xG": 0.83,
+          "cornersFor": 1.67,
+          "cornersAgainst": 2.33,
+          "yellowCards": 0.67,
+          "savesFor": 2
+        },
+        "cardEnvironment": 2,
+        "attackRaw": 37.2475,
+        "defenceRaw": -0.2699999999999989,
+        "finishingRaw": 40.25,
+        "cornersRaw": 1.67,
+        "cardsRaw": 1.2086800000000002,
+        "disciplineRaw": 15.8024,
+        "goalkeeperRaw": 2,
+        "chanceCreationRaw": 61,
+        "formRaw": -25.336666666666666
+      },
+      "categoryRanks": {
+        "attackRating": 47,
+        "defenceRating": 48,
+        "chanceCreationRating": 33,
+        "finishingRating": 5,
+        "cornerRating": 46,
+        "disciplineRating": 7,
+        "goalkeeperRating": 48,
+        "currentFormRating": 41
+      }
+    },
+    {
+      "team": "Iraq",
+      "group": "I",
+      "overallRank": 48,
+      "overallPowerScore": 16.8,
+      "worldCupMatchesPlayed": 3,
+      "dataSource": "club-plus-round1",
+      "ratings": {
+        "attackRating": {
+          "combined": 16.7,
+          "club": 162.9,
+          "round1": 10,
+          "rank": 42
+        },
+        "defenceRating": {
+          "combined": 17.2,
+          "club": 30.69,
+          "round1": -4.88,
+          "rank": 47
+        },
+        "chanceCreationRating": {
+          "combined": 17.5,
+          "club": 12.86,
+          "round1": 44.33,
+          "rank": 41
+        },
+        "finishingRating": {
+          "combined": 21.7,
+          "club": 2.54,
+          "round1": 15.5,
+          "rank": 43
+        },
+        "cornerRating": {
+          "combined": 15.1,
+          "club": 0,
+          "round1": 2.33,
+          "rank": 40
+        },
+        "disciplineRating": {
+          "combined": 48,
+          "club": 18.77,
+          "round1": 13.64,
+          "rank": 27
+        },
+        "goalkeeperRating": {
+          "combined": 15.6,
+          "club": 0,
+          "round1": 3.67,
+          "rank": 45
+        },
+        "currentFormRating": {
+          "combined": 0,
+          "club": null,
+          "round1": -62.02,
+          "rank": 48
+        }
+      },
+      "clubBaseline": {
+        "squadPlayers": 26,
+        "verifiedPlayers": 22,
+        "goals": 25,
+        "assists": 19,
+        "chancesCreated": 198,
+        "cornersInvolved": 0,
+        "yellowCards": 42,
+        "redCards": 2,
+        "foulsCommitted": 301,
+        "attackRaw": 162.9,
+        "defenceRaw": 30.693464256330095,
+        "finishingRaw": 2.5433787373537555,
+        "cornersRaw": 0,
+        "cardsRaw": 1.8971476510067113,
+        "disciplineRaw": 18.76510067114094,
+        "goalkeeperRaw": 0,
+        "chanceCreationRaw": 12.85932289606059
+      },
+      "round1Tournament": {
+        "matchesPlayed": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 1,
+        "goalsAgainst": 12,
+        "goalDifference": -11,
+        "finishingEfficiency": 0.62,
+        "averages": {
+          "goalsFor": 0.33,
+          "goalsAgainst": 4,
+          "shots": 7,
+          "shotsOnTarget": 0.67,
+          "xG": 0.54,
+          "cornersFor": 2.33,
+          "cornersAgainst": 7,
+          "yellowCards": 1.33,
+          "savesFor": 3.67
+        },
+        "cardEnvironment": 2,
+        "attackRaw": 9.998,
+        "defenceRaw": -4.8805,
+        "finishingRaw": 15.5,
+        "cornersRaw": 2.33,
+        "cardsRaw": 2.3993200000000003,
+        "disciplineRaw": 13.637599999999999,
+        "goalkeeperRaw": 3.67,
+        "chanceCreationRaw": 44.33333333333333,
+        "formRaw": -62.02
+      },
+      "categoryRanks": {
+        "attackRating": 42,
+        "defenceRating": 47,
+        "chanceCreationRating": 41,
+        "finishingRating": 43,
+        "cornerRating": 40,
+        "disciplineRating": 27,
+        "goalkeeperRating": 45,
+        "currentFormRating": 48
+      }
+    }
+  ]
+}

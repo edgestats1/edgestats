@@ -1,0 +1,6488 @@
+{
+  "version": "wc2026-live-export-v4",
+  "exportedAt": "2026-06-28T11:18:22.293Z",
+  "league": 1,
+  "season": 2026,
+  "round": "Round 1",
+  "matches": [
+    {
+      "matchId": 1489369,
+      "date": "2026-06-11T19:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "homeScore": 2,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Estadio Banorte",
+      "city": "Mexico City",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "J. Quinones",
+            "minute": 9,
+            "assist": "E. Lira",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "R. Jimenez",
+            "minute": 67,
+            "assist": "R. Alvarado",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 16,
+        "shotsOnTarget": 4,
+        "xG": 1.46,
+        "possession": 61,
+        "passes": 520,
+        "passAccuracy": 90,
+        "corners": 3,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 1,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 3,
+        "shotsOnTarget": 2,
+        "xG": 0.07,
+        "possession": 39,
+        "passes": 334,
+        "passAccuracy": 81,
+        "corners": 1,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 2,
+        "saves": 2
+      },
+      "referee": {
+        "name": "W. Sampaio",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 23,
+        "totalYellowCards": 3,
+        "totalRedCards": 3,
+        "firstYellowMinute": 17,
+        "firstRedMinute": 49,
+        "foulsPerYellowCard": 7.67
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.54,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.36,
+          "high": 3.72
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1538999,
+      "date": "2026-06-12T02:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czechia",
+      "homeScore": 2,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Estadio Akron",
+      "city": "Zapopan",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "Hwang In-Beom",
+            "minute": 67,
+            "assist": "Lee Kang-In",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "Oh Hyeon-Gyu",
+            "minute": 80,
+            "assist": "Hwang In-Beom",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "L. Krejci",
+            "minute": 59,
+            "assist": "V. Coufal",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 15,
+        "shotsOnTarget": 6,
+        "xG": 2.3,
+        "possession": 62,
+        "passes": 541,
+        "passAccuracy": 87,
+        "corners": 4,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 7,
+        "shotsOnTarget": 4,
+        "xG": 0.83,
+        "possession": 38,
+        "passes": 327,
+        "passAccuracy": 70,
+        "corners": 5,
+        "fouls": 16,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 4
+      },
+      "referee": {
+        "name": "A. Omar",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 25,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 96,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 25
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.85,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.31,
+          "high": 2.89
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539000,
+      "date": "2026-06-12T19:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Canada",
+      "awayTeam": "Bosnia & Herzegovina",
+      "homeScore": 1,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "C. Larin",
+            "minute": 78,
+            "assist": "P. David",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "J. Lukic",
+            "minute": 21,
+            "assist": "S. Kolasinac",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 13,
+        "shotsOnTarget": 4,
+        "xG": 1.23,
+        "possession": 61,
+        "passes": 421,
+        "passAccuracy": 74,
+        "corners": 9,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "xG": 0.96,
+        "possession": 39,
+        "passes": 271,
+        "passAccuracy": 63,
+        "corners": 4,
+        "fouls": 20,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 1
+      },
+      "referee": {
+        "name": "F. Tello",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 30,
+        "totalYellowCards": 5,
+        "totalRedCards": null,
+        "firstYellowMinute": 11,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 6
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.62,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 4.39,
+          "high": 4.85
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489370,
+      "date": "2026-06-13T01:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "USA",
+      "awayTeam": "Paraguay",
+      "homeScore": 4,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "D. Bobadilla",
+            "minute": 7,
+            "assist": null,
+            "detail": "Own Goal"
+          },
+          {
+            "player": "F. Balogun",
+            "minute": 31,
+            "assist": "C. Pulisic",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "F. Balogun",
+            "minute": 45,
+            "assist": "M. Tillman",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "G. Reyna",
+            "minute": 90,
+            "assist": "A. Freeman",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "Mauricio",
+            "minute": 73,
+            "assist": "J. Enciso",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 4,
+        "shots": 16,
+        "shotsOnTarget": 6,
+        "xG": 1.42,
+        "possession": 65,
+        "passes": 598,
+        "passAccuracy": 85,
+        "corners": 3,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 9,
+        "shotsOnTarget": 1,
+        "xG": 0.54,
+        "possession": 35,
+        "passes": 319,
+        "passAccuracy": 73,
+        "corners": 1,
+        "fouls": 17,
+        "yellowCards": 5,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "D. Makkelie",
+        "nationality": null,
+        "refereeStyle": "strict",
+        "totalFouls": 30,
+        "totalYellowCards": 6,
+        "totalRedCards": null,
+        "firstYellowMinute": 10,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.62,
+        "refereeAdjustment": "up",
+        "adjustedCardProjection": {
+          "low": 5.54,
+          "high": 6.24
+        },
+        "notes": "Strict referee profile; projected cards increased by roughly 20–35%."
+      }
+    },
+    {
+      "matchId": 1489373,
+      "date": "2026-06-13T19:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Qatar",
+      "awayTeam": "Switzerland",
+      "homeScore": 1,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Levi's Stadium",
+      "city": "Santa Clara",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "M. Muheim",
+            "minute": 90,
+            "assist": null,
+            "detail": "Own Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "B. Embolo",
+            "minute": 17,
+            "assist": null,
+            "detail": "Penalty"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 6,
+        "shotsOnTarget": 3,
+        "xG": 0.6,
+        "possession": 32,
+        "passes": 278,
+        "passAccuracy": 72,
+        "corners": 3,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 5
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 26,
+        "shotsOnTarget": 7,
+        "xG": 3.2,
+        "possession": 68,
+        "passes": 576,
+        "passAccuracy": 91,
+        "corners": 10,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "S. Martinez",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 23,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 16,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 7.67
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.54,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.36,
+          "high": 3.72
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489371,
+      "date": "2026-06-13T22:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Brazil",
+      "awayTeam": "Morocco",
+      "homeScore": 1,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "Vinicius Junior",
+            "minute": 32,
+            "assist": "Bruno Guimaraes",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "I. Saibari",
+            "minute": 21,
+            "assist": "B. Diaz",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "xG": 1.26,
+        "possession": 51,
+        "passes": 514,
+        "passAccuracy": 87,
+        "corners": 6,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "xG": 1.37,
+        "possession": 49,
+        "passes": 486,
+        "passAccuracy": 86,
+        "corners": 2,
+        "fouls": 14,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 4
+      },
+      "referee": {
+        "name": "S. Vincic",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 30,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 37,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 15
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.62,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.77,
+          "high": 3.47
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489372,
+      "date": "2026-06-14T01:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Haiti",
+      "awayTeam": "Scotland",
+      "homeScore": 0,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "scorers": {
+        "home": [],
+        "away": [
+          {
+            "player": "J. McGinn",
+            "minute": 28,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 15,
+        "shotsOnTarget": 2,
+        "xG": 1.05,
+        "possession": 54,
+        "passes": 431,
+        "passAccuracy": 85,
+        "corners": 4,
+        "fouls": 23,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "xG": 1.05,
+        "possession": 46,
+        "passes": 374,
+        "passAccuracy": 82,
+        "corners": 3,
+        "fouls": 21,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "M. Ghorbal",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 44,
+        "totalYellowCards": 4,
+        "totalRedCards": null,
+        "firstYellowMinute": 39,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 11
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 6.77,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 4.06,
+          "high": 5.08
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539001,
+      "date": "2026-06-14T04:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Australia",
+      "awayTeam": "Türkiye",
+      "homeScore": 2,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "N. Irankunda",
+            "minute": 27,
+            "assist": "P. Okon-Engstler",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "C. Metcalfe",
+            "minute": 75,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 9,
+        "shotsOnTarget": 4,
+        "xG": 1.18,
+        "possession": 28,
+        "passes": 271,
+        "passAccuracy": 74,
+        "corners": 5,
+        "fouls": 12,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 8
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 30,
+        "shotsOnTarget": 8,
+        "xG": 1.36,
+        "possession": 72,
+        "passes": 704,
+        "passAccuracy": 90,
+        "corners": 8,
+        "fouls": 4,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "J. Valenzuela",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 16,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 86,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 16
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.46,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.48,
+          "high": 1.85
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489374,
+      "date": "2026-06-14T17:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Germany",
+      "awayTeam": "Curaçao",
+      "homeScore": 7,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 7,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "F. Nmecha",
+            "minute": 6,
+            "assist": "F. Wirtz",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "N. Schlotterbeck",
+            "minute": 38,
+            "assist": "N. Brown",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "K. Havertz",
+            "minute": 45,
+            "assist": null,
+            "detail": "Penalty"
+          },
+          {
+            "player": "J. Musiala",
+            "minute": 47,
+            "assist": "J. Kimmich",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "N. Brown",
+            "minute": 68,
+            "assist": "D. Undav",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "D. Undav",
+            "minute": 78,
+            "assist": "J. Kimmich",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "K. Havertz",
+            "minute": 88,
+            "assist": "D. Undav",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "L. Comenencia",
+            "minute": 21,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 7,
+        "shots": 26,
+        "shotsOnTarget": 12,
+        "xG": 4.22,
+        "possession": 65,
+        "passes": 637,
+        "passAccuracy": 87,
+        "corners": 8,
+        "fouls": 18,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "xG": 0.41,
+        "possession": 35,
+        "passes": 343,
+        "passAccuracy": 82,
+        "corners": 1,
+        "fouls": 11,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 4
+      },
+      "referee": {
+        "name": "J. Jayed",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 29,
+        "totalYellowCards": null,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": null
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.46,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.68,
+          "high": 3.35
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489376,
+      "date": "2026-06-14T20:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Japan",
+      "homeScore": 2,
+      "awayScore": 2,
+      "statusShort": "FT",
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "V. van Dijk",
+            "minute": 51,
+            "assist": "R. Gravenberch",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "C. Summerville",
+            "minute": 64,
+            "assist": "R. Gravenberch",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "K. Nakamura",
+            "minute": 57,
+            "assist": "T. Kubo",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "D. Kamada",
+            "minute": 89,
+            "assist": "K. Ogawa",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 10,
+        "shotsOnTarget": 6,
+        "xG": 0.78,
+        "possession": 60,
+        "passes": 524,
+        "passAccuracy": 88,
+        "corners": 5,
+        "fouls": 7,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 2,
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "xG": 0.59,
+        "possession": 40,
+        "passes": 341,
+        "passAccuracy": 84,
+        "corners": 4,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 4
+      },
+      "referee": {
+        "name": "I. Elfath",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 14,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 61,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 4.67
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.15,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 2.04,
+          "high": 2.26
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489375,
+      "date": "2026-06-14T23:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Ecuador",
+      "homeScore": 1,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "A. Diallo",
+            "minute": 90,
+            "assist": "W. Singo",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 15,
+        "shotsOnTarget": 4,
+        "xG": 1.52,
+        "possession": 48,
+        "passes": 470,
+        "passAccuracy": 84,
+        "corners": 3,
+        "fouls": 10,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 12,
+        "shotsOnTarget": 1,
+        "xG": 1.01,
+        "possession": 52,
+        "passes": 492,
+        "passAccuracy": 85,
+        "corners": 5,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "F. Letexier",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 23,
+        "totalYellowCards": 4,
+        "totalRedCards": null,
+        "firstYellowMinute": 28,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 5.75
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.54,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.36,
+          "high": 3.72
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1539002,
+      "date": "2026-06-15T02:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Sweden",
+      "awayTeam": "Tunisia",
+      "homeScore": 5,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "Y. Ayari",
+            "minute": 7,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "A. Isak",
+            "minute": 30,
+            "assist": "V. Gyokeres",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "V. Gyokeres",
+            "minute": 59,
+            "assist": "A. Isak",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Svanberg",
+            "minute": 84,
+            "assist": "A. Isak",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "Y. Ayari",
+            "minute": 90,
+            "assist": "L. Bergvall",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "O. Rekik",
+            "minute": 43,
+            "assist": "H. Mejbri",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 5,
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "xG": 1.33,
+        "possession": 49,
+        "passes": 356,
+        "passAccuracy": 78,
+        "corners": 4,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "xG": 0.28,
+        "possession": 51,
+        "passes": 371,
+        "passAccuracy": 79,
+        "corners": 2,
+        "fouls": 8,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "referee": {
+        "name": "Y. Perez",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 18,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 54,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 18
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.77,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.66,
+          "high": 2.08
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489380,
+      "date": "2026-06-15T16:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Spain",
+      "awayTeam": "Cape Verde Islands",
+      "homeScore": 0,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 27,
+        "shotsOnTarget": 7,
+        "xG": 2.1,
+        "possession": 74,
+        "passes": 800,
+        "passAccuracy": 92,
+        "corners": 11,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "xG": 0.2,
+        "possession": 26,
+        "passes": 278,
+        "passAccuracy": 74,
+        "corners": 1,
+        "fouls": 1,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 7
+      },
+      "referee": {
+        "name": "A. Makhadmeh",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 11,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 16,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 5.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 1.69,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.01,
+          "high": 1.27
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489377,
+      "date": "2026-06-15T19:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Belgium",
+      "awayTeam": "Egypt",
+      "homeScore": 1,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "M. Hany",
+            "minute": 66,
+            "assist": null,
+            "detail": "Own Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "E. Ashour",
+            "minute": 20,
+            "assist": "M. Salah",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "xG": 1.35,
+        "possession": 54,
+        "passes": 455,
+        "passAccuracy": 86,
+        "corners": 2,
+        "fouls": 15,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "xG": 1.08,
+        "possession": 46,
+        "passes": 398,
+        "passAccuracy": 81,
+        "corners": 7,
+        "fouls": 15,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "R. Abatti",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 30,
+        "totalYellowCards": 4,
+        "totalRedCards": null,
+        "firstYellowMinute": 13,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 7.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.62,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 4.39,
+          "high": 4.85
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489379,
+      "date": "2026-06-15T22:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Uruguay",
+      "homeScore": 1,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "A. Al Amri",
+            "minute": 41,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "M. Araujo",
+            "minute": 80,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "xG": 0.66,
+        "possession": 33,
+        "passes": 322,
+        "passAccuracy": 73,
+        "corners": 4,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 9
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 27,
+        "shotsOnTarget": 10,
+        "xG": 1.72,
+        "possession": 67,
+        "passes": 612,
+        "passAccuracy": 88,
+        "corners": 14,
+        "fouls": 6,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "M. Mariani",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 17,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 44,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 17
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.62,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.57,
+          "high": 1.97
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489378,
+      "date": "2026-06-16T01:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Iran",
+      "awayTeam": "New Zealand",
+      "homeScore": 2,
+      "awayScore": 2,
+      "statusShort": "FT",
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "R. Rezaeian",
+            "minute": 32,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Mohebi",
+            "minute": 64,
+            "assist": "R. Rezaeian",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "E. Just",
+            "minute": 7,
+            "assist": "C. Wood",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "E. Just",
+            "minute": 54,
+            "assist": "C. Wood",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 17,
+        "shotsOnTarget": 4,
+        "xG": 1.5,
+        "possession": 49,
+        "passes": 409,
+        "passAccuracy": 77,
+        "corners": 4,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 6
+      },
+      "awayStats": {
+        "goals": 2,
+        "shots": 14,
+        "shotsOnTarget": 8,
+        "xG": 1.24,
+        "possession": 51,
+        "passes": 446,
+        "passAccuracy": 84,
+        "corners": 1,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "C. A. Ramos",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 18,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 89,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 18
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.77,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.66,
+          "high": 2.08
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489383,
+      "date": "2026-06-16T19:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "France",
+      "awayTeam": "Senegal",
+      "homeScore": 3,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "K. Mbappe",
+            "minute": 66,
+            "assist": "M. Olise",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "B. Barcola",
+            "minute": 82,
+            "assist": "A. Rabiot",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "K. Mbappe",
+            "minute": 90,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "I. Mbaye",
+            "minute": 90,
+            "assist": "I. Ndiaye",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 3,
+        "shots": 11,
+        "shotsOnTarget": 8,
+        "xG": 1.79,
+        "possession": 53,
+        "passes": 575,
+        "passAccuracy": 88,
+        "corners": 6,
+        "fouls": 5,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "xG": 0.53,
+        "possession": 47,
+        "passes": 502,
+        "passAccuracy": 86,
+        "corners": 4,
+        "fouls": 9,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 5
+      },
+      "referee": {
+        "name": "A. Faghani",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 14,
+        "totalYellowCards": null,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": null
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.15,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.29,
+          "high": 1.61
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539016,
+      "date": "2026-06-16T22:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
+      "homeScore": 1,
+      "awayScore": 4,
+      "statusShort": "FT",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "A. Hussein",
+            "minute": 39,
+            "assist": "A. Al Ammari",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "E. Haaland",
+            "minute": 29,
+            "assist": "D. Wolfe",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "E. Haaland",
+            "minute": 43,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "L. Ostigard",
+            "minute": 76,
+            "assist": "M. Odegaard",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "A. Hussein",
+            "minute": 90,
+            "assist": null,
+            "detail": "Own Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 11,
+        "shotsOnTarget": 1,
+        "xG": 0.8,
+        "possession": 39,
+        "passes": 334,
+        "passAccuracy": 81,
+        "corners": 2,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 4,
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "xG": 2.52,
+        "possession": 61,
+        "passes": 537,
+        "passAccuracy": 89,
+        "corners": 5,
+        "fouls": 13,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 0
+      },
+      "referee": {
+        "name": "P. Atcho",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 25,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 86,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 25
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.85,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.31,
+          "high": 2.89
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489381,
+      "date": "2026-06-17T01:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Argentina",
+      "awayTeam": "Algeria",
+      "homeScore": 3,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "L. Messi",
+            "minute": 17,
+            "assist": "R. de Paul",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "L. Messi",
+            "minute": 60,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "L. Messi",
+            "minute": 76,
+            "assist": "N. Gonzalez",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 3,
+        "shots": 10,
+        "shotsOnTarget": 6,
+        "xG": 1.47,
+        "possession": 48,
+        "passes": 561,
+        "passAccuracy": 90,
+        "corners": 2,
+        "fouls": 13,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 0
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 7,
+        "shotsOnTarget": 0,
+        "xG": 0.3,
+        "possession": 52,
+        "passes": 609,
+        "passAccuracy": 92,
+        "corners": 2,
+        "fouls": 8,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "S. Marciniak",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 21,
+        "totalYellowCards": null,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": null
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.23,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.94,
+          "high": 2.42
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489382,
+      "date": "2026-06-17T04:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
+      "homeScore": 3,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Levi's Stadium",
+      "city": "Santa Clara",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "R. Schmid",
+            "minute": 21,
+            "assist": "X. Schlager",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "Y. Al Arab",
+            "minute": 76,
+            "assist": null,
+            "detail": "Own Goal"
+          },
+          {
+            "player": "M. Arnautovic",
+            "minute": 90,
+            "assist": null,
+            "detail": "Penalty"
+          }
+        ],
+        "away": [
+          {
+            "player": "A. Olwan",
+            "minute": 50,
+            "assist": "N. Al Rawabdeh",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 3,
+        "shots": 11,
+        "shotsOnTarget": 4,
+        "xG": 1.69,
+        "possession": 63,
+        "passes": 580,
+        "passAccuracy": 84,
+        "corners": 4,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 11,
+        "shotsOnTarget": 4,
+        "xG": 1.15,
+        "possession": 37,
+        "passes": 332,
+        "passAccuracy": 73,
+        "corners": 3,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 1
+      },
+      "referee": {
+        "name": "D. Beida",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 19,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 77,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 19
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 1,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 0.6,
+          "high": 0.75
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539003,
+      "date": "2026-06-17T17:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Portugal",
+      "awayTeam": "Congo DR",
+      "homeScore": 1,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "J. Neves",
+            "minute": 6,
+            "assist": "P. Neto",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "Y. Wissa",
+            "minute": 45,
+            "assist": "A. Masuaku",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 7,
+        "shotsOnTarget": 1,
+        "xG": 0.65,
+        "possession": 75,
+        "passes": 783,
+        "passAccuracy": 92,
+        "corners": 5,
+        "fouls": 9,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "xG": 0.87,
+        "possession": 25,
+        "passes": 249,
+        "passAccuracy": 78,
+        "corners": 4,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 0
+      },
+      "referee": {
+        "name": "A. Al Jassim",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 19,
+        "totalYellowCards": 4,
+        "totalRedCards": null,
+        "firstYellowMinute": 13,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 4.75
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.92,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 2.77,
+          "high": 3.07
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489384,
+      "date": "2026-06-17T20:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "England",
+      "awayTeam": "Croatia",
+      "homeScore": 4,
+      "awayScore": 2,
+      "statusShort": "FT",
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "H. Kane",
+            "minute": 12,
+            "assist": null,
+            "detail": "Penalty"
+          },
+          {
+            "player": "H. Kane",
+            "minute": 42,
+            "assist": "D. Rice",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "J. Bellingham",
+            "minute": 47,
+            "assist": "E. Anderson",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Rashford",
+            "minute": 85,
+            "assist": "B. Saka",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "M. Baturina",
+            "minute": 36,
+            "assist": "P. Sucic",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "P. Musa",
+            "minute": 45,
+            "assist": "I. Perisic",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 4,
+        "shots": 22,
+        "shotsOnTarget": 11,
+        "xG": 3.2,
+        "possession": 52,
+        "passes": 474,
+        "passAccuracy": 86,
+        "corners": 8,
+        "fouls": 10,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 3
+      },
+      "awayStats": {
+        "goals": 2,
+        "shots": 10,
+        "shotsOnTarget": 5,
+        "xG": 0.7,
+        "possession": 48,
+        "passes": 443,
+        "passAccuracy": 86,
+        "corners": 2,
+        "fouls": 12,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 7
+      },
+      "referee": {
+        "name": "C. Turpin",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 22,
+        "totalYellowCards": null,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": null
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.38,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.03,
+          "high": 2.54
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489385,
+      "date": "2026-06-17T23:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "homeScore": 1,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "C. Yirenkyi",
+            "minute": 90,
+            "assist": "B. Thomas-Asante",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "xG": 1.31,
+        "possession": 38,
+        "passes": 351,
+        "passAccuracy": 83,
+        "corners": 2,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 4
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 11,
+        "shotsOnTarget": 4,
+        "xG": 0.73,
+        "possession": 62,
+        "passes": 583,
+        "passAccuracy": 86,
+        "corners": 2,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "G. Nyberg",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 20,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 16,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 6.67
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.08,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 2.93,
+          "high": 3.23
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489386,
+      "date": "2026-06-18T02:00:00.000Z",
+      "group": "Group 1",
+      "homeTeam": "Uzbekistan",
+      "awayTeam": "Colombia",
+      "homeScore": 1,
+      "awayScore": 3,
+      "statusShort": "FT",
+      "venue": "Estadio Banorte",
+      "city": "Mexico City",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "A. Fayzullaev",
+            "minute": 60,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "D. Munoz",
+            "minute": 40,
+            "assist": "L. Diaz",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "L. Diaz",
+            "minute": 65,
+            "assist": "G. Puerta",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "J. Campaz",
+            "minute": 90,
+            "assist": "C. Hernandez",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 8,
+        "shotsOnTarget": 2,
+        "xG": 1.16,
+        "possession": 39,
+        "passes": 319,
+        "passAccuracy": 76,
+        "corners": 3,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 3,
+        "shots": 15,
+        "shotsOnTarget": 4,
+        "xG": 1.61,
+        "possession": 61,
+        "passes": 519,
+        "passAccuracy": 86,
+        "corners": 4,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "referee": {
+        "name": "A. Taylor",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 25,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 7,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 12.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.85,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.31,
+          "high": 2.89
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539004,
+      "date": "2026-06-18T16:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Czechia",
+      "awayTeam": "South Africa",
+      "homeScore": 1,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "M. Sadilek",
+            "minute": 6,
+            "assist": "A. Sojka",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "T. Mokoena",
+            "minute": 83,
+            "assist": null,
+            "detail": "Penalty"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 14,
+        "shotsOnTarget": 3,
+        "xG": 1.02,
+        "possession": 38,
+        "passes": 341,
+        "passAccuracy": 80,
+        "corners": 5,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 17,
+        "shotsOnTarget": 4,
+        "xG": 1.38,
+        "possession": 62,
+        "passes": 563,
+        "passAccuracy": 90,
+        "corners": 5,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "T. Penso",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 22,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 33,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 7.33
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.38,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.21,
+          "high": 3.55
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1539005,
+      "date": "2026-06-18T19:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Bosnia & Herzegovina",
+      "homeScore": 4,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "J. Manzambi",
+            "minute": 74,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "R. Vargas",
+            "minute": 84,
+            "assist": "B. Embolo",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "J. Manzambi",
+            "minute": 90,
+            "assist": "R. Vargas",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "G. Xhaka",
+            "minute": 90,
+            "assist": null,
+            "detail": "Penalty"
+          }
+        ],
+        "away": [
+          {
+            "player": "E. Mahmic",
+            "minute": 90,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 4,
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "xG": 2.06,
+        "possession": 62,
+        "passes": 586,
+        "passAccuracy": 88,
+        "corners": 7,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 0,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 5,
+        "shotsOnTarget": 3,
+        "xG": 0.23,
+        "possession": 38,
+        "passes": 354,
+        "passAccuracy": 81,
+        "corners": 3,
+        "fouls": 18,
+        "yellowCards": 2,
+        "redCards": 1,
+        "saves": 3
+      },
+      "referee": {
+        "name": "J. Pinheiro",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 25,
+        "totalYellowCards": 3,
+        "totalRedCards": 1,
+        "firstYellowMinute": 59,
+        "firstRedMinute": 80,
+        "foulsPerYellowCard": 8.33
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.85,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.31,
+          "high": 2.89
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489387,
+      "date": "2026-06-18T22:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Canada",
+      "awayTeam": "Qatar",
+      "homeScore": 6,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "C. Larin",
+            "minute": 16,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "J. David",
+            "minute": 29,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": null,
+            "minute": 33,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "J. David",
+            "minute": 45,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "N. Saliba",
+            "minute": 64,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Al Mannai",
+            "minute": 75,
+            "assist": null,
+            "detail": "Own Goal"
+          },
+          {
+            "player": "J. David",
+            "minute": 90,
+            "assist": "N. Saliba",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 6,
+        "shots": 32,
+        "shotsOnTarget": 10,
+        "xG": 4.6,
+        "possession": 79,
+        "passes": 567,
+        "passAccuracy": 91,
+        "corners": 19,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "saves": 0
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 2,
+        "shotsOnTarget": 0,
+        "xG": 0.22,
+        "possession": 21,
+        "passes": 162,
+        "passAccuracy": 64,
+        "corners": 1,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": 2,
+        "saves": 4
+      },
+      "referee": {
+        "name": "C. Garay",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 19,
+        "totalYellowCards": 2,
+        "totalRedCards": 2,
+        "firstYellowMinute": 9,
+        "firstRedMinute": 33,
+        "foulsPerYellowCard": 9.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.92,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.75,
+          "high": 2.19
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489388,
+      "date": "2026-06-19T01:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Korea",
+      "homeScore": 1,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Estadio Akron",
+      "city": "Zapopan",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "L. Romo",
+            "minute": 50,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "xG": 0.53,
+        "possession": 42,
+        "passes": 427,
+        "passAccuracy": 82,
+        "corners": 0,
+        "fouls": 9,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "xG": 0.91,
+        "possession": 58,
+        "passes": 578,
+        "passAccuracy": 84,
+        "corners": 2,
+        "fouls": 7,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "G. Tejera",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 16,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 4,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 8
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.46,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.48,
+          "high": 1.85
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489391,
+      "date": "2026-06-19T19:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "USA",
+      "awayTeam": "Australia",
+      "homeScore": 2,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "C. Burgess",
+            "minute": 11,
+            "assist": null,
+            "detail": "Own Goal"
+          },
+          {
+            "player": "A. Freeman",
+            "minute": 43,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 10,
+        "shotsOnTarget": 2,
+        "xG": 1.08,
+        "possession": 62,
+        "passes": 523,
+        "passAccuracy": 85,
+        "corners": 7,
+        "fouls": 12,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 5,
+        "shotsOnTarget": 2,
+        "xG": 0.35,
+        "possession": 38,
+        "passes": 310,
+        "passAccuracy": 71,
+        "corners": 4,
+        "fouls": 16,
+        "yellowCards": 4,
+        "redCards": null,
+        "saves": 1
+      },
+      "referee": {
+        "name": "F. Zwayer",
+        "nationality": null,
+        "refereeStyle": "strict",
+        "totalFouls": 28,
+        "totalYellowCards": 7,
+        "totalRedCards": null,
+        "firstYellowMinute": 16,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 4
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.31,
+        "refereeAdjustment": "up",
+        "adjustedCardProjection": {
+          "low": 5.17,
+          "high": 5.82
+        },
+        "notes": "Strict referee profile; projected cards increased by roughly 20–35%."
+      }
+    },
+    {
+      "matchId": 1489390,
+      "date": "2026-06-19T22:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "homeScore": 0,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "scorers": {
+        "home": [],
+        "away": [
+          {
+            "player": "I. Saibari",
+            "minute": 2,
+            "assist": "B. Diaz",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 6,
+        "shotsOnTarget": 0,
+        "xG": 0.51,
+        "possession": 41,
+        "passes": 456,
+        "passAccuracy": 85,
+        "corners": 2,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 12,
+        "shotsOnTarget": 2,
+        "xG": 0.99,
+        "possession": 59,
+        "passes": 670,
+        "passAccuracy": 90,
+        "corners": 5,
+        "fouls": 8,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 0
+      },
+      "referee": {
+        "name": "I. Tantashev",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 19,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 23,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 9.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.92,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.75,
+          "high": 2.19
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489389,
+      "date": "2026-06-20T00:30:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Brazil",
+      "awayTeam": "Haiti",
+      "homeScore": 3,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "M. Cunha",
+            "minute": 23,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Cunha",
+            "minute": 36,
+            "assist": "Vinicius Junior",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "Vinicius Junior",
+            "minute": 45,
+            "assist": "Lucas Paqueta",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 3,
+        "shots": 8,
+        "shotsOnTarget": 5,
+        "xG": 1.75,
+        "possession": 57,
+        "passes": 525,
+        "passAccuracy": 88,
+        "corners": 4,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "xG": 0.23,
+        "possession": 43,
+        "passes": 399,
+        "passAccuracy": 83,
+        "corners": 4,
+        "fouls": 14,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "A. Hernandez",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 27,
+        "totalYellowCards": 4,
+        "totalRedCards": null,
+        "firstYellowMinute": 4,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 6.75
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.15,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.94,
+          "high": 4.36
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1539006,
+      "date": "2026-06-20T03:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Türkiye",
+      "awayTeam": "Paraguay",
+      "homeScore": 0,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Levi's Stadium",
+      "city": "Santa Clara",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "scorers": {
+        "home": [],
+        "away": [
+          {
+            "player": "M. Galarza",
+            "minute": 2,
+            "assist": "J. Enciso",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 32,
+        "shotsOnTarget": 5,
+        "xG": 2.17,
+        "possession": 79,
+        "passes": 629,
+        "passAccuracy": 89,
+        "corners": 12,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "xG": 0.32,
+        "possession": 21,
+        "passes": 178,
+        "passAccuracy": 54,
+        "corners": 0,
+        "fouls": 15,
+        "yellowCards": 1,
+        "redCards": 1,
+        "saves": 5
+      },
+      "referee": {
+        "name": "I. Barton",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 29,
+        "totalYellowCards": 2,
+        "totalRedCards": 1,
+        "firstYellowMinute": 4,
+        "firstRedMinute": 48,
+        "foulsPerYellowCard": 14.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.46,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.68,
+          "high": 3.35
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539007,
+      "date": "2026-06-20T17:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Sweden",
+      "homeScore": 5,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "B. Brobbey",
+            "minute": 5,
+            "assist": "C. Gakpo",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "B. Brobbey",
+            "minute": 17,
+            "assist": "D. Dumfries",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "C. Gakpo",
+            "minute": 47,
+            "assist": "D. Dumfries",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "C. Gakpo",
+            "minute": 54,
+            "assist": "C. Summerville",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "C. Summerville",
+            "minute": 89,
+            "assist": "M. Depay",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "A. Elanga",
+            "minute": 59,
+            "assist": "A. Isak",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 5,
+        "shots": 10,
+        "shotsOnTarget": 7,
+        "xG": 2.61,
+        "possession": 51,
+        "passes": 449,
+        "passAccuracy": 89,
+        "corners": 2,
+        "fouls": 9,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 7
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 16,
+        "shotsOnTarget": 8,
+        "xG": 1.01,
+        "possession": 49,
+        "passes": 425,
+        "passAccuracy": 85,
+        "corners": 5,
+        "fouls": 12,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "M. Oliver",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 21,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 53,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 7
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.23,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.07,
+          "high": 3.39
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489393,
+      "date": "2026-06-20T20:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Germany",
+      "awayTeam": "Ivory Coast",
+      "homeScore": 2,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "D. Undav",
+            "minute": 68,
+            "assist": "N. Amiri",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "D. Undav",
+            "minute": 90,
+            "assist": "F. Nmecha",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "F. Kessie",
+            "minute": 30,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 16,
+        "shotsOnTarget": 7,
+        "xG": 1.89,
+        "possession": 60,
+        "passes": 624,
+        "passAccuracy": 89,
+        "corners": 8,
+        "fouls": 5,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "xG": 1.22,
+        "possession": 40,
+        "passes": 431,
+        "passAccuracy": 85,
+        "corners": 3,
+        "fouls": 7,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 5
+      },
+      "referee": {
+        "name": "J. Benitez",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 12,
+        "totalYellowCards": null,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": null
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 1.85,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.11,
+          "high": 1.39
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489392,
+      "date": "2026-06-21T00:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Ecuador",
+      "awayTeam": "Curaçao",
+      "homeScore": 0,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 27,
+        "shotsOnTarget": 15,
+        "xG": 2.84,
+        "possession": 75,
+        "passes": 644,
+        "passAccuracy": 90,
+        "corners": 9,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "xG": 0.5,
+        "possession": 25,
+        "passes": 227,
+        "passAccuracy": 70,
+        "corners": 0,
+        "fouls": 10,
+        "yellowCards": 5,
+        "redCards": null,
+        "saves": 15
+      },
+      "referee": {
+        "name": "Ma Ning",
+        "nationality": null,
+        "refereeStyle": "strict",
+        "totalFouls": 17,
+        "totalYellowCards": 6,
+        "totalRedCards": null,
+        "firstYellowMinute": 38,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 2.83
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.62,
+        "refereeAdjustment": "up",
+        "adjustedCardProjection": {
+          "low": 3.14,
+          "high": 3.54
+        },
+        "notes": "Strict referee profile; projected cards increased by roughly 20–35%."
+      }
+    },
+    {
+      "matchId": 1489394,
+      "date": "2026-06-21T04:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Japan",
+      "homeScore": 0,
+      "awayScore": 4,
+      "statusShort": "FT",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "scorers": {
+        "home": [],
+        "away": [
+          {
+            "player": "D. Kamada",
+            "minute": 4,
+            "assist": "K. Nakamura",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "A. Ueda",
+            "minute": 31,
+            "assist": "K. Itakura",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "J. Ito",
+            "minute": 69,
+            "assist": "A. Ueda",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "A. Ueda",
+            "minute": 83,
+            "assist": "K. Sano",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 2,
+        "shotsOnTarget": 0,
+        "xG": 0.05,
+        "possession": 38,
+        "passes": 354,
+        "passAccuracy": 80,
+        "corners": 3,
+        "fouls": 8,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 4,
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "xG": 2.13,
+        "possession": 62,
+        "passes": 583,
+        "passAccuracy": 89,
+        "corners": 5,
+        "fouls": 15,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 0
+      },
+      "referee": {
+        "name": "I. Kovacs",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 23,
+        "totalYellowCards": null,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": null
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.54,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.12,
+          "high": 2.66
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489397,
+      "date": "2026-06-21T16:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Spain",
+      "awayTeam": "Saudi Arabia",
+      "homeScore": 4,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "Lamine Yamal",
+            "minute": 10,
+            "assist": "M. Oyarzabal",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Oyarzabal",
+            "minute": 21,
+            "assist": "A. Laporte",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Oyarzabal",
+            "minute": 24,
+            "assist": "D. Olmo",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "H. Tambakti",
+            "minute": 49,
+            "assist": null,
+            "detail": "Own Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 4,
+        "shots": 22,
+        "shotsOnTarget": 8,
+        "xG": 2.3,
+        "possession": 67,
+        "passes": 726,
+        "passAccuracy": 92,
+        "corners": 6,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 3,
+        "shotsOnTarget": 1,
+        "xG": 0.14,
+        "possession": 33,
+        "passes": 364,
+        "passAccuracy": 81,
+        "corners": 1,
+        "fouls": 2,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 5
+      },
+      "referee": {
+        "name": "R. Claus",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 12,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 30,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 6
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 1.85,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.11,
+          "high": 1.39
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489395,
+      "date": "2026-06-21T19:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Belgium",
+      "awayTeam": "Iran",
+      "homeScore": 0,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 23,
+        "shotsOnTarget": 7,
+        "xG": 1.79,
+        "possession": 70,
+        "passes": 621,
+        "passAccuracy": 86,
+        "corners": 4,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": 1,
+        "saves": 3
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "xG": 0.62,
+        "possession": 30,
+        "passes": 270,
+        "passAccuracy": 73,
+        "corners": 2,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": 0,
+        "saves": 7
+      },
+      "referee": {
+        "name": "D. Herrera",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 16,
+        "totalYellowCards": 2,
+        "totalRedCards": 1,
+        "firstYellowMinute": 3,
+        "firstRedMinute": 66,
+        "foulsPerYellowCard": 8
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.46,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.48,
+          "high": 1.85
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489398,
+      "date": "2026-06-21T22:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Uruguay",
+      "awayTeam": "Cape Verde Islands",
+      "homeScore": 2,
+      "awayScore": 2,
+      "statusShort": "FT",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "M. Araujo",
+            "minute": 44,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "A. Canobbio",
+            "minute": 45,
+            "assist": "M. Araujo",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "K. Lenini",
+            "minute": 21,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "H. Varela",
+            "minute": 61,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 17,
+        "shotsOnTarget": 2,
+        "xG": 2.32,
+        "possession": 65,
+        "passes": 511,
+        "passAccuracy": 82,
+        "corners": 11,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 2,
+        "shots": 12,
+        "shotsOnTarget": 4,
+        "xG": 0.88,
+        "possession": 35,
+        "passes": 278,
+        "passAccuracy": 74,
+        "corners": 4,
+        "fouls": 4,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 0
+      },
+      "referee": {
+        "name": "E. Eskas",
+        "nationality": null,
+        "refereeStyle": "strict",
+        "totalFouls": 15,
+        "totalYellowCards": 4,
+        "totalRedCards": null,
+        "firstYellowMinute": 5,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 3.75
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.31,
+        "refereeAdjustment": "up",
+        "adjustedCardProjection": {
+          "low": 2.77,
+          "high": 3.12
+        },
+        "notes": "Strict referee profile; projected cards increased by roughly 20–35%."
+      }
+    },
+    {
+      "matchId": 1489396,
+      "date": "2026-06-22T01:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Egypt",
+      "homeScore": 1,
+      "awayScore": 3,
+      "statusShort": "FT",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "F. Surman",
+            "minute": 15,
+            "assist": "T. Payne",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "M. Ziko",
+            "minute": 58,
+            "assist": "M. Hany",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Salah",
+            "minute": 67,
+            "assist": "M. Ziko",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "Trezeguet",
+            "minute": 82,
+            "assist": "M. Salah",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "xG": 1.24,
+        "possession": 44,
+        "passes": 421,
+        "passAccuracy": 80,
+        "corners": 4,
+        "fouls": 14,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 4
+      },
+      "awayStats": {
+        "goals": 3,
+        "shots": 19,
+        "shotsOnTarget": 7,
+        "xG": 1.87,
+        "possession": 56,
+        "passes": 526,
+        "passAccuracy": 87,
+        "corners": 3,
+        "fouls": 8,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 4
+      },
+      "referee": {
+        "name": "O. Alali",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 22,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 17,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 7.33
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.38,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.21,
+          "high": 3.55
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489399,
+      "date": "2026-06-22T17:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Argentina",
+      "awayTeam": "Austria",
+      "homeScore": 2,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "Lionel Messi",
+            "minute": 9,
+            "assist": null,
+            "detail": "Missed Penalty"
+          },
+          {
+            "player": "L. Messi",
+            "minute": 38,
+            "assist": "F. Medina",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "L. Messi",
+            "minute": 90,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "xG": 2.36,
+        "possession": 54,
+        "passes": 554,
+        "passAccuracy": 89,
+        "corners": 1,
+        "fouls": 13,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "xG": 0.53,
+        "possession": 46,
+        "passes": 468,
+        "passAccuracy": 86,
+        "corners": 3,
+        "fouls": 13,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "A. Omar",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 26,
+        "totalYellowCards": 4,
+        "totalRedCards": null,
+        "firstYellowMinute": 40,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 6.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.8,
+          "high": 4.2
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1539017,
+      "date": "2026-06-22T21:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "France",
+      "awayTeam": "Iraq",
+      "homeScore": 3,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "K. Mbappe",
+            "minute": 14,
+            "assist": "M. Olise",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "K. Mbappe",
+            "minute": 54,
+            "assist": "O. Dembele",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "O. Dembele",
+            "minute": 66,
+            "assist": "M. Olise",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 3,
+        "shots": 19,
+        "shotsOnTarget": 5,
+        "xG": 2.67,
+        "possession": 56,
+        "passes": 603,
+        "passAccuracy": 90,
+        "corners": 4,
+        "fouls": 8,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 0
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 4,
+        "shotsOnTarget": 0,
+        "xG": 0.63,
+        "possession": 44,
+        "passes": 481,
+        "passAccuracy": 86,
+        "corners": 2,
+        "fouls": 4,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "D. Fischer",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 12,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 6,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 12
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 1.85,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.11,
+          "high": 1.39
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489401,
+      "date": "2026-06-23T00:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Norway",
+      "awayTeam": "Senegal",
+      "homeScore": 3,
+      "awayScore": 2,
+      "statusShort": "FT",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "M. Pedersen",
+            "minute": 43,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "E. Haaland",
+            "minute": 48,
+            "assist": "M. Odegaard",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "E. Haaland",
+            "minute": 58,
+            "assist": "P. Berg",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "I. Sarr",
+            "minute": 53,
+            "assist": "S. Mane",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "I. Sarr",
+            "minute": 90,
+            "assist": "N. Jackson",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 3,
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "xG": 2.2,
+        "possession": 42,
+        "passes": 353,
+        "passAccuracy": 80,
+        "corners": 5,
+        "fouls": 13,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 2,
+        "shots": 16,
+        "shotsOnTarget": 4,
+        "xG": 1.72,
+        "possession": 58,
+        "passes": 489,
+        "passAccuracy": 88,
+        "corners": 4,
+        "fouls": 5,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "W. Sampaio",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 18,
+        "totalYellowCards": null,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": null
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.77,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.66,
+          "high": 2.08
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489400,
+      "date": "2026-06-23T03:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Jordan",
+      "awayTeam": "Algeria",
+      "homeScore": 1,
+      "awayScore": 2,
+      "statusShort": "FT",
+      "venue": "Levi's Stadium",
+      "city": "Santa Clara",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "N. Al Rashdan",
+            "minute": 36,
+            "assist": "M. Tamari",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "N. Benbouali",
+            "minute": 69,
+            "assist": "R. Mahrez",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "A. Gouiri",
+            "minute": 82,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "xG": 0.63,
+        "possession": 28,
+        "passes": 251,
+        "passAccuracy": 72,
+        "corners": 1,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 6
+      },
+      "awayStats": {
+        "goals": 2,
+        "shots": 17,
+        "shotsOnTarget": 8,
+        "xG": 1.89,
+        "possession": 72,
+        "passes": 641,
+        "passAccuracy": 88,
+        "corners": 10,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "S. Vincic",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 17,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 44,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 8.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.62,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.57,
+          "high": 1.97
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489404,
+      "date": "2026-06-23T17:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Portugal",
+      "awayTeam": "Uzbekistan",
+      "homeScore": 5,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "C. Ronaldo",
+            "minute": 6,
+            "assist": "J. Cancelo",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "N. Mendes",
+            "minute": 17,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "C. Ronaldo",
+            "minute": 39,
+            "assist": "B. Fernandes",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "A. Nematov",
+            "minute": 60,
+            "assist": null,
+            "detail": "Own Goal"
+          },
+          {
+            "player": "R. Leao",
+            "minute": 87,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 5,
+        "shots": 17,
+        "shotsOnTarget": 9,
+        "xG": 2.61,
+        "possession": 66,
+        "passes": 624,
+        "passAccuracy": 90,
+        "corners": 3,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "xG": 0.24,
+        "possession": 34,
+        "passes": 327,
+        "passAccuracy": 80,
+        "corners": 2,
+        "fouls": 15,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 4
+      },
+      "referee": {
+        "name": "J. Jayed",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 29,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 14,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 14.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.46,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.68,
+          "high": 3.35
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489402,
+      "date": "2026-06-23T20:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "England",
+      "awayTeam": "Ghana",
+      "homeScore": 0,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 19,
+        "shotsOnTarget": 3,
+        "xG": 1.36,
+        "possession": 79,
+        "passes": 633,
+        "passAccuracy": 93,
+        "corners": 9,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 0
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 2,
+        "shotsOnTarget": 1,
+        "xG": 0.17,
+        "possession": 21,
+        "passes": 172,
+        "passAccuracy": 74,
+        "corners": 2,
+        "fouls": 24,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "S. Martinez",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 38,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 41,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 19
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 5.85,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 3.51,
+          "high": 4.39
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489403,
+      "date": "2026-06-23T23:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Panama",
+      "awayTeam": "Croatia",
+      "homeScore": 0,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "scorers": {
+        "home": [],
+        "away": [
+          {
+            "player": "A. Budimir",
+            "minute": 54,
+            "assist": "J. Stanisic",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 8,
+        "shotsOnTarget": 1,
+        "xG": 0.55,
+        "possession": 42,
+        "passes": 352,
+        "passAccuracy": 79,
+        "corners": 7,
+        "fouls": 19,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 6,
+        "shotsOnTarget": 2,
+        "xG": 1.65,
+        "possession": 58,
+        "passes": 512,
+        "passAccuracy": 84,
+        "corners": 2,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "referee": {
+        "name": "P. Atcho",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 31,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 61,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 15.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.77,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.86,
+          "high": 3.58
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539008,
+      "date": "2026-06-24T02:00:00.000Z",
+      "group": "Group 2",
+      "homeTeam": "Colombia",
+      "awayTeam": "Congo DR",
+      "homeScore": 1,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Estadio Akron",
+      "city": "Zapopan",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "D. Munoz",
+            "minute": 76,
+            "assist": "J. Quintero",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 20,
+        "shotsOnTarget": 9,
+        "xG": 0.98,
+        "possession": 64,
+        "passes": 541,
+        "passAccuracy": 87,
+        "corners": 5,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 7,
+        "shotsOnTarget": 1,
+        "xG": 0.37,
+        "possession": 36,
+        "passes": 299,
+        "passAccuracy": 76,
+        "corners": 4,
+        "fouls": 16,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 8
+      },
+      "referee": {
+        "name": "M. Mariani",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 28,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 56,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 9.33
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.31,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.59,
+          "high": 3.23
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489408,
+      "date": "2026-06-24T19:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Canada",
+      "homeScore": 2,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "R. Vargas",
+            "minute": 46,
+            "assist": "J. Manzambi",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "J. Manzambi",
+            "minute": 57,
+            "assist": "B. Embolo",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "P. David",
+            "minute": 76,
+            "assist": "N. Saliba",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 6,
+        "shotsOnTarget": 4,
+        "xG": 1.11,
+        "possession": 55,
+        "passes": 443,
+        "passAccuracy": 83,
+        "corners": 2,
+        "fouls": 19,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 6
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 13,
+        "shotsOnTarget": 7,
+        "xG": 1.66,
+        "possession": 45,
+        "passes": 339,
+        "passAccuracy": 80,
+        "corners": 7,
+        "fouls": 13,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "R. Abatti",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 32,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 32,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 10.67
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.92,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.95,
+          "high": 3.69
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539009,
+      "date": "2026-06-24T19:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Bosnia & Herzegovina",
+      "awayTeam": "Qatar",
+      "homeScore": 3,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "K. Alajbegovic",
+            "minute": 29,
+            "assist": "I. Basic",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Abunada",
+            "minute": 34,
+            "assist": null,
+            "detail": "Own Goal"
+          },
+          {
+            "player": "E. Mahmic",
+            "minute": 80,
+            "assist": "D. Hadzikadunic",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "H. Al Haydos",
+            "minute": 42,
+            "assist": "Edmilson Junior",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 3,
+        "shots": 14,
+        "shotsOnTarget": 5,
+        "xG": 0.68,
+        "possession": 54,
+        "passes": 515,
+        "passAccuracy": 88,
+        "corners": 5,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 9,
+        "shotsOnTarget": 3,
+        "xG": 0.77,
+        "possession": 46,
+        "passes": 434,
+        "passAccuracy": 85,
+        "corners": 5,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "J. Valenzuela",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 23,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 78,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 11.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.54,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.12,
+          "high": 2.66
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489405,
+      "date": "2026-06-24T22:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Morocco",
+      "awayTeam": "Haiti",
+      "homeScore": 4,
+      "awayScore": 2,
+      "statusShort": "FT",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 4,
+        "shots": 22,
+        "shotsOnTarget": 11,
+        "xG": 3.76,
+        "possession": 69,
+        "passes": 541,
+        "passAccuracy": 88,
+        "corners": 9,
+        "fouls": 10,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 2,
+        "shots": 9,
+        "shotsOnTarget": 2,
+        "xG": 0.67,
+        "possession": 31,
+        "passes": 247,
+        "passAccuracy": 80,
+        "corners": 1,
+        "fouls": 18,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 8
+      },
+      "referee": {
+        "name": "D. Makkelie",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 28,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 9.33
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.31,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.59,
+          "high": 3.23
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489406,
+      "date": "2026-06-24T22:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Scotland",
+      "awayTeam": "Brazil",
+      "homeScore": 0,
+      "awayScore": 3,
+      "statusShort": "FT",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "scorers": {
+        "home": [],
+        "away": [
+          {
+            "player": "Vinicius Junior",
+            "minute": 7,
+            "assist": "Rayan",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "Vinicius Junior",
+            "minute": 45,
+            "assist": "Bruno Guimaraes",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Cunha",
+            "minute": 60,
+            "assist": "Bruno Guimaraes",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 14,
+        "shotsOnTarget": 5,
+        "xG": 1.04,
+        "possession": 46,
+        "passes": 500,
+        "passAccuracy": 90,
+        "corners": 7,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 5
+      },
+      "awayStats": {
+        "goals": 3,
+        "shots": 21,
+        "shotsOnTarget": 9,
+        "xG": 4.33,
+        "possession": 54,
+        "passes": 605,
+        "passAccuracy": 93,
+        "corners": 6,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 5
+      },
+      "referee": {
+        "name": "C. A. Ramos",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 21,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 62,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 7
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.23,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.07,
+          "high": 3.39
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1539010,
+      "date": "2026-06-25T01:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Czechia",
+      "awayTeam": "Mexico",
+      "homeScore": 0,
+      "awayScore": 3,
+      "statusShort": "FT",
+      "venue": "Estadio Banorte",
+      "city": "Mexico City",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "scorers": {
+        "home": [],
+        "away": [
+          {
+            "player": "M. Chavez Garcia",
+            "minute": 55,
+            "assist": "L. Romo",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "J. Quinones",
+            "minute": 61,
+            "assist": "J. Sanchez",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "A. Fidalgo",
+            "minute": 90,
+            "assist": "R. Alvarado",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 13,
+        "shotsOnTarget": 1,
+        "xG": 0.47,
+        "possession": 52,
+        "passes": 398,
+        "passAccuracy": 83,
+        "corners": 5,
+        "fouls": 9,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 3,
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "xG": 1.79,
+        "possession": 48,
+        "passes": 388,
+        "passAccuracy": 85,
+        "corners": 1,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "referee": {
+        "name": "Y. Perez",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 22,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 64,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 22
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.38,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.03,
+          "high": 2.54
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489407,
+      "date": "2026-06-25T01:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "South Africa",
+      "awayTeam": "South Korea",
+      "homeScore": 1,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "T. Maseko",
+            "minute": 63,
+            "assist": "T. Moremi",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 13,
+        "shotsOnTarget": 4,
+        "xG": 1.1,
+        "possession": 32,
+        "passes": 339,
+        "passAccuracy": 82,
+        "corners": 4,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "xG": 1,
+        "possession": 68,
+        "passes": 720,
+        "passAccuracy": 89,
+        "corners": 6,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "F. Tello",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 16,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 73,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 8
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.46,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.48,
+          "high": 1.85
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489410,
+      "date": "2026-06-25T20:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Ecuador",
+      "awayTeam": "Germany",
+      "homeScore": 2,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "N. Angulo",
+            "minute": 9,
+            "assist": "P. Vite",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "G. Plata",
+            "minute": 77,
+            "assist": "K. Rodriguez",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "L. Sane",
+            "minute": 2,
+            "assist": "F. Wirtz",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": null,
+            "minute": 47,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "xG": 1.27,
+        "possession": 39,
+        "passes": 378,
+        "passAccuracy": 83,
+        "corners": 3,
+        "fouls": 15,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 11,
+        "shotsOnTarget": 3,
+        "xG": 0.65,
+        "possession": 61,
+        "passes": 592,
+        "passAccuracy": 87,
+        "corners": 2,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "referee": {
+        "name": "T. Penso",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 25,
+        "totalYellowCards": 4,
+        "totalRedCards": null,
+        "firstYellowMinute": 43,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 6.25
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.85,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.66,
+          "high": 4.04
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489409,
+      "date": "2026-06-25T20:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Curaçao",
+      "awayTeam": "Ivory Coast",
+      "homeScore": 0,
+      "awayScore": 2,
+      "statusShort": "FT",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "scorers": {
+        "home": [],
+        "away": [
+          {
+            "player": "N. Pepe",
+            "minute": 7,
+            "assist": "Y. Diomande",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "N. Pepe",
+            "minute": 64,
+            "assist": "I. Sangare",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 11,
+        "shotsOnTarget": 2,
+        "xG": 0.5,
+        "possession": 37,
+        "passes": 355,
+        "passAccuracy": 83,
+        "corners": 4,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 2,
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "xG": 1.31,
+        "possession": 63,
+        "passes": 624,
+        "passAccuracy": 89,
+        "corners": 6,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "G. Nyberg",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 17,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 35,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 5.67
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.62,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 2.49,
+          "high": 2.75
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1539011,
+      "date": "2026-06-25T23:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Japan",
+      "awayTeam": "Sweden",
+      "homeScore": 1,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "D. Maeda",
+            "minute": 56,
+            "assist": "R. Doan",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "A. Elanga",
+            "minute": 62,
+            "assist": "V. Gyokeres",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 8,
+        "shotsOnTarget": 3,
+        "xG": 1.21,
+        "possession": 52,
+        "passes": 445,
+        "passAccuracy": 85,
+        "corners": 2,
+        "fouls": 20,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 4
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 11,
+        "shotsOnTarget": 5,
+        "xG": 0.64,
+        "possession": 48,
+        "passes": 395,
+        "passAccuracy": 79,
+        "corners": 8,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "I. Barton",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 31,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 32,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 10.33
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.77,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.86,
+          "high": 3.58
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489412,
+      "date": "2026-06-25T23:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Netherlands",
+      "homeScore": 1,
+      "awayScore": 3,
+      "statusShort": "FT",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "H. Mastouri",
+            "minute": 54,
+            "assist": "H. Mejbri",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "E. Skhiri",
+            "minute": 3,
+            "assist": null,
+            "detail": "Own Goal"
+          },
+          {
+            "player": "B. Brobbey",
+            "minute": 7,
+            "assist": "V. van Dijk",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "J. P. van Hecke",
+            "minute": 62,
+            "assist": "T. Reijnders",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 10,
+        "shotsOnTarget": 4,
+        "xG": 0.62,
+        "possession": 29,
+        "passes": 258,
+        "passAccuracy": 77,
+        "corners": 4,
+        "fouls": 11,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 4
+      },
+      "awayStats": {
+        "goals": 3,
+        "shots": 20,
+        "shotsOnTarget": 7,
+        "xG": 1.85,
+        "possession": 71,
+        "passes": 647,
+        "passAccuracy": 93,
+        "corners": 6,
+        "fouls": 10,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "K. I. Garcia Mendoza",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 21,
+        "totalYellowCards": null,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": null
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.23,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.94,
+          "high": 2.42
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539012,
+      "date": "2026-06-26T02:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Türkiye",
+      "awayTeam": "USA",
+      "homeScore": 3,
+      "awayScore": 2,
+      "statusShort": "FT",
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "A. Guler",
+            "minute": 10,
+            "assist": "B. Yilmaz",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "B. Yilmaz",
+            "minute": 31,
+            "assist": "O. Kokcu",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "K. Ayhan",
+            "minute": 90,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "A. Trusty",
+            "minute": 3,
+            "assist": "S. Berhalter",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "S. Berhalter",
+            "minute": 49,
+            "assist": null,
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 3,
+        "shots": 9,
+        "shotsOnTarget": 3,
+        "xG": 3.21,
+        "possession": 48,
+        "passes": 435,
+        "passAccuracy": 77,
+        "corners": 2,
+        "fouls": 13,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 5
+      },
+      "awayStats": {
+        "goals": 2,
+        "shots": 18,
+        "shotsOnTarget": 7,
+        "xG": 2.01,
+        "possession": 52,
+        "passes": 469,
+        "passAccuracy": 85,
+        "corners": 9,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 1
+      },
+      "referee": {
+        "name": "M. Ghorbal",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 26,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 19,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 26
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.4,
+          "high": 3
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489411,
+      "date": "2026-06-26T02:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Paraguay",
+      "awayTeam": "Australia",
+      "homeScore": 0,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Levi's Stadium",
+      "city": "Santa Clara",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 7,
+        "shotsOnTarget": 2,
+        "xG": 0.25,
+        "possession": 44,
+        "passes": 427,
+        "passAccuracy": 77,
+        "corners": 1,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 5
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "xG": 0.57,
+        "possession": 56,
+        "passes": 536,
+        "passAccuracy": 82,
+        "corners": 3,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "C. Turpin",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 15,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 46,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 7.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.31,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.39,
+          "high": 1.73
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539074,
+      "date": "2026-06-26T19:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Senegal",
+      "awayTeam": "Iraq",
+      "homeScore": 5,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "H. Diarra",
+            "minute": 4,
+            "assist": "A. Seck",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "I. Sarr",
+            "minute": 56,
+            "assist": "L. Camara",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "P. Gueye",
+            "minute": 59,
+            "assist": "I. Sarr",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "P. Gueye",
+            "minute": 71,
+            "assist": "I. Ndiaye",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "I. Ndiaye",
+            "minute": 82,
+            "assist": "P. Gueye",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 5,
+        "shots": 28,
+        "shotsOnTarget": 12,
+        "xG": 3.1,
+        "possession": 69,
+        "passes": 590,
+        "passAccuracy": 88,
+        "corners": 12,
+        "fouls": 10,
+        "yellowCards": 2,
+        "redCards": 0,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "xG": 0.18,
+        "possession": 31,
+        "passes": 265,
+        "passAccuracy": 69,
+        "corners": 3,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 1,
+        "saves": 7
+      },
+      "referee": {
+        "name": "A. Taylor",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 21,
+        "totalYellowCards": 4,
+        "totalRedCards": 1,
+        "firstYellowMinute": 17,
+        "firstRedMinute": 13,
+        "foulsPerYellowCard": 5.25
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.23,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.07,
+          "high": 3.39
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489416,
+      "date": "2026-06-26T19:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Norway",
+      "awayTeam": "France",
+      "homeScore": 1,
+      "awayScore": 4,
+      "statusShort": "FT",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "T. Aasgaard",
+            "minute": 21,
+            "assist": "A. Schjelderup",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "Jørgen Strand Larsen",
+            "minute": 50,
+            "assist": null,
+            "detail": "Missed Penalty"
+          }
+        ],
+        "away": [
+          {
+            "player": "O. Dembele",
+            "minute": 7,
+            "assist": "K. Mbappe",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "O. Dembele",
+            "minute": 20,
+            "assist": "K. Mbappe",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "O. Dembele",
+            "minute": 32,
+            "assist": "A. Tchouameni",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "D. Doue",
+            "minute": 90,
+            "assist": "B. Barcola",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 10,
+        "shotsOnTarget": 4,
+        "xG": 1.69,
+        "possession": 43,
+        "passes": 420,
+        "passAccuracy": 82,
+        "corners": 4,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 5
+      },
+      "awayStats": {
+        "goals": 4,
+        "shots": 18,
+        "shotsOnTarget": 9,
+        "xG": 1.31,
+        "possession": 57,
+        "passes": 557,
+        "passAccuracy": 86,
+        "corners": 5,
+        "fouls": 11,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "referee": {
+        "name": "M. Oliver",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 20,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 10,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 10
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.08,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.85,
+          "high": 2.31
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489417,
+      "date": "2026-06-27T00:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Uruguay",
+      "awayTeam": "Spain",
+      "homeScore": 0,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Estadio Akron",
+      "city": "Zapopan",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 5,
+        "shotsOnTarget": 1,
+        "xG": 0.2,
+        "possession": 33,
+        "passes": 301,
+        "passAccuracy": 76,
+        "corners": 1,
+        "fouls": 14,
+        "yellowCards": 3,
+        "redCards": 1,
+        "saves": 0
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "xG": 0.86,
+        "possession": 67,
+        "passes": 623,
+        "passAccuracy": 89,
+        "corners": 6,
+        "fouls": 14,
+        "yellowCards": 1,
+        "redCards": 0,
+        "saves": 2
+      },
+      "referee": {
+        "name": "I. Elfath",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 28,
+        "totalYellowCards": 4,
+        "totalRedCards": 1,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 7
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.31,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 4.09,
+          "high": 4.53
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489413,
+      "date": "2026-06-27T00:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Cape Verde Islands",
+      "awayTeam": "Saudi Arabia",
+      "homeScore": 0,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 15,
+        "shotsOnTarget": 2,
+        "xG": 1.46,
+        "possession": 51,
+        "passes": 451,
+        "passAccuracy": 85,
+        "corners": 4,
+        "fouls": 10,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 3
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 7,
+        "shotsOnTarget": 3,
+        "xG": 0.4,
+        "possession": 49,
+        "passes": 442,
+        "passAccuracy": 81,
+        "corners": 2,
+        "fouls": 16,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "F. Letexier",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 26,
+        "totalYellowCards": 4,
+        "totalRedCards": null,
+        "firstYellowMinute": 4,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 6.5
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.8,
+          "high": 4.2
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489414,
+      "date": "2026-06-27T03:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Egypt",
+      "awayTeam": "Iran",
+      "homeScore": 1,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 15,
+        "shotsOnTarget": 3,
+        "xG": 0.81,
+        "possession": 61,
+        "passes": 587,
+        "passAccuracy": 87,
+        "corners": 8,
+        "fouls": 11,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 3
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 12,
+        "shotsOnTarget": 4,
+        "xG": 1.83,
+        "possession": 39,
+        "passes": 367,
+        "passAccuracy": 77,
+        "corners": 2,
+        "fouls": 16,
+        "yellowCards": 4,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "S. Marciniak",
+        "nationality": null,
+        "refereeStyle": "strict",
+        "totalFouls": 27,
+        "totalYellowCards": 7,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 3.86
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.15,
+        "refereeAdjustment": "up",
+        "adjustedCardProjection": {
+          "low": 4.98,
+          "high": 5.6
+        },
+        "notes": "Strict referee profile; projected cards increased by roughly 20–35%."
+      }
+    },
+    {
+      "matchId": 1489415,
+      "date": "2026-06-27T03:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Belgium",
+      "homeScore": 1,
+      "awayScore": 5,
+      "statusShort": "FT",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": null,
+        "shotsOnTarget": null,
+        "xG": null,
+        "possession": null,
+        "passes": null,
+        "passAccuracy": null,
+        "corners": null,
+        "fouls": null,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": null
+      },
+      "awayStats": {
+        "goals": 5,
+        "shots": null,
+        "shotsOnTarget": null,
+        "xG": null,
+        "possession": null,
+        "passes": null,
+        "passAccuracy": null,
+        "corners": null,
+        "fouls": null,
+        "yellowCards": null,
+        "redCards": null,
+        "saves": null
+      },
+      "referee": {
+        "name": "A. Makhadmeh",
+        "nationality": null,
+        "refereeStyle": null,
+        "totalFouls": null,
+        "totalYellowCards": null,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": null
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.62,
+        "refereeAdjustment": null,
+        "adjustedCardProjection": {
+          "low": null,
+          "high": null
+        },
+        "notes": "Referee assigned but insufficient card/foul data to classify referee style."
+      }
+    },
+    {
+      "matchId": 1489420,
+      "date": "2026-06-27T21:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Croatia",
+      "awayTeam": "Ghana",
+      "homeScore": 2,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "Petar Sučić",
+            "minute": 31,
+            "assist": "Mateo Kovačić",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "Nikola Vlašić",
+            "minute": 83,
+            "assist": "Luka Modrić",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "Derrick Luckassen",
+            "minute": 73,
+            "assist": "Ernest Nuamah",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 2,
+        "shots": 8,
+        "shotsOnTarget": 4,
+        "xG": 0.46,
+        "possession": 53,
+        "passes": 523,
+        "passAccuracy": 91,
+        "corners": 3,
+        "fouls": 9,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 0
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 6,
+        "shotsOnTarget": 1,
+        "xG": 0.73,
+        "possession": 47,
+        "passes": 455,
+        "passAccuracy": 88,
+        "corners": 2,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "D. Fischer",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 22,
+        "totalYellowCards": 2,
+        "totalRedCards": null,
+        "firstYellowMinute": 68,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 11
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.38,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.03,
+          "high": 2.54
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489422,
+      "date": "2026-06-27T21:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Panama",
+      "awayTeam": "England",
+      "homeScore": 0,
+      "awayScore": 2,
+      "statusShort": "FT",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "scorers": {
+        "home": [],
+        "away": [
+          {
+            "player": "Jude Bellingham",
+            "minute": 62,
+            "assist": "Bukayo Saka",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "Harry Kane",
+            "minute": 67,
+            "assist": "Jude Bellingham",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 12,
+        "shotsOnTarget": 2,
+        "xG": 0.57,
+        "possession": 33,
+        "passes": 267,
+        "passAccuracy": 75,
+        "corners": 3,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 4
+      },
+      "awayStats": {
+        "goals": 2,
+        "shots": 17,
+        "shotsOnTarget": 6,
+        "xG": 1.49,
+        "possession": 67,
+        "passes": 557,
+        "passAccuracy": 89,
+        "corners": 7,
+        "fouls": 13,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "A. Al Jassim",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 29,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": 53,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 9.67
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 4.46,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 2.68,
+          "high": 3.35
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489419,
+      "date": "2026-06-27T23:30:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Colombia",
+      "awayTeam": "Portugal",
+      "homeScore": 0,
+      "awayScore": 0,
+      "statusShort": "FT",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 0,
+        "shots": 24,
+        "shotsOnTarget": 6,
+        "xG": 1.63,
+        "possession": 55,
+        "passes": 545,
+        "passAccuracy": 89,
+        "corners": 5,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "awayStats": {
+        "goals": 0,
+        "shots": 13,
+        "shotsOnTarget": 2,
+        "xG": 0.69,
+        "possession": 45,
+        "passes": 446,
+        "passAccuracy": 91,
+        "corners": 2,
+        "fouls": 6,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 6
+      },
+      "referee": {
+        "name": "A. Faghani",
+        "nationality": null,
+        "refereeStyle": "low-card",
+        "totalFouls": 18,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 86,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 18
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 2.77,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 1.66,
+          "high": 2.08
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1539013,
+      "date": "2026-06-27T23:30:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Congo DR",
+      "awayTeam": "Uzbekistan",
+      "homeScore": 3,
+      "awayScore": 1,
+      "statusShort": "FT",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "result": {
+        "home": "win",
+        "away": "loss"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "Y. Wissa",
+            "minute": 68,
+            "assist": null,
+            "detail": "Penalty"
+          },
+          {
+            "player": "F. Mayele",
+            "minute": 78,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "Y. Wissa",
+            "minute": 91,
+            "assist": "M. Elia",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "E. Shomurodov",
+            "minute": 10,
+            "assist": "A. Mozgovoy",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 3,
+        "shots": 19,
+        "shotsOnTarget": 4,
+        "xG": 2.35,
+        "possession": 58,
+        "passes": 487,
+        "passAccuracy": 82,
+        "corners": 2,
+        "fouls": 6,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 1,
+        "shots": 4,
+        "shotsOnTarget": 1,
+        "xG": 0.27,
+        "possession": 42,
+        "passes": 355,
+        "passAccuracy": 76,
+        "corners": 4,
+        "fouls": 16,
+        "yellowCards": 2,
+        "redCards": null,
+        "saves": 1
+      },
+      "referee": {
+        "name": "F. Zwayer",
+        "nationality": null,
+        "refereeStyle": "balanced",
+        "totalFouls": 22,
+        "totalYellowCards": 5,
+        "totalRedCards": null,
+        "firstYellowMinute": 21,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 4.4
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.38,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 3.21,
+          "high": 3.55
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    },
+    {
+      "matchId": 1489418,
+      "date": "2026-06-28T02:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Algeria",
+      "awayTeam": "Austria",
+      "homeScore": 3,
+      "awayScore": 3,
+      "statusShort": "FT",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "result": {
+        "home": "draw",
+        "away": "draw"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "scorers": {
+        "home": [
+          {
+            "player": "R. Belghali",
+            "minute": 45,
+            "assist": null,
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "R. Mahrez",
+            "minute": 60,
+            "assist": "H. Aouar",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "R. Mahrez",
+            "minute": 93,
+            "assist": "H. Aouar",
+            "detail": "Normal Goal"
+          }
+        ],
+        "away": [
+          {
+            "player": "M. Arnautovic",
+            "minute": 28,
+            "assist": "D. Alaba",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "M. Sabitzer",
+            "minute": 55,
+            "assist": "K. Laimer",
+            "detail": "Normal Goal"
+          },
+          {
+            "player": "S. Kalajdzic",
+            "minute": 96,
+            "assist": "M. Gregoritsch",
+            "detail": "Normal Goal"
+          }
+        ]
+      },
+      "homeStats": {
+        "goals": 3,
+        "shots": 12,
+        "shotsOnTarget": 5,
+        "xG": 1.62,
+        "possession": 65,
+        "passes": 755,
+        "passAccuracy": 94,
+        "corners": 0,
+        "fouls": 3,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 0
+      },
+      "awayStats": {
+        "goals": 3,
+        "shots": 10,
+        "shotsOnTarget": 3,
+        "xG": 1.44,
+        "possession": 35,
+        "passes": 397,
+        "passAccuracy": 87,
+        "corners": 3,
+        "fouls": 7,
+        "yellowCards": 1,
+        "redCards": null,
+        "saves": 2
+      },
+      "referee": {
+        "name": "Ilgiz Tantashev",
+        "nationality": "Uzbekistan",
+        "refereeStyle": "low-card",
+        "totalFouls": 10,
+        "totalYellowCards": 1,
+        "totalRedCards": null,
+        "firstYellowMinute": 11,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 10
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 1.54,
+        "refereeAdjustment": "down",
+        "adjustedCardProjection": {
+          "low": 0.92,
+          "high": 1.16
+        },
+        "notes": "Low-card referee profile; projected cards reduced by roughly 25–40%."
+      }
+    },
+    {
+      "matchId": 1489421,
+      "date": "2026-06-28T02:00:00.000Z",
+      "group": "Group 3",
+      "homeTeam": "Jordan",
+      "awayTeam": "Argentina",
+      "homeScore": 1,
+      "awayScore": 3,
+      "statusShort": "FT",
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "result": {
+        "home": "loss",
+        "away": "win"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "scorers": {
+        "home": [],
+        "away": []
+      },
+      "homeStats": {
+        "goals": 1,
+        "shots": 5,
+        "shotsOnTarget": 1,
+        "xG": 0.74,
+        "possession": 27,
+        "passes": 285,
+        "passAccuracy": 80,
+        "corners": 2,
+        "fouls": 13,
+        "yellowCards": 3,
+        "redCards": null,
+        "saves": 1
+      },
+      "awayStats": {
+        "goals": 3,
+        "shots": 12,
+        "shotsOnTarget": 4,
+        "xG": 2.14,
+        "possession": 73,
+        "passes": 799,
+        "passAccuracy": 92,
+        "corners": 6,
+        "fouls": 7,
+        "yellowCards": 0,
+        "redCards": null,
+        "saves": 0
+      },
+      "referee": {
+        "name": "Istvan Kovacs",
+        "nationality": "Romania",
+        "refereeStyle": "balanced",
+        "totalFouls": 20,
+        "totalYellowCards": 3,
+        "totalRedCards": null,
+        "firstYellowMinute": null,
+        "firstRedMinute": null,
+        "foulsPerYellowCard": 6.67
+      },
+      "cardMarketSignal": {
+        "rawPlayerCardRisk": 3.08,
+        "refereeAdjustment": "neutral",
+        "adjustedCardProjection": {
+          "low": 2.93,
+          "high": 3.23
+        },
+        "notes": "Balanced referee profile; card projection unchanged."
+      }
+    }
+  ]
+}

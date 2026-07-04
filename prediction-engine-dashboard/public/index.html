@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EdgeStats Prediction Dashboard (Local)</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="brand">
+        <span class="brand__mark">ES</span>
+        <div>
+          <p class="brand__title">EdgeStats</p>
+          <p class="brand__sub">Prediction Dashboard · Local Only</p>
+        </div>
+      </div>
+      <p class="topbar__badge">Private</p>
+    </div>
+  </header>
+
+  <main class="main" id="app">
+    <section id="screen-matches" class="screen">
+      <div class="screen__head">
+        <h1>Knockout Matches</h1>
+        <p class="screen__desc" id="matches-meta">Loading from master model…</p>
+      </div>
+      <div class="notice notice--warn hidden" id="synthetic-notice"></div>
+      <div id="matches-list" class="match-list" aria-live="polite"></div>
+    </section>
+
+    <section id="screen-detail" class="screen hidden">
+      <div class="screen__head screen__head--row">
+        <div>
+          <p class="eyebrow" id="detail-round">Round</p>
+          <h1 id="detail-title">Match Prediction</h1>
+          <p class="screen__desc" id="detail-kickoff"></p>
+        </div>
+        <button type="button" class="btn btn--ghost" id="btn-back">← Back to Matches</button>
+      </div>
+
+      <div class="notice notice--warn hidden" id="detail-synthetic"></div>
+
+      <div class="hero-card" id="hero-card">
+        <div class="hero-card__teams" id="hero-teams"></div>
+        <div class="hero-card__prediction">
+          <p class="label">Projected result</p>
+          <p class="hero-score" id="hero-score">—</p>
+          <p class="hero-winner" id="hero-winner">—</p>
+          <p class="hero-confidence" id="hero-confidence">Confidence —/10</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button type="button" class="btn btn--primary" id="btn-predict">Predict</button>
+        <button type="button" class="btn btn--outline" id="btn-export">Export JSON</button>
+        <button type="button" class="btn btn--outline" id="btn-copy">Copy Breakdown</button>
+        <button type="button" class="btn btn--ghost" id="btn-back-bottom">Back to Matches</button>
+      </div>
+
+      <div class="grid-2">
+        <article class="card">
+          <h2>Outcome probabilities</h2>
+          <div class="prob-bars" id="prob-bars"></div>
+        </article>
+        <article class="card">
+          <h2>Expected goals</h2>
+          <div class="stat-rows" id="stat-xg"></div>
+        </article>
+        <article class="card">
+          <h2>Expected shots</h2>
+          <div class="stat-rows" id="stat-shots"></div>
+        </article>
+        <article class="card">
+          <h2>Expected corners</h2>
+          <div class="stat-rows" id="stat-corners"></div>
+        </article>
+        <article class="card">
+          <h2>Expected cards</h2>
+          <div class="stat-rows" id="stat-cards"></div>
+        </article>
+        <article class="card">
+          <h2>Goalkeeper saves</h2>
+          <div class="stat-rows" id="stat-saves"></div>
+        </article>
+      </div>
+
+      <article class="card card--wide">
+        <h2>Scoreline model</h2>
+        <details class="scoreline-details" id="scoreline-details">
+          <summary>How this score was selected</summary>
+          <div class="scoreline-model" id="scoreline-model">
+            <div class="stat-row"><span>Raw Poisson most likely</span><span id="scoreline-poisson">—</span></div>
+            <div class="stat-row"><span>Representative scoreline</span><span id="scoreline-representative">—</span></div>
+            <div class="stat-row"><span>Selected scoreline</span><span id="scoreline-selected">—</span></div>
+            <p class="scoreline-reason" id="scoreline-reason">—</p>
+          </div>
+        </details>
+      </article>
+
+      <article class="card card--wide">
+        <h2>Key player threats</h2>
+        <div class="threats-grid" id="threats-grid"></div>
+      </article>
+
+      <article class="card card--wide">
+        <h2>Match breakdown</h2>
+        <p class="breakdown" id="breakdown-text">—</p>
+      </article>
+
+      <article class="card card--wide">
+        <h2>Limitations &amp; missing data</h2>
+        <ul class="limitations" id="limitations-list"></ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>EdgeStats · Local prediction engine · Not connected to public site</p>
+  </footer>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

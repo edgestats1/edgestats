@@ -1,0 +1,489 @@
+{
+  "version": "wc2026-live-round1-v1",
+  "exportedAt": "2026-06-28T11:18:22.293Z",
+  "tournamentLowCardFactor": 0.82,
+  "tournamentAverageYellowCards": 2.44,
+  "notes": "Round 1 card counts ran lower than typical — projections adjusted down using referee/tournament trend.",
+  "teams": [
+    {
+      "team": "Algeria",
+      "matchesPlayed": 3,
+      "yellowCards": 1,
+      "redCards": null,
+      "foulsPerCard": 17,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.27,
+      "disciplineRating": 94.6
+    },
+    {
+      "team": "Czechia",
+      "matchesPlayed": 3,
+      "yellowCards": 1,
+      "redCards": null,
+      "foulsPerCard": 37,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.27,
+      "disciplineRating": 95.6
+    },
+    {
+      "team": "France",
+      "matchesPlayed": 3,
+      "yellowCards": 1,
+      "redCards": null,
+      "foulsPerCard": 24,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.27,
+      "disciplineRating": 96.7
+    },
+    {
+      "team": "Germany",
+      "matchesPlayed": 3,
+      "yellowCards": 1,
+      "redCards": null,
+      "foulsPerCard": 33,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.27,
+      "disciplineRating": 99.4
+    },
+    {
+      "team": "Japan",
+      "matchesPlayed": 3,
+      "yellowCards": 1,
+      "redCards": null,
+      "foulsPerCard": 42,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.27,
+      "disciplineRating": 100
+    },
+    {
+      "team": "Morocco",
+      "matchesPlayed": 3,
+      "yellowCards": 1,
+      "redCards": null,
+      "foulsPerCard": 32,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.27,
+      "disciplineRating": 91.8
+    },
+    {
+      "team": "Norway",
+      "matchesPlayed": 3,
+      "yellowCards": 1,
+      "redCards": null,
+      "foulsPerCard": 35,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.27,
+      "disciplineRating": 98
+    },
+    {
+      "team": "Tunisia",
+      "matchesPlayed": 3,
+      "yellowCards": 1,
+      "redCards": null,
+      "foulsPerCard": 27,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.27,
+      "disciplineRating": 89.1
+    },
+    {
+      "team": "Argentina",
+      "matchesPlayed": 3,
+      "yellowCards": 2,
+      "redCards": null,
+      "foulsPerCard": 16.5,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.55,
+      "disciplineRating": 71.5
+    },
+    {
+      "team": "Croatia",
+      "matchesPlayed": 3,
+      "yellowCards": 2,
+      "redCards": null,
+      "foulsPerCard": 16.5,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.55,
+      "disciplineRating": 80.9
+    },
+    {
+      "team": "England",
+      "matchesPlayed": 3,
+      "yellowCards": 2,
+      "redCards": null,
+      "foulsPerCard": 18.5,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.55,
+      "disciplineRating": 80.6
+    },
+    {
+      "team": "Mexico",
+      "matchesPlayed": 3,
+      "yellowCards": 2,
+      "redCards": 1,
+      "foulsPerCard": 11.33,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.55,
+      "disciplineRating": 76.1
+    },
+    {
+      "team": "New Zealand",
+      "matchesPlayed": 3,
+      "yellowCards": 2,
+      "redCards": null,
+      "foulsPerCard": 11,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.55,
+      "disciplineRating": 93.8
+    },
+    {
+      "team": "Senegal",
+      "matchesPlayed": 3,
+      "yellowCards": 2,
+      "redCards": 0,
+      "foulsPerCard": 12,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.55,
+      "disciplineRating": 78.4
+    },
+    {
+      "team": "Spain",
+      "matchesPlayed": 3,
+      "yellowCards": 2,
+      "redCards": 0,
+      "foulsPerCard": 17,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.55,
+      "disciplineRating": 81.8
+    },
+    {
+      "team": "Türkiye",
+      "matchesPlayed": 3,
+      "yellowCards": 2,
+      "redCards": 0,
+      "foulsPerCard": 15.5,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.55,
+      "disciplineRating": 77.6
+    },
+    {
+      "team": "Belgium",
+      "matchesPlayed": 3,
+      "yellowCards": 3,
+      "redCards": 1,
+      "foulsPerCard": 5.5,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.82,
+      "disciplineRating": 68
+    },
+    {
+      "team": "Ghana",
+      "matchesPlayed": 3,
+      "yellowCards": 3,
+      "redCards": null,
+      "foulsPerCard": 15.33,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.82,
+      "disciplineRating": 60.9
+    },
+    {
+      "team": "Netherlands",
+      "matchesPlayed": 3,
+      "yellowCards": 3,
+      "redCards": null,
+      "foulsPerCard": 8.67,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.82,
+      "disciplineRating": 61.8
+    },
+    {
+      "team": "Switzerland",
+      "matchesPlayed": 3,
+      "yellowCards": 3,
+      "redCards": 0,
+      "foulsPerCard": 12.33,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 0.82,
+      "disciplineRating": 64.2
+    },
+    {
+      "team": "Austria",
+      "matchesPlayed": 3,
+      "yellowCards": 4,
+      "redCards": null,
+      "foulsPerCard": 8,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.09,
+      "disciplineRating": 46.4
+    },
+    {
+      "team": "Cape Verde",
+      "matchesPlayed": 3,
+      "yellowCards": 4,
+      "redCards": null,
+      "foulsPerCard": 3.75,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.09,
+      "disciplineRating": 51.3
+    },
+    {
+      "team": "Colombia",
+      "matchesPlayed": 3,
+      "yellowCards": 4,
+      "redCards": null,
+      "foulsPerCard": 8.75,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.09,
+      "disciplineRating": 39.7
+    },
+    {
+      "team": "Iraq",
+      "matchesPlayed": 3,
+      "yellowCards": 4,
+      "redCards": 1,
+      "foulsPerCard": 5.4,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.09,
+      "disciplineRating": 48
+    },
+    {
+      "team": "Ivory Coast",
+      "matchesPlayed": 3,
+      "yellowCards": 4,
+      "redCards": null,
+      "foulsPerCard": 5.75,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.09,
+      "disciplineRating": 50.6
+    },
+    {
+      "team": "Jordan",
+      "matchesPlayed": 3,
+      "yellowCards": 4,
+      "redCards": null,
+      "foulsPerCard": 7.75,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.09,
+      "disciplineRating": 56.4
+    },
+    {
+      "team": "Portugal",
+      "matchesPlayed": 3,
+      "yellowCards": 4,
+      "redCards": null,
+      "foulsPerCard": 7.25,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.09,
+      "disciplineRating": 49.4
+    },
+    {
+      "team": "Qatar",
+      "matchesPlayed": 3,
+      "yellowCards": 4,
+      "redCards": 2,
+      "foulsPerCard": 6,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.09,
+      "disciplineRating": 41.6
+    },
+    {
+      "team": "South Korea",
+      "matchesPlayed": 3,
+      "yellowCards": 4,
+      "redCards": null,
+      "foulsPerCard": 6.25,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.09,
+      "disciplineRating": 53.4
+    },
+    {
+      "team": "Uzbekistan",
+      "matchesPlayed": 3,
+      "yellowCards": 4,
+      "redCards": null,
+      "foulsPerCard": 11.25,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.09,
+      "disciplineRating": 54.9
+    },
+    {
+      "team": "Australia",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": null,
+      "foulsPerCard": 6.8,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 35.1
+    },
+    {
+      "team": "Brazil",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": null,
+      "foulsPerCard": 8,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 29.7
+    },
+    {
+      "team": "Canada",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": 0,
+      "foulsPerCard": 6.4,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 31.9
+    },
+    {
+      "team": "DR Congo",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": null,
+      "foulsPerCard": 6.4,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 35.1
+    },
+    {
+      "team": "Ecuador",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": null,
+      "foulsPerCard": 7,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 34.9
+    },
+    {
+      "team": "Panama",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": null,
+      "foulsPerCard": 9.2,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 35.2
+    },
+    {
+      "team": "Scotland",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": null,
+      "foulsPerCard": 8.4,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 37
+    },
+    {
+      "team": "South Africa",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": 2,
+      "foulsPerCard": 4,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 34.1
+    },
+    {
+      "team": "Sweden",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": null,
+      "foulsPerCard": 6.6,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 39.1
+    },
+    {
+      "team": "Uruguay",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": 1,
+      "foulsPerCard": 5.17,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 31.6
+    },
+    {
+      "team": "United States",
+      "matchesPlayed": 3,
+      "yellowCards": 5,
+      "redCards": null,
+      "foulsPerCard": 7.6,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.37,
+      "disciplineRating": 34.6
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "matchesPlayed": 3,
+      "yellowCards": 6,
+      "redCards": 1,
+      "foulsPerCard": 6.71,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.64,
+      "disciplineRating": 17.1
+    },
+    {
+      "team": "Egypt",
+      "matchesPlayed": 3,
+      "yellowCards": 6,
+      "redCards": null,
+      "foulsPerCard": 5.67,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.64,
+      "disciplineRating": 22.1
+    },
+    {
+      "team": "Iran",
+      "matchesPlayed": 3,
+      "yellowCards": 6,
+      "redCards": 0,
+      "foulsPerCard": 5.83,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.64,
+      "disciplineRating": 13.6
+    },
+    {
+      "team": "Saudi Arabia",
+      "matchesPlayed": 3,
+      "yellowCards": 6,
+      "redCards": null,
+      "foulsPerCard": 4.83,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.64,
+      "disciplineRating": 22
+    },
+    {
+      "team": "Curaçao",
+      "matchesPlayed": 3,
+      "yellowCards": 7,
+      "redCards": null,
+      "foulsPerCard": 4.57,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.91,
+      "disciplineRating": 3.9
+    },
+    {
+      "team": "Haiti",
+      "matchesPlayed": 3,
+      "yellowCards": 7,
+      "redCards": null,
+      "foulsPerCard": 7.86,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.91,
+      "disciplineRating": 6.6
+    },
+    {
+      "team": "Paraguay",
+      "matchesPlayed": 3,
+      "yellowCards": 7,
+      "redCards": 1,
+      "foulsPerCard": 5.13,
+      "refereeAdjustment": "down",
+      "projectedRound2CardRisk": 1.91,
+      "disciplineRating": 0
+    }
+  ]
+}

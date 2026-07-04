@@ -1,0 +1,456 @@
+{
+  "version": "wc2026-live-round1-v1",
+  "exportedAt": "2026-06-28T11:18:22.293Z",
+  "round": "Round 1",
+  "completedMatches": 72,
+  "teamsWithRound1Data": 48,
+  "bestAttackingTeams": [
+    {
+      "team": "France",
+      "goalsFor": 10,
+      "xGFor": 5.77,
+      "shotsOnTarget": 22
+    },
+    {
+      "team": "Germany",
+      "goalsFor": 10,
+      "xGFor": 6.76,
+      "shotsOnTarget": 22
+    },
+    {
+      "team": "Netherlands",
+      "goalsFor": 10,
+      "xGFor": 5.24,
+      "shotsOnTarget": 20
+    },
+    {
+      "team": "Argentina",
+      "goalsFor": 8,
+      "xGFor": 5.970000000000001,
+      "shotsOnTarget": 15
+    },
+    {
+      "team": "Canada",
+      "goalsFor": 8,
+      "xGFor": 7.49,
+      "shotsOnTarget": 21
+    }
+  ],
+  "bestDefensiveTeams": [
+    {
+      "team": "Mexico",
+      "goalsAgainst": 0,
+      "cleanSheets": 3,
+      "savesFor": 5
+    },
+    {
+      "team": "Spain",
+      "goalsAgainst": 0,
+      "cleanSheets": 3,
+      "savesFor": 4
+    },
+    {
+      "team": "Argentina",
+      "goalsAgainst": 1,
+      "cleanSheets": 2,
+      "savesFor": 1
+    },
+    {
+      "team": "Brazil",
+      "goalsAgainst": 1,
+      "cleanSheets": 2,
+      "savesFor": 10
+    },
+    {
+      "team": "Colombia",
+      "goalsAgainst": 1,
+      "cleanSheets": 2,
+      "savesFor": 4
+    }
+  ],
+  "mostDominantTeamsThatFailedToWin": [
+    {
+      "team": "Cape Verde",
+      "result": "0W-3D-0L",
+      "goalsFor": 2,
+      "xGFor": 2.54,
+      "shots": 33,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Curaçao",
+      "result": "0W-1D-2L",
+      "goalsFor": 1,
+      "xGFor": 1.41,
+      "shots": 29,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Czechia",
+      "result": "0W-1D-2L",
+      "goalsFor": 2,
+      "xGFor": 2.3200000000000003,
+      "shots": 34,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Haiti",
+      "result": "0W-0D-3L",
+      "goalsFor": 2,
+      "xGFor": 1.9500000000000002,
+      "shots": 31,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Iran",
+      "result": "0W-3D-0L",
+      "goalsFor": 3,
+      "xGFor": 3.95,
+      "shots": 36,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Iraq",
+      "result": "0W-0D-3L",
+      "goalsFor": 1,
+      "xGFor": 1.61,
+      "shots": 21,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Jordan",
+      "result": "0W-0D-3L",
+      "goalsFor": 3,
+      "xGFor": 2.5199999999999996,
+      "shots": 24,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "New Zealand",
+      "result": "0W-1D-2L",
+      "goalsFor": 4,
+      "xGFor": 2.48,
+      "shots": 25,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Panama",
+      "result": "0W-0D-3L",
+      "goalsFor": 0,
+      "xGFor": 1.85,
+      "shots": 31,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Qatar",
+      "result": "0W-1D-2L",
+      "goalsFor": 2,
+      "xGFor": 1.5899999999999999,
+      "shots": 17,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Saudi Arabia",
+      "result": "0W-2D-1L",
+      "goalsFor": 1,
+      "xGFor": 1.2000000000000002,
+      "shots": 17,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Tunisia",
+      "result": "0W-0D-3L",
+      "goalsFor": 2,
+      "xGFor": 0.95,
+      "shots": 18,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Uruguay",
+      "result": "0W-2D-1L",
+      "goalsFor": 3,
+      "xGFor": 4.24,
+      "shots": 49,
+      "note": "Strong underlying numbers without a Round 1 win."
+    },
+    {
+      "team": "Uzbekistan",
+      "result": "0W-0D-3L",
+      "goalsFor": 2,
+      "xGFor": 1.67,
+      "shots": 19,
+      "note": "Strong underlying numbers without a Round 1 win."
+    }
+  ],
+  "biggestOverperformers": [
+    {
+      "team": "Bosnia and Herzegovina",
+      "goalsFor": 5,
+      "xGFor": 1.87,
+      "finishingEfficiency": 2.67
+    },
+    {
+      "team": "Sweden",
+      "goalsFor": 7,
+      "xGFor": 2.98,
+      "finishingEfficiency": 2.35
+    },
+    {
+      "team": "Tunisia",
+      "goalsFor": 2,
+      "xGFor": 0.95,
+      "finishingEfficiency": 2.11
+    },
+    {
+      "team": "Belgium",
+      "goalsFor": 6,
+      "xGFor": 3.14,
+      "finishingEfficiency": 1.91
+    },
+    {
+      "team": "Netherlands",
+      "goalsFor": 10,
+      "xGFor": 5.24,
+      "finishingEfficiency": 1.91
+    }
+  ],
+  "biggestUnderperformers": [
+    {
+      "team": "Panama",
+      "goalsFor": 0,
+      "xGFor": 1.85,
+      "finishingEfficiency": 0
+    },
+    {
+      "team": "Scotland",
+      "goalsFor": 1,
+      "xGFor": 2.6,
+      "finishingEfficiency": 0.38
+    },
+    {
+      "team": "Ecuador",
+      "goalsFor": 2,
+      "xGFor": 5.119999999999999,
+      "finishingEfficiency": 0.39
+    },
+    {
+      "team": "Türkiye",
+      "goalsFor": 3,
+      "xGFor": 6.74,
+      "finishingEfficiency": 0.45
+    },
+    {
+      "team": "South Korea",
+      "goalsFor": 2,
+      "xGFor": 4.21,
+      "finishingEfficiency": 0.48
+    }
+  ],
+  "bestGoalkeeperPerformances": [
+    {
+      "playerName": "Eloy Room",
+      "team": "Curaçao",
+      "saves": 20,
+      "saveRate": 0.67,
+      "cleanSheet": true
+    },
+    {
+      "playerName": "Mohammed Al-Owais",
+      "team": "Saudi Arabia",
+      "saves": 16,
+      "saveRate": 0.8,
+      "cleanSheet": true
+    },
+    {
+      "playerName": "Alireza Beiranvand",
+      "team": "Iran",
+      "saves": 15,
+      "saveRate": 0.83,
+      "cleanSheet": true
+    },
+    {
+      "playerName": "Orlando Gill",
+      "team": "Paraguay",
+      "saves": 13,
+      "saveRate": 0.81,
+      "cleanSheet": true
+    },
+    {
+      "playerName": "Mahmud Abunada",
+      "team": "Qatar",
+      "saves": 12,
+      "saveRate": 0.55,
+      "cleanSheet": false
+    }
+  ],
+  "strongestSaveTrends": [
+    {
+      "team": "Curaçao",
+      "projectedRound2SaveStrength": 44.2,
+      "savesPerMatch": 6.67
+    },
+    {
+      "team": "Saudi Arabia",
+      "projectedRound2SaveStrength": 45,
+      "savesPerMatch": 5.33
+    },
+    {
+      "team": "Iran",
+      "projectedRound2SaveStrength": 27.9,
+      "savesPerMatch": 5
+    },
+    {
+      "team": "Paraguay",
+      "projectedRound2SaveStrength": 58.6,
+      "savesPerMatch": 4.33
+    },
+    {
+      "team": "Qatar",
+      "projectedRound2SaveStrength": 100,
+      "savesPerMatch": 4
+    }
+  ],
+  "strongestCornerTrends": [
+    {
+      "team": "Canada",
+      "averageCornersFor": 11.67,
+      "cornerDominanceScore": 9.34,
+      "projectedRound2CornerStrength": 100
+    },
+    {
+      "team": "Spain",
+      "averageCornersFor": 7.67,
+      "cornerDominanceScore": 6.67,
+      "projectedRound2CornerStrength": 63.6
+    },
+    {
+      "team": "England",
+      "averageCornersFor": 8,
+      "cornerDominanceScore": 5.67,
+      "projectedRound2CornerStrength": 66.6
+    },
+    {
+      "team": "Ecuador",
+      "averageCornersFor": 5.67,
+      "cornerDominanceScore": 4,
+      "projectedRound2CornerStrength": 45.5
+    },
+    {
+      "team": "Uruguay",
+      "averageCornersFor": 8.67,
+      "cornerDominanceScore": 4,
+      "projectedRound2CornerStrength": 72.7
+    }
+  ],
+  "lowestCardTrendNotes": {
+    "factor": 0.82,
+    "note": "Round 1 card counts ran lower than typical — projections adjusted down using referee/tournament trend.",
+    "lowestRiskTeams": [
+      {
+        "team": "Algeria",
+        "projectedRound2CardRisk": 0.27
+      },
+      {
+        "team": "Czechia",
+        "projectedRound2CardRisk": 0.27
+      },
+      {
+        "team": "France",
+        "projectedRound2CardRisk": 0.27
+      },
+      {
+        "team": "Germany",
+        "projectedRound2CardRisk": 0.27
+      },
+      {
+        "team": "Japan",
+        "projectedRound2CardRisk": 0.27
+      }
+    ]
+  },
+  "teamsWhoseScorelineDidNotMatchPerformance": [
+    {
+      "team": "Netherlands",
+      "goalsFor": 10,
+      "xGFor": 5.24,
+      "delta": 4.76,
+      "type": "overperformed"
+    },
+    {
+      "team": "France",
+      "goalsFor": 10,
+      "xGFor": 5.77,
+      "delta": 4.23,
+      "type": "overperformed"
+    },
+    {
+      "team": "Sweden",
+      "goalsFor": 7,
+      "xGFor": 2.98,
+      "delta": 4.02,
+      "type": "overperformed"
+    },
+    {
+      "team": "Türkiye",
+      "goalsFor": 3,
+      "xGFor": 6.74,
+      "delta": -3.74,
+      "type": "underperformed"
+    },
+    {
+      "team": "United States",
+      "goalsFor": 8,
+      "xGFor": 4.51,
+      "delta": 3.49,
+      "type": "overperformed"
+    },
+    {
+      "team": "Germany",
+      "goalsFor": 10,
+      "xGFor": 6.76,
+      "delta": 3.24,
+      "type": "overperformed"
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "goalsFor": 5,
+      "xGFor": 1.87,
+      "delta": 3.13,
+      "type": "overperformed"
+    },
+    {
+      "team": "Ecuador",
+      "goalsFor": 2,
+      "xGFor": 5.119999999999999,
+      "delta": -3.12,
+      "type": "underperformed"
+    }
+  ],
+  "topOverallPower": [
+    {
+      "rank": 1,
+      "team": "France",
+      "overallPowerScore": 75.2
+    },
+    {
+      "rank": 2,
+      "team": "Germany",
+      "overallPowerScore": 71
+    },
+    {
+      "rank": 3,
+      "team": "Spain",
+      "overallPowerScore": 69.4
+    },
+    {
+      "rank": 4,
+      "team": "Belgium",
+      "overallPowerScore": 68.6
+    },
+    {
+      "rank": 5,
+      "team": "Netherlands",
+      "overallPowerScore": 66.6
+    }
+  ]
+}

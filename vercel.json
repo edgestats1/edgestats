@@ -1,0 +1,92 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "outputDirectory": ".",
+  "functions": {
+    "api/worldcup-leaderboards.js": {
+      "includeFiles": "data/worldcup-live/worldcup-live-*.json data/worldcup-live/worldcup-knockout-fixtures.json data/worldcup-live/EdgeStats_Model_Metadata.json"
+    },
+    "api/predict.js": {
+      "maxDuration": 60,
+      "includeFiles": "lib/prediction-engine/**,data/worldcup-live/EdgeStats_AI_Master_Model.json"
+    }
+  },
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/index.html",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy.html"
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/terms-of-service.html"
+    },
+    {
+      "source": "/api/stripe-webhook",
+      "destination": "/api/membership?route=stripe-webhook"
+    },
+    {
+      "source": "/api/public-config",
+      "destination": "/api/membership?route=public-config"
+    },
+    {
+      "source": "/api/create-checkout",
+      "destination": "/api/membership?route=create-checkout"
+    },
+    {
+      "source": "/api/profile",
+      "destination": "/api/membership?route=profile"
+    },
+    {
+      "source": "/api/debug-supabase",
+      "destination": "/api/membership?route=debug-supabase"
+    },
+    {
+      "source": "/api/homepage-rankings",
+      "destination": "/api/top-players?scope=homepage-rankings"
+    },
+    {
+      "source": "/api/debug-home-rankings",
+      "destination": "/api/debug-player-stats?scope=home-rankings"
+    },
+    {
+      "source": "/api/debug-homepage-rankings",
+      "destination": "/api/debug-player-stats?scope=home-rankings"
+    },
+    {
+      "source": "/api/top-scorers",
+      "destination": "/api/top-players?type=topscorers"
+    },
+    {
+      "source": "/api/knockout-fixtures",
+      "destination": "/api/worldcup-leaderboards?scope=knockout-fixtures"
+    },
+    {
+      "source": "/api/model-tracker",
+      "destination": "/api/worldcup-leaderboards?scope=model-tracker"
+    },
+    {
+      "source": "/api/player-fixtures",
+      "destination": "/api/fixtures"
+    },
+    {
+      "source": "/((?!api/|privacy-policy\\.html|terms-of-service\\.html|favicon\\.ico|favicon\\.svg|favicon-16x16\\.png|favicon-32x32\\.png|apple-touch-icon\\.png|site\\.webmanifest).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

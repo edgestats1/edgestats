@@ -1,0 +1,486 @@
+{
+  "version": "wc2026-live-round1-v1",
+  "exportedAt": "2026-06-28T11:18:22.293Z",
+  "teams": [
+    {
+      "team": "Canada",
+      "matchesPlayed": 3,
+      "cornersFor": 35,
+      "cornersAgainst": 7,
+      "averageCornersFor": 11.67,
+      "averageCornersAgainst": 2.33,
+      "cornerDominanceScore": 9.34,
+      "projectedRound2CornerStrength": 100
+    },
+    {
+      "team": "Spain",
+      "matchesPlayed": 3,
+      "cornersFor": 23,
+      "cornersAgainst": 3,
+      "averageCornersFor": 7.67,
+      "averageCornersAgainst": 1,
+      "cornerDominanceScore": 6.67,
+      "projectedRound2CornerStrength": 63.6
+    },
+    {
+      "team": "England",
+      "matchesPlayed": 3,
+      "cornersFor": 24,
+      "cornersAgainst": 7,
+      "averageCornersFor": 8,
+      "averageCornersAgainst": 2.33,
+      "cornerDominanceScore": 5.67,
+      "projectedRound2CornerStrength": 66.6
+    },
+    {
+      "team": "Ecuador",
+      "matchesPlayed": 3,
+      "cornersFor": 17,
+      "cornersAgainst": 5,
+      "averageCornersFor": 5.67,
+      "averageCornersAgainst": 1.67,
+      "cornerDominanceScore": 4,
+      "projectedRound2CornerStrength": 45.5
+    },
+    {
+      "team": "Uruguay",
+      "matchesPlayed": 3,
+      "cornersFor": 26,
+      "cornersAgainst": 14,
+      "averageCornersFor": 8.67,
+      "averageCornersAgainst": 4.67,
+      "cornerDominanceScore": 4,
+      "projectedRound2CornerStrength": 72.7
+    },
+    {
+      "team": "United States",
+      "matchesPlayed": 3,
+      "cornersFor": 19,
+      "cornersAgainst": 7,
+      "averageCornersFor": 6.33,
+      "averageCornersAgainst": 2.33,
+      "cornerDominanceScore": 4,
+      "projectedRound2CornerStrength": 51.5
+    },
+    {
+      "team": "Germany",
+      "matchesPlayed": 3,
+      "cornersFor": 18,
+      "cornersAgainst": 7,
+      "averageCornersFor": 6,
+      "averageCornersAgainst": 2.33,
+      "cornerDominanceScore": 3.67,
+      "projectedRound2CornerStrength": 48.5
+    },
+    {
+      "team": "Sweden",
+      "matchesPlayed": 3,
+      "cornersFor": 17,
+      "cornersAgainst": 6,
+      "averageCornersFor": 5.67,
+      "averageCornersAgainst": 2,
+      "cornerDominanceScore": 3.67,
+      "projectedRound2CornerStrength": 45.5
+    },
+    {
+      "team": "Egypt",
+      "matchesPlayed": 3,
+      "cornersFor": 18,
+      "cornersAgainst": 8,
+      "averageCornersFor": 6,
+      "averageCornersAgainst": 2.67,
+      "cornerDominanceScore": 3.33,
+      "projectedRound2CornerStrength": 48.5
+    },
+    {
+      "team": "Türkiye",
+      "matchesPlayed": 3,
+      "cornersFor": 22,
+      "cornersAgainst": 14,
+      "averageCornersFor": 7.33,
+      "averageCornersAgainst": 4.67,
+      "cornerDominanceScore": 2.66,
+      "projectedRound2CornerStrength": 60.5
+    },
+    {
+      "team": "Morocco",
+      "matchesPlayed": 3,
+      "cornersFor": 16,
+      "cornersAgainst": 9,
+      "averageCornersFor": 5.33,
+      "averageCornersAgainst": 3,
+      "cornerDominanceScore": 2.33,
+      "projectedRound2CornerStrength": 42.4
+    },
+    {
+      "team": "Algeria",
+      "matchesPlayed": 3,
+      "cornersFor": 12,
+      "cornersAgainst": 6,
+      "averageCornersFor": 4,
+      "averageCornersAgainst": 2,
+      "cornerDominanceScore": 2,
+      "projectedRound2CornerStrength": 30.3
+    },
+    {
+      "team": "Austria",
+      "matchesPlayed": 3,
+      "cornersFor": 10,
+      "cornersAgainst": 4,
+      "averageCornersFor": 3.33,
+      "averageCornersAgainst": 1.33,
+      "cornerDominanceScore": 2,
+      "projectedRound2CornerStrength": 24.2
+    },
+    {
+      "team": "Senegal",
+      "matchesPlayed": 3,
+      "cornersFor": 20,
+      "cornersAgainst": 14,
+      "averageCornersFor": 6.67,
+      "averageCornersAgainst": 4.67,
+      "cornerDominanceScore": 2,
+      "projectedRound2CornerStrength": 54.5
+    },
+    {
+      "team": "Switzerland",
+      "matchesPlayed": 3,
+      "cornersFor": 19,
+      "cornersAgainst": 13,
+      "averageCornersFor": 6.33,
+      "averageCornersAgainst": 4.33,
+      "cornerDominanceScore": 2,
+      "projectedRound2CornerStrength": 51.5
+    },
+    {
+      "team": "Colombia",
+      "matchesPlayed": 3,
+      "cornersFor": 14,
+      "cornersAgainst": 9,
+      "averageCornersFor": 4.67,
+      "averageCornersAgainst": 3,
+      "cornerDominanceScore": 1.67,
+      "projectedRound2CornerStrength": 36.4
+    },
+    {
+      "team": "Czechia",
+      "matchesPlayed": 3,
+      "cornersFor": 15,
+      "cornersAgainst": 10,
+      "averageCornersFor": 5,
+      "averageCornersAgainst": 3.33,
+      "cornerDominanceScore": 1.67,
+      "projectedRound2CornerStrength": 39.4
+    },
+    {
+      "team": "France",
+      "matchesPlayed": 3,
+      "cornersFor": 15,
+      "cornersAgainst": 10,
+      "averageCornersFor": 5,
+      "averageCornersAgainst": 3.33,
+      "cornerDominanceScore": 1.67,
+      "projectedRound2CornerStrength": 39.4
+    },
+    {
+      "team": "Brazil",
+      "matchesPlayed": 3,
+      "cornersFor": 16,
+      "cornersAgainst": 13,
+      "averageCornersFor": 5.33,
+      "averageCornersAgainst": 4.33,
+      "cornerDominanceScore": 1,
+      "projectedRound2CornerStrength": 42.4
+    },
+    {
+      "team": "Norway",
+      "matchesPlayed": 3,
+      "cornersFor": 14,
+      "cornersAgainst": 11,
+      "averageCornersFor": 4.67,
+      "averageCornersAgainst": 3.67,
+      "cornerDominanceScore": 1,
+      "projectedRound2CornerStrength": 36.4
+    },
+    {
+      "team": "South Korea",
+      "matchesPlayed": 3,
+      "cornersFor": 12,
+      "cornersAgainst": 9,
+      "averageCornersFor": 4,
+      "averageCornersAgainst": 3,
+      "cornerDominanceScore": 1,
+      "projectedRound2CornerStrength": 30.3
+    },
+    {
+      "team": "Argentina",
+      "matchesPlayed": 3,
+      "cornersFor": 9,
+      "cornersAgainst": 7,
+      "averageCornersFor": 3,
+      "averageCornersAgainst": 2.33,
+      "cornerDominanceScore": 0.67,
+      "projectedRound2CornerStrength": 21.2
+    },
+    {
+      "team": "Panama",
+      "matchesPlayed": 3,
+      "cornersFor": 12,
+      "cornersAgainst": 11,
+      "averageCornersFor": 4,
+      "averageCornersAgainst": 3.67,
+      "cornerDominanceScore": 0.33,
+      "projectedRound2CornerStrength": 30.3
+    },
+    {
+      "team": "Netherlands",
+      "matchesPlayed": 3,
+      "cornersFor": 13,
+      "cornersAgainst": 13,
+      "averageCornersFor": 4.33,
+      "averageCornersAgainst": 4.33,
+      "cornerDominanceScore": 0,
+      "projectedRound2CornerStrength": 33.3
+    },
+    {
+      "team": "Uzbekistan",
+      "matchesPlayed": 3,
+      "cornersFor": 9,
+      "cornersAgainst": 9,
+      "averageCornersFor": 3,
+      "averageCornersAgainst": 3,
+      "cornerDominanceScore": 0,
+      "projectedRound2CornerStrength": 21.2
+    },
+    {
+      "team": "Portugal",
+      "matchesPlayed": 3,
+      "cornersFor": 10,
+      "cornersAgainst": 11,
+      "averageCornersFor": 3.33,
+      "averageCornersAgainst": 3.67,
+      "cornerDominanceScore": -0.34,
+      "projectedRound2CornerStrength": 24.2
+    },
+    {
+      "team": "New Zealand",
+      "matchesPlayed": 3,
+      "cornersFor": 5,
+      "cornersAgainst": 7,
+      "averageCornersFor": 1.67,
+      "averageCornersAgainst": 2.33,
+      "cornerDominanceScore": -0.66,
+      "projectedRound2CornerStrength": 9.1
+    },
+    {
+      "team": "Belgium",
+      "matchesPlayed": 3,
+      "cornersFor": 6,
+      "cornersAgainst": 9,
+      "averageCornersFor": 2,
+      "averageCornersAgainst": 3,
+      "cornerDominanceScore": -1,
+      "projectedRound2CornerStrength": 12.1
+    },
+    {
+      "team": "Scotland",
+      "matchesPlayed": 3,
+      "cornersFor": 12,
+      "cornersAgainst": 15,
+      "averageCornersFor": 4,
+      "averageCornersAgainst": 5,
+      "cornerDominanceScore": -1,
+      "projectedRound2CornerStrength": 30.3
+    },
+    {
+      "team": "Australia",
+      "matchesPlayed": 3,
+      "cornersFor": 12,
+      "cornersAgainst": 16,
+      "averageCornersFor": 4,
+      "averageCornersAgainst": 5.33,
+      "cornerDominanceScore": -1.33,
+      "projectedRound2CornerStrength": 30.3
+    },
+    {
+      "team": "DR Congo",
+      "matchesPlayed": 3,
+      "cornersFor": 10,
+      "cornersAgainst": 14,
+      "averageCornersFor": 3.33,
+      "averageCornersAgainst": 4.67,
+      "cornerDominanceScore": -1.34,
+      "projectedRound2CornerStrength": 24.2
+    },
+    {
+      "team": "Mexico",
+      "matchesPlayed": 3,
+      "cornersFor": 4,
+      "cornersAgainst": 8,
+      "averageCornersFor": 1.33,
+      "averageCornersAgainst": 2.67,
+      "cornerDominanceScore": -1.34,
+      "projectedRound2CornerStrength": 6
+    },
+    {
+      "team": "South Africa",
+      "matchesPlayed": 3,
+      "cornersFor": 10,
+      "cornersAgainst": 14,
+      "averageCornersFor": 3.33,
+      "averageCornersAgainst": 4.67,
+      "cornerDominanceScore": -1.34,
+      "projectedRound2CornerStrength": 24.2
+    },
+    {
+      "team": "Iran",
+      "matchesPlayed": 3,
+      "cornersFor": 8,
+      "cornersAgainst": 13,
+      "averageCornersFor": 2.67,
+      "averageCornersAgainst": 4.33,
+      "cornerDominanceScore": -1.66,
+      "projectedRound2CornerStrength": 18.2
+    },
+    {
+      "team": "Japan",
+      "matchesPlayed": 3,
+      "cornersFor": 11,
+      "cornersAgainst": 16,
+      "averageCornersFor": 3.67,
+      "averageCornersAgainst": 5.33,
+      "cornerDominanceScore": -1.66,
+      "projectedRound2CornerStrength": 27.3
+    },
+    {
+      "team": "Ivory Coast",
+      "matchesPlayed": 3,
+      "cornersFor": 12,
+      "cornersAgainst": 17,
+      "averageCornersFor": 4,
+      "averageCornersAgainst": 5.67,
+      "cornerDominanceScore": -1.67,
+      "projectedRound2CornerStrength": 30.3
+    },
+    {
+      "team": "Tunisia",
+      "matchesPlayed": 3,
+      "cornersFor": 9,
+      "cornersAgainst": 15,
+      "averageCornersFor": 3,
+      "averageCornersAgainst": 5,
+      "cornerDominanceScore": -2,
+      "projectedRound2CornerStrength": 21.2
+    },
+    {
+      "team": "Haiti",
+      "matchesPlayed": 3,
+      "cornersFor": 9,
+      "cornersAgainst": 16,
+      "averageCornersFor": 3,
+      "averageCornersAgainst": 5.33,
+      "cornerDominanceScore": -2.33,
+      "projectedRound2CornerStrength": 21.2
+    },
+    {
+      "team": "Ghana",
+      "matchesPlayed": 3,
+      "cornersFor": 6,
+      "cornersAgainst": 14,
+      "averageCornersFor": 2,
+      "averageCornersAgainst": 4.67,
+      "cornerDominanceScore": -2.67,
+      "projectedRound2CornerStrength": 12.1
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "matchesPlayed": 3,
+      "cornersFor": 12,
+      "cornersAgainst": 21,
+      "averageCornersFor": 4,
+      "averageCornersAgainst": 7,
+      "cornerDominanceScore": -3,
+      "projectedRound2CornerStrength": 30.3
+    },
+    {
+      "team": "Croatia",
+      "matchesPlayed": 3,
+      "cornersFor": 7,
+      "cornersAgainst": 17,
+      "averageCornersFor": 2.33,
+      "averageCornersAgainst": 5.67,
+      "cornerDominanceScore": -3.34,
+      "projectedRound2CornerStrength": 15.1
+    },
+    {
+      "team": "Iraq",
+      "matchesPlayed": 3,
+      "cornersFor": 7,
+      "cornersAgainst": 21,
+      "averageCornersFor": 2.33,
+      "averageCornersAgainst": 7,
+      "cornerDominanceScore": -4.67,
+      "projectedRound2CornerStrength": 15.1
+    },
+    {
+      "team": "Jordan",
+      "matchesPlayed": 3,
+      "cornersFor": 6,
+      "cornersAgainst": 20,
+      "averageCornersFor": 2,
+      "averageCornersAgainst": 6.67,
+      "cornerDominanceScore": -4.67,
+      "projectedRound2CornerStrength": 12.1
+    },
+    {
+      "team": "Cape Verde",
+      "matchesPlayed": 3,
+      "cornersFor": 9,
+      "cornersAgainst": 24,
+      "averageCornersFor": 3,
+      "averageCornersAgainst": 8,
+      "cornerDominanceScore": -5,
+      "projectedRound2CornerStrength": 21.2
+    },
+    {
+      "team": "Paraguay",
+      "matchesPlayed": 3,
+      "cornersFor": 2,
+      "cornersAgainst": 18,
+      "averageCornersFor": 0.67,
+      "averageCornersAgainst": 6,
+      "cornerDominanceScore": -5.33,
+      "projectedRound2CornerStrength": 0
+    },
+    {
+      "team": "Saudi Arabia",
+      "matchesPlayed": 3,
+      "cornersFor": 7,
+      "cornersAgainst": 24,
+      "averageCornersFor": 2.33,
+      "averageCornersAgainst": 8,
+      "cornerDominanceScore": -5.67,
+      "projectedRound2CornerStrength": 15.1
+    },
+    {
+      "team": "Curaçao",
+      "matchesPlayed": 3,
+      "cornersFor": 5,
+      "cornersAgainst": 23,
+      "averageCornersFor": 1.67,
+      "averageCornersAgainst": 7.67,
+      "cornerDominanceScore": -6,
+      "projectedRound2CornerStrength": 9.1
+    },
+    {
+      "team": "Qatar",
+      "matchesPlayed": 3,
+      "cornersFor": 9,
+      "cornersAgainst": 34,
+      "averageCornersFor": 3,
+      "averageCornersAgainst": 11.33,
+      "cornerDominanceScore": -8.33,
+      "projectedRound2CornerStrength": 21.2
+    }
+  ]
+}

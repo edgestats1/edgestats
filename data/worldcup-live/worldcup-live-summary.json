@@ -1,0 +1,90 @@
+{
+  "version": "wc2026-live-export-v4",
+  "exportedAt": "2026-06-28T11:18:22.293Z",
+  "league": 1,
+  "season": 2026,
+  "source": "api-football",
+  "matchesChecked": 88,
+  "completedMatchesProcessed": 72,
+  "skippedUpcoming": 16,
+  "skippedLive": 0,
+  "teamMatchStatRows": 144,
+  "playerMatchStatRows": 2239,
+  "teamsWithTotals": 48,
+  "playersWithTotals": 999,
+  "refereeSummary": {
+    "totalRefereesTracked": 44,
+    "lowCardRefs": 28,
+    "balancedRefs": 3,
+    "strictRefs": 13,
+    "tournamentAverageYellowCards": 2.44,
+    "tournamentAverageFoulsPerYellowCard": 9.02
+  },
+  "powerSummary": {
+    "topOverall": [
+      {
+        "rank": 1,
+        "team": "France",
+        "overallPowerScore": 75.2
+      },
+      {
+        "rank": 2,
+        "team": "Germany",
+        "overallPowerScore": 71
+      },
+      {
+        "rank": 3,
+        "team": "Spain",
+        "overallPowerScore": 69.4
+      },
+      {
+        "rank": 4,
+        "team": "Belgium",
+        "overallPowerScore": 68.6
+      },
+      {
+        "rank": 5,
+        "team": "Netherlands",
+        "overallPowerScore": 66.6
+      }
+    ],
+    "teamsWithRound1Form": 48,
+    "teamsClubBaselineOnly": 0
+  },
+  "round1Summary": {
+    "teamsWithRound1Matches": 48,
+    "round1AnalysisHighlights": 5
+  },
+  "missingFields": {
+    "fields": [
+      "firstYellowMinute",
+      "foulsDrawn",
+      "passAccuracy",
+      "passes",
+      "possession",
+      "scorers",
+      "xG"
+    ],
+    "count": 7
+  },
+  "filesWritten": [
+    "worldcup-live-match-results.json",
+    "worldcup-live-team-stats.json",
+    "worldcup-live-player-stats.json",
+    "worldcup-live-referee-stats.json",
+    "worldcup-live-power-rankings.json",
+    "worldcup-live-team-strength.json",
+    "worldcup-live-goalkeeper-rankings.json",
+    "worldcup-live-corner-trends.json",
+    "worldcup-live-card-trends.json",
+    "worldcup-live-round1-analysis.json",
+    "worldcup-live-summary.json"
+  ],
+  "notes": [
+    "Includes only World Cup 2026 fixtures with completed status (FT, AET, PEN, AWD, WO).",
+    "Upcoming and live matches are excluded.",
+    "Missing API fields are exported as null.",
+    "Power rankings: 65% club-season player data, 35% Round 1 (50/50 for GK and corners).",
+    "No FIFA rankings, bookmaker odds, or simulated data."
+  ]
+}

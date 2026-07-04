@@ -1,0 +1,29 @@
+{
+  "name": "edgestats",
+  "private": true,
+  "version": "1.0.0",
+  "description": "EdgeStats World Cup 2026 analytics — static site with Vercel serverless API routes",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "stripe": "^17.7.0"
+  },
+  "scripts": {
+    "verify:premium": "node scripts/verify-premium-setup.js",
+    "build:homepage-rankings": "node scripts/build-homepage-rankings.js",
+    "update-worldcup-live-stats": "node scripts/update-worldcup-live-stats.js",
+    "export-worldcup-chatgpt": "node scripts/export-worldcup-chatgpt.js",
+    "export-master-groupstage": "node scripts/export-master-groupstage.js",
+    "export-model-metadata": "node scripts/export-model-metadata.js",
+    "export-ai-master-model": "node scripts/export-ai-master-model.js",
+    "predict-match": "tsx prediction-engine/index.ts",
+    "predict-knockout-round": "tsx prediction-engine/index.ts knockout",
+    "prediction-dashboard": "tsx prediction-engine-dashboard/server.ts",
+    "update-knockout-fixtures": "node scripts/update-knockout-fixtures.js",
+    "refresh-prediction-dashboard": "node scripts/refresh-prediction-dashboard.js",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

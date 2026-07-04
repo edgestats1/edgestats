@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EdgeStats World Cup 2026 AI Prediction Engine — free live leaders and match stats. Premium unlocks the Prediction Generator.">
+  <title>EdgeStats | World Cup 2026 AI Prediction Engine</title>
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#060d18">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="/" class="logo">
+        <span class="logo-mark">ES</span>
+        <span class="logo-text">EdgeStats</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#launch-offer">Premium</a></li>
+        <li><a href="#prediction-of-the-day">Prediction</a></li>
+        <li><a href="#world-cup-live-leaders">Live Leaders</a></li>
+        <li><a href="#knockout-fixtures">Fixtures</a></li>
+        <li><a href="#model-tracker">Model Tracker</a></li>
+      </ul>
+      <div class="nav-account" id="nav-account">
+        <span class="nav-account-badge nav-account-badge--free" id="nav-account-badge">Free</span>
+        <span class="nav-account-email hidden" id="nav-account-email"></span>
+        <button type="button" class="nav-account-btn" id="nav-auth-btn">Log in</button>
+        <button type="button" class="nav-account-btn nav-account-btn--logout hidden" id="nav-logout-btn">Log out</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-content">
+        <p class="hero-badge">World Cup 2026</p>
+        <h1 class="hero-title">World Cup 2026 AI Prediction Engine</h1>
+        <p class="hero-tagline">Powered by 72 completed World Cup matches, live team data, player profiles and club-season form.</p>
+        <div class="hero-actions">
+          <a href="#launch-offer" class="btn btn-primary">Unlock Predictions</a>
+          <a href="#knockout-fixtures" class="btn btn-outline">View Upcoming Games</a>
+        </div>
+        <div class="hero-stats" aria-label="Model status">
+          <div class="hero-stat">
+            <span class="hero-stat-value">V2</span>
+            <span class="hero-stat-label">Model Version</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">Complete</span>
+            <span class="hero-stat-label">Group Stage Data</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">Active</span>
+            <span class="hero-stat-label">Knockout Stage</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Premium Pass -->
+    <section class="homepage-launch" id="launch-offer" aria-label="Premium access">
+      <div class="homepage-launch__glow" aria-hidden="true"></div>
+      <div class="container homepage-launch__inner">
+        <div class="premium-trust-strip" aria-label="EdgeStats Premium highlights">
+          <p class="premium-trust-strip__lead">EdgeStats Premium unlocks the Prediction Generator.</p>
+          <ul class="premium-trust-strip__list">
+            <li>Secure checkout powered by Stripe</li>
+            <li>All general stats remain free</li>
+            <li>One-time payment — instant unlock</li>
+          </ul>
+        </div>
+        <div class="homepage-launch__offer" id="launch-offer-card">
+          <div class="launch-underway" data-launch-underway>
+            <p class="launch-underway__badge">Knockout Stage</p>
+            <h2 class="launch-underway__title">Unlock the EdgeStats Prediction Generator</h2>
+            <p class="launch-underway__subtext">Generate AI match predictions — winner, scoreline, xG, shots, corners, saves and full model breakdown.</p>
+          </div>
+          <div class="premium-access-grid">
+            <div class="premium-access-col">
+              <h3 class="premium-access-col__title">Free</h3>
+              <ul class="premium-access-list">
+                <li>Live leaders</li>
+                <li>Match stats</li>
+                <li>Player performances</li>
+                <li>Team stats</li>
+                <li>Upcoming fixtures</li>
+              </ul>
+            </div>
+            <div class="premium-access-col premium-access-col--premium">
+              <h3 class="premium-access-col__title">Premium</h3>
+              <ul class="premium-access-list">
+                <li>Match prediction generator</li>
+                <li>Projected score</li>
+                <li>Win / draw / loss probabilities</li>
+                <li>Expected goals</li>
+                <li>Expected corners</li>
+                <li>Goalkeeper saves</li>
+                <li>Model breakdown</li>
+              </ul>
+            </div>
+          </div>
+          <div class="launch-offer-pricing homepage-launch__pricing" data-launch-pricing>
+            <p class="homepage-launch__price-copy">Prediction Generator Access</p>
+            <p class="homepage-launch__price-launch"><span class="homepage-launch__price-value">$19.99</span> One-Time Payment</p>
+            <p class="homepage-launch__price-copy">No Subscription</p>
+            <p class="homepage-launch__price-copy">Instant Premium Unlock</p>
+          </div>
+          <a href="https://buy.stripe.com/9B69AU60xb3E2WaaUC4ko00" class="btn btn-primary btn-premium-join homepage-launch__cta">Unlock Predictions</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prediction of the Day -->
+    <section class="section section--alt" id="prediction-of-the-day">
+      <div class="container">
+        <div class="section-header">
+          <span class="premium-badge">Prediction</span>
+          <h2>Prediction of the Day</h2>
+          <p>Next upcoming knockout match — powered by the EdgeStats AI Prediction Engine</p>
+        </div>
+        <div id="potd-mount" aria-live="polite">
+          <div class="potd-state">
+            <div class="fixtures-spinner" aria-hidden="true"></div>
+            <p>Loading next knockout match…</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- World Cup Live Leaders -->
+    <section class="section wc-leaders" id="world-cup-live-leaders">
+      <div class="container">
+        <div class="section-header">
+          <span class="premium-badge">World Cup 2026</span>
+          <h2>World Cup Live Leaders</h2>
+          <p>Real knockout-stage leaderboards from completed tournament matches — free for everyone</p>
+          <p class="wc-leaders-note">Updated from completed World Cup matches only</p>
+          <p class="wc-leaders-meta" id="wc-leaders-updated">Last updated: —</p>
+          <p class="wc-leaders-meta wc-leaders-meta--sub" id="wc-leaders-matches"></p>
+        </div>
+
+        <div id="wc-leaders-mount" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Knockout Fixtures -->
+    <section class="section" id="knockout-fixtures">
+      <div class="container">
+        <div class="section-header">
+          <h2>Knockout Fixtures</h2>
+          <p>All upcoming World Cup knockout matches — view stats free, generate predictions with Premium</p>
+          <p class="api-status hidden" id="api-status" aria-live="polite"></p>
+        </div>
+
+        <div id="knockout-fixtures-loading" class="fixtures-state" aria-live="polite">
+          <div class="fixtures-spinner" aria-hidden="true"></div>
+          <p class="fixtures-state-title">Loading knockout fixtures</p>
+          <p class="fixtures-state-desc">Fetching Round of 32 schedule…</p>
+        </div>
+
+        <div id="knockout-fixtures-error" class="fixtures-state fixtures-state--error hidden" aria-live="assertive">
+          <div class="fixtures-state-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+          </div>
+          <p class="fixtures-state-title">Couldn’t load fixtures</p>
+          <p class="fixtures-state-desc" id="knockout-fixtures-error-message">Something went wrong. Please try again.</p>
+          <button type="button" class="btn btn-outline fixtures-retry" id="knockout-fixtures-retry">Try Again</button>
+        </div>
+
+        <div id="knockout-fixtures-empty" class="fixtures-state hidden" aria-live="polite">
+          <p class="fixtures-state-title">No knockout fixtures found</p>
+          <p class="fixtures-state-desc">Check back when the knockout schedule is published.</p>
+        </div>
+
+        <div id="knockout-fixtures-mount" class="hidden"></div>
+      </div>
+    </section>
+
+    <!-- Model Tracker -->
+    <section class="section section--alt" id="model-tracker">
+      <div class="container">
+        <div class="section-header">
+          <h2>EdgeStats Model Tracker</h2>
+          <p>Prediction accuracy tracked from the knockout stage onward</p>
+        </div>
+        <div id="model-tracker-mount" aria-live="polite"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Match Centre Modal -->
+  <div id="match-detail" class="match-detail match-centre-modal hidden" aria-hidden="true">
+    <div class="match-detail-backdrop" id="match-detail-backdrop"></div>
+    <div class="match-detail-panel match-centre-panel" role="dialog" aria-modal="true" aria-labelledby="match-detail-title">
+      <div class="match-detail-toolbar">
+        <button type="button" class="match-detail-close" id="match-detail-close" aria-label="Close Match Centre">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="match-detail-body" id="match-detail-body"></div>
+    </div>
+  </div>
+
+  <!-- Ranking Top 10 Modal -->
+  <div id="ranking-modal" class="ranking-modal hidden" aria-hidden="true">
+    <div class="ranking-modal__backdrop" id="ranking-modal-backdrop"></div>
+    <div class="ranking-modal__panel" role="dialog" aria-modal="true" aria-labelledby="ranking-modal-title">
+      <button type="button" class="ranking-modal__close" id="ranking-modal-close" aria-label="Close ranking list">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <h2 class="ranking-modal__title" id="ranking-modal-title">Rankings</h2>
+      <div class="ranking-modal__body" id="ranking-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Premium Upgrade Modal -->
+  <div id="premium-modal" class="premium-modal hidden" aria-hidden="true">
+    <div class="premium-modal__backdrop" id="premium-modal-backdrop"></div>
+    <div class="premium-modal__panel" role="dialog" aria-modal="true" aria-labelledby="premium-modal-title">
+      <button type="button" class="premium-modal__close" id="premium-modal-close" aria-label="Close premium upgrade">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <h2 class="premium-modal__title" id="premium-modal-title">Unlock the EdgeStats Prediction Generator</h2>
+      <div class="launch-underway launch-underway--modal" data-launch-underway>
+        <p class="launch-underway__title">Generate match predictions</p>
+        <p class="launch-underway__subtext">Winner, scoreline, xG, shots, corners, cards, saves and full model breakdown.</p>
+      </div>
+      <div class="launch-offer-pricing premium-modal__pricing" data-launch-pricing>
+        <p class="homepage-launch__price-copy">Prediction Generator Access</p>
+        <p class="homepage-launch__price-launch"><span class="homepage-launch__price-value">$19.99</span> One-Time Payment</p>
+        <p class="homepage-launch__price-copy">No Subscription</p>
+      </div>
+      <ul class="premium-modal__features">
+        <li>Full Prediction Generator on every fixture</li>
+        <li>Scoreline model diagnostics</li>
+        <li>All general stats remain free</li>
+      </ul>
+      <a href="https://buy.stripe.com/9B69AU60xb3E2WaaUC4ko00" class="btn btn-primary btn-premium-join btn-premium-join--large" id="premium-modal-cta">Unlock Predictions</a>
+      <p class="premium-note">Sign in first, then complete checkout to unlock Premium on all your devices.</p>
+    </div>
+  </div>
+
+  <!-- Auth Modal -->
+  <div id="auth-modal" class="auth-modal hidden" role="dialog" aria-modal="true" aria-labelledby="auth-modal-title" aria-hidden="true">
+    <div class="auth-modal__backdrop" id="auth-modal-backdrop"></div>
+    <div class="auth-modal__panel">
+      <button type="button" class="auth-modal__close" id="auth-modal-close" aria-label="Close">&times;</button>
+      <h2 class="auth-modal__title" id="auth-modal-title">Log in to EdgeStats</h2>
+      <p class="auth-modal__message hidden" id="auth-modal-message"></p>
+      <div class="auth-modal__tabs">
+        <button type="button" class="auth-modal__tab is-active" id="auth-tab-login">Log in</button>
+        <button type="button" class="auth-modal__tab" id="auth-tab-signup">Sign up</button>
+      </div>
+      <form id="auth-form" class="auth-form">
+        <label class="auth-form__field">
+          <span>Email</span>
+          <input type="email" id="auth-email" name="email" autocomplete="email" required>
+        </label>
+        <label class="auth-form__field">
+          <span>Password</span>
+          <input type="password" id="auth-password" name="password" autocomplete="current-password" minlength="8" required>
+        </label>
+        <p class="auth-feedback hidden" id="auth-feedback"></p>
+        <button type="submit" class="btn btn-primary auth-form__submit" id="auth-submit-btn">Log in</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Premium Upgrade Toast -->
+  <div id="premium-toast" class="premium-toast hidden" role="alert" aria-live="assertive">
+    <div class="premium-toast-inner">
+      <div class="premium-toast-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+      </div>
+      <p class="premium-toast-message" id="premium-toast-message">Unlock the EdgeStats Prediction Generator to generate match predictions.</p>
+      <div class="premium-toast-actions">
+        <button type="button" class="btn btn-primary btn-sm" id="premium-toast-join">Unlock Predictions</button>
+        <button type="button" class="btn btn-outline btn-sm" id="premium-toast-dismiss">Dismiss</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="/" class="footer-logo">
+        <span class="logo-mark">ES</span>
+        <span class="logo-text">EdgeStats</span>
+      </a>
+      <p class="footer-tagline">Real Stats. Real Insights. Real Edge.</p>
+      <nav class="footer-legal" aria-label="Legal">
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="/terms-of-service.html">Terms of Service</a>
+      </nav>
+      <a href="https://www.getedgestats.com" class="footer-domain">getedgestats.com</a>
+      <p class="footer-copy">&copy; 2026 EdgeStats. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="api-football.js?v=wc2026-knockout-v2"></script>
+  <script src="match-centre.js?v=wc2026-knockout-v2"></script>
+  <script src="prediction-generator.js?v=wc2026-knockout-v2"></script>
+  <script src="prediction-of-the-day.js?v=wc2026-knockout-v2"></script>
+  <script src="model-tracker.js?v=wc2026-knockout-v2"></script>
+  <script src="worldcup-live-leaders.js?v=wc2026-knockout-v3"></script>
+  <script src="homepage-launch.js?v=wc2026-knockout-v2"></script>
+  <script type="module" src="auth.js?v=wc2026-knockout-v2"></script>
+  <script src="premium-access.js?v=wc2026-knockout-v2"></script>
+  <script src="script.js?v=wc2026-knockout-v2"></script>
+</body>
+</html>
